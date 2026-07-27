@@ -29,8 +29,17 @@ from pathlib import Path
 
 import requests
 
-import stadium
-import travel
+# stadium.py and travel.py are optional. They contribute small run
+# adjustments (park fit, time-zone travel). If they aren't present the
+# slate still builds — those terms just stay at zero instead of crashing.
+try:
+    import stadium
+except ImportError:
+    stadium = None
+try:
+    import travel
+except ImportError:
+    travel = None
 
 STATS = "https://statsapi.mlb.com/api/v1"
 KALSHI = "https://api.elections.kalshi.com/trade-api/v2"
@@ -382,6 +391,8 @@ def travel_for(team_id, today_home_id, last_park):
     prev = last_park.get(team_id)
     if not prev:
         return 0.0
+    if travel is None:
+        return 0.0
     prev_date, prev_home_id = prev
     prev_nick = NICK.get(prev_home_id)
     today_nick = NICK.get(today_home_id)
@@ -494,6 +505,10 @@ def build(days):
     team_ids = {g[s]["id"] for g in games for s in ("home", "away")}
     probables = [g[s]["probable"] for g in games for s in ("home", "away")]
 
+    note("optional modules", True,
+         f"stadium={'yes' if stadium else 'MISSING (park term off)'}, "
+         f"travel={'yes' if travel else 'MISSING (travel term off)'}")
+
     records = fetch_records(season)
     people, bullpen, staff, league = build_pitching(season, probables, team_ids)
     hands = fetch_handedness(set(probables))
@@ -513,7 +528,7 @@ def build(days):
                    else hit.get("vR") if opp_hand == "R" else None)
         park_nick = NICK.get(g["home"]["id"])
         park_fit = None
-        if hit.get("hrShare") is not None and park_nick:
+        if stadium and hit.get("hrShare") is not None and park_nick:
             park_fit = round(stadium.fit_runs(park_nick, hit["hrShare"]), 4)
         return {
             "id": tid, "name": s["name"], "abbr": ABBR.get(tid), "nick": NICK.get(tid),
