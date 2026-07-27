@@ -408,6 +408,50 @@ def travel_for(team_id, today_home_id, last_park):
 # ————————————————————————————————————————————————
 # Kalshi
 # ————————————————————————————————————————————————
+def _price_cents(m, side):
+    """Kalshi has served these under several names. Try each.
+
+    Older responses: yes_bid / yes_ask as integer cents.
+    Newer responses: yes_bid_dollars / yes_ask_dollars as decimal strings.
+    Some payloads only carry last_price. Everything is normalised to
+    integer cents so the rest of the pipeline sees one shape.
+    """
+    for key in (f"{side}_bid" if side in ("yes", "no") else side,):
+        pass
+    candidates = [
+        (m.get(f"{side}"), 1),                       # e.g. last_price
+        (m.get(f"{side}_dollars"), 100),
+    ]
+    for raw, mult in candidates:
+        if raw is None or raw == "":
+            continue
+        try:
+            v = float(raw) * mult
+        except (TypeError, ValueError):
+            continue
+        if 0 <= v <= 100:
+            return int(round(v))
+    return None
+
+
+def kalshi_prices(m):
+    """(bid_cents, ask_cents, last_cents) from any known payload shape."""
+    bid = _price_cents(m, "yes_bid")
+    ask = _price_cents(m, "yes_ask")
+    last = _price_cents(m, "last_price")
+    # A one-sided book still tells you something: the other side of a
+    # Kalshi market is 100 minus the opposing bid.
+    if bid is None and m.get("no_ask") is not None or m.get("no_ask_dollars") is not None:
+        na = _price_cents(m, "no_ask")
+        if na is not None:
+            bid = 100 - na
+    if ask is None:
+        nb = _price_cents(m, "no_bid")
+        if nb is not None:
+            ask = 100 - nb
+    return bid, ask, last
+
+
 def fetch_kalshi():
     markets, cursor, pages = [], None, 0
     try:
@@ -427,18 +471,29 @@ def fetch_kalshi():
         return []
 
     out = []
+    priced = 0
     for m in markets:
-        bid, ask = m.get("yes_bid"), m.get("yes_ask")
-        mid = (bid + ask) / 200 if bid is not None and ask is not None else None
+        bid, ask, last = kalshi_prices(m)
+        if bid is not None and ask is not None:
+            mid = (bid + ask) / 200
+            priced += 1
+        elif last is not None:
+            mid = last / 100          # thin book: fall back to last trade
+            priced += 1
+        else:
+            mid = None
         out.append({
             "ticker": m.get("ticker", ""), "eventTicker": m.get("event_ticker", ""),
             "title": m.get("title", ""),
             "subtitle": m.get("yes_sub_title") or m.get("subtitle") or "",
-            "yesBid": bid, "yesAsk": ask, "last": m.get("last_price"),
+            "yesBid": bid, "yesAsk": ask, "last": last,
             "mid": round(mid, 4) if mid is not None else None,
             "volume": m.get("volume"), "closeTime": m.get("close_time"),
         })
-    note("kalshi", bool(out), f"{len(out)} open {SERIES} markets")
+    note("kalshi", priced > 0,
+         f"{len(out)} open {SERIES} markets, {priced} with usable prices"
+         + ("" if priced else " — every price field was empty; check field names "
+                              "against `python build_slate.py --debug-kalshi`"))
     return out
 
 
@@ -591,8 +646,17 @@ def main():
         print(f"\n{len(ms)} open {SERIES} markets\n")
         for m in ms[:40]:
             print(f"{m['ticker']:44s} sub={m['subtitle']!r:28s} "
-                  f"bid={m['yesBid']} ask={m['yesAsk']}")
-            print(f"    title={m['title']!r}")
+                  f"bid={m['yesBid']} ask={m['yesAsk']} last={m['last']}")
+        print("\n--- raw keys on the first market (watch for renames) ---")
+        try:
+            one = get(f"{KALSHI}/markets", series_ticker=SERIES, status="open",
+                      limit=1).get("markets", [])
+            if one:
+                for k, v in sorted(one[0].items()):
+                    if "price" in k or "bid" in k or "ask" in k or "volume" in k:
+                        print(f"  {k} = {v!r}")
+        except Exception as e:
+            print(f"  (could not re-fetch: {e})")
         return 0
 
     payload = build(args.days)

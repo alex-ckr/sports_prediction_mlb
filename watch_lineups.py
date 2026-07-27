@@ -32,7 +32,7 @@ from pathlib import Path
 import requests
 
 from build_slate import (ABBR, KALSHI, SERIES, STATS, TIMEOUT, UA, W, get,
-                         ip_to_float, raw_fip, woba_from)
+                         ip_to_float, kalshi_prices, raw_fip, woba_from)
 
 # Lineup slot weights — how often each spot bats. Same table as the model.
 SLOT_PA = [4.7, 4.6, 4.5, 4.4, 4.3, 4.2, 4.1, 4.0, 3.9]
@@ -196,8 +196,13 @@ def refresh_market(ticker):
     try:
         data = get(f"{KALSHI}/markets/{ticker}")
         m = data.get("market") or {}
-        bid, ask = m.get("yes_bid"), m.get("yes_ask")
-        mid = (bid + ask) / 200 if bid is not None and ask is not None else None
+        bid, ask, last = kalshi_prices(m)
+        if bid is not None and ask is not None:
+            mid = (bid + ask) / 200
+        elif last is not None:
+            mid = last / 100
+        else:
+            mid = None
         return {"ticker": ticker, "yesBid": bid, "yesAsk": ask, "mid": mid,
                 "volume": m.get("volume")}
     except Exception as e:
