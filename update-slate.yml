@@ -1,0 +1,41 @@
+name: Refresh slate
+
+on:
+  schedule:
+    # 11:00, 15:00, 19:00, 23:00 UTC — before the usual first pitch windows.
+    - cron: "0 11,15,19,23 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Days of schedule to pull"
+        default: "2"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Build slate
+        run: python build_slate.py --days ${{ github.event.inputs.days || 2 }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/slate.json
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "slate $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

@@ -1,0 +1,60 @@
+name: Lineup alerts
+
+on:
+  schedule:
+    # Every 10 minutes across the MLB game-day window (16:00–06:00 UTC).
+    # GitHub's scheduler is best-effort and frequently runs several minutes
+    # late under load — treat this as "within ~15 min of lineups posting",
+    # not as a real-time trigger.
+    - cron: "*/10 16-23,0-6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Print instead of emailing"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lineup-alerts
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Check for confirmed lineups
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          ALERT_FROM: ${{ secrets.ALERT_FROM }}
+          ALERT_RECIPIENTS: ${{ secrets.ALERT_RECIPIENTS }}
+        run: |
+          python watch_lineups.py --window 6 \
+            ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
+
+      - name: Commit state
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/alerts_sent.json data/slate.json
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "lineup alerts $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash
+            git push
+          fi

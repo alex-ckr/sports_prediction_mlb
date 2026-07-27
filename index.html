@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baseball model — v5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0b1018; --field:#131c27; --field-2:#1a2634; --rule:#243343;
+  --chalk:#eaf0f7; --ash:#8598ad;
+  --sodium:#ffb454; --night:#82b4d8; --turf:#4fbf87; --clay:#e0705f;
+  --r:4px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--ink); color:var(--chalk);
+  font-family:"Archivo",system-ui,-apple-system,sans-serif;
+  font-size:16px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:920px;margin:0 auto;padding:0 20px 90px}
+.mono{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+[hidden]{display:none !important}
+:focus-visible{outline:2px solid var(--sodium);outline-offset:2px}
+
+/* header */
+header{border-bottom:1px solid var(--rule);margin-bottom:24px}
+.masthead{display:flex;align-items:flex-end;justify-content:space-between;
+  gap:16px;padding:26px 0 14px;flex-wrap:wrap}
+h1{font-family:"Archivo Black",sans-serif;font-size:clamp(24px,4.5vw,34px);
+  letter-spacing:-.02em;margin:0;line-height:1;text-transform:uppercase}
+h1 span{color:var(--sodium)}
+.sub{color:var(--ash);font-size:14px;margin:7px 0 0;max-width:52ch}
+nav{display:flex;gap:2px;flex-wrap:wrap}
+nav button{background:none;border:none;color:var(--ash);
+  font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;
+  text-transform:uppercase;padding:9px 13px;cursor:pointer;border-radius:var(--r) var(--r) 0 0}
+nav button:hover{color:var(--chalk)}
+nav button[aria-selected="true"]{background:var(--sodium);color:var(--ink);font-weight:600}
+
+/* generic */
+.panel{background:var(--field);border:1px solid var(--rule);border-radius:var(--r);padding:18px}
+.panel+.panel{margin-top:14px}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ash);margin:0 0 10px}
+h2.sec{font-family:"Archivo Black",sans-serif;text-transform:uppercase;
+  font-size:13px;letter-spacing:.1em;margin:0 0 12px}
+.hint{color:var(--ash);font-size:13.5px;margin:8px 0 0}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button.act{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.06em;
+  text-transform:uppercase;background:var(--field-2);color:var(--chalk);
+  border:1px solid var(--rule);border-radius:var(--r);padding:8px 13px;cursor:pointer}
+button.act:hover{border-color:var(--sodium);color:var(--sodium)}
+button.act.on{background:var(--sodium);color:var(--ink);border-color:var(--sodium);font-weight:600}
+button.act.tiny{padding:5px 9px;font-size:11px}
+label{display:block;font-size:11px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--ash);font-family:"IBM Plex Mono",monospace;margin-bottom:4px}
+input,select{width:100%;background:#0a121b;border:1px solid var(--rule);border-radius:var(--r);
+  color:var(--chalk);font-family:"IBM Plex Mono",monospace;font-size:14px;padding:7px 9px}
+
+/* status banner */
+.banner{border-left:3px solid var(--ash);background:var(--field);padding:14px 16px;
+  border-radius:0 var(--r) var(--r) 0;margin-bottom:16px}
+.banner.good{border-left-color:var(--turf)}
+.banner.warn{border-left-color:var(--sodium)}
+.banner.bad{border-left-color:var(--clay)}
+.banner b{display:block;margin-bottom:3px}
+.banner .small{color:var(--ash);font-size:13.5px}
+
+/* game cards */
+.cards{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--field);border:1px solid var(--rule);border-radius:var(--r);overflow:hidden}
+.card.dim{opacity:.72}
+.card-top{display:grid;grid-template-columns:1fr auto;gap:16px;padding:16px 18px;align-items:center}
+.teams{font-family:"Archivo Black",sans-serif;font-size:17px;text-transform:uppercase;
+  letter-spacing:.01em;line-height:1.2}
+.when{color:var(--ash);font-size:13px;font-family:"IBM Plex Mono",monospace;margin-top:3px}
+.pickbox{text-align:right}
+.pickbox .who{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ash)}
+.pickbox .pct{font-family:"IBM Plex Mono",monospace;font-size:34px;font-weight:600;line-height:1}
+.bar{display:flex;height:8px}
+.bar i{display:block;transition:width .35s ease}
+.bar .a{background:var(--night)} .bar .h{background:var(--sodium)}
+.card-mid{padding:14px 18px;border-top:1px solid var(--rule);
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.cell .k{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ash);margin-bottom:4px}
+.cell .v{font-family:"IBM Plex Mono",monospace;font-size:19px;font-weight:600;line-height:1.2}
+.verdict{padding:12px 18px;border-top:1px solid var(--rule);font-size:14px;
+  display:flex;gap:10px;align-items:flex-start}
+.verdict .dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto;margin-top:6px}
+.v-look .dot{background:var(--turf)} .v-look{background:rgba(79,191,135,.07)}
+.v-thin .dot{background:var(--sodium)} .v-thin{background:rgba(255,180,84,.06)}
+.v-no .dot{background:var(--ash)}
+.v-blocked .dot{background:var(--clay)} .v-blocked{background:rgba(224,112,95,.07)}
+.card-foot{padding:10px 18px;border-top:1px solid var(--rule);display:flex;
+  justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+.chip{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;
+  letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border:1px solid var(--rule);
+  border-radius:20px;color:var(--ash)}
+.chip.ok{color:var(--turf);border-color:rgba(79,191,135,.4)}
+.chip.no{color:var(--clay);border-color:rgba(224,112,95,.4)}
+.detail{padding:0 18px 16px;border-top:1px solid var(--rule)}
+.up{color:var(--turf)} .down{color:var(--clay)}
+.big{font-size:30px;font-weight:600;font-family:"IBM Plex Mono",monospace;line-height:1}
+
+table.grid{width:100%;border-collapse:collapse;font-family:"IBM Plex Mono",monospace;font-size:12.5px}
+table.grid th{text-align:left;font-weight:500;color:var(--ash);font-size:10.5px;
+  letter-spacing:.1em;text-transform:uppercase;padding:6px 8px;border-bottom:1px solid var(--rule)}
+table.grid td{padding:6px 8px;border-bottom:1px solid rgba(36,51,67,.5)}
+table.grid td.num,table.grid th.num{text-align:right}
+table.grid tr:last-child td{border-bottom:none}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);border-radius:var(--r);overflow:hidden}
+.stat{background:var(--field);padding:14px}
+.stat .v{font-family:"IBM Plex Mono",monospace;font-size:24px;font-weight:600;line-height:1}
+.stat .k{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ash);margin-top:6px}
+.status{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--ash)}
+.status.err{color:var(--clay)} .status.ok{color:var(--turf)}
+dl.gloss dt{font-weight:600;margin-top:14px}
+dl.gloss dd{margin:3px 0 0;color:var(--ash);font-size:14.5px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fields .full{grid-column:1/-1}
+footer{border-top:1px solid var(--rule);margin-top:36px;padding-top:14px;
+  color:var(--ash);font-size:12.5px}
+@media (max-width:700px){
+  .two,.fields{grid-template-columns:1fr}
+  .card-top{grid-template-columns:1fr}
+  .pickbox{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="masthead">
+    <div>
+      <h1>Baseball model <span>v5</span></h1>
+      <p class="sub">Estimates how likely each team is to win tonight, then compares that
+        estimate to what Kalshi is charging for the same bet.</p>
+    </div>
+    <nav role="tablist">
+      <button role="tab" data-tab="games" aria-selected="true">Games</button>
+      <button role="tab" data-tab="learn" aria-selected="false">How it works</button>
+      <button role="tab" data-tab="picks" aria-selected="false">My picks</button>
+      <button role="tab" data-tab="adv" aria-selected="false">Advanced</button>
+    </nav>
+  </div>
+</header>
+
+<!-- ————— GAMES ————— -->
+<section id="tab-games">
+  <div id="health"></div>
+
+  <div class="row" style="justify-content:space-between;margin-bottom:14px">
+    <div class="status" id="games-status">Loading…</div>
+    <div class="row">
+      <button class="act tiny" id="btn-hide-weak" aria-pressed="false">Hide low-data games</button>
+      <button class="act tiny" id="btn-reload">Reload</button>
+    </div>
+  </div>
+
+  <div class="cards" id="cards"></div>
+</section>
+
+<!-- ————— HOW IT WORKS ————— -->
+<section id="tab-learn" hidden>
+  <div class="panel">
+    <h2 class="sec">Start here</h2>
+    <p>Every game gets one number: <b>how often we think a team would win if this exact game
+      were played over and over.</b> Sixty percent doesn't mean they'll win — it means that in
+      a hundred repeats of tonight, they'd take about sixty.</p>
+    <p>Kalshi is a market where a contract pays $1 if a team wins. If it costs 57¢, the market
+      is saying that team wins about 57 times out of 100. Our number and the market's number
+      are two estimates of the same thing.</p>
+    <p class="hint">Where they disagree is the only place there's anything to do — and even
+      then, mostly what a disagreement means is that one of the two is wrong.</p>
+  </div>
+
+  <div class="panel">
+    <h2 class="sec">Three things worth knowing before you act on anything</h2>
+    <p><b>1. The market is usually right.</b> Kalshi's prices come from many people with real
+      money at stake, all watching the same news. Our model is a set of formulas with about a
+      dozen hand-set numbers. When they disagree, the prior should be that the model is wrong.</p>
+    <p><b>2. Buying costs more than the price.</b> You buy at the ask, not the middle, and
+      Kalshi charges a fee. A contract quoted around 56¢ typically needs the team to win about
+      59 times out of 100 before you make anything. That gap is on every card as
+      <i>break-even</i>.</p>
+    <p><b>3. A number built on missing data is not a number.</b> When the feed can't supply
+      starting-pitcher or bullpen quality, the model falls back to records and home field —
+      which is close to a coin flip. Those games are marked and their percentage is hidden
+      rather than shown, because showing it invites trusting it.</p>
+  </div>
+
+  <div class="panel">
+    <h2 class="sec">Glossary</h2>
+    <dl class="gloss">
+      <dt>Our estimate</dt>
+      <dd>How often the model thinks this team wins, out of 100 games.</dd>
+      <dt>Market price</dt>
+      <dd>What a $1 payout contract costs on Kalshi right now, in cents. 57¢ means the
+        market thinks 57 out of 100.</dd>
+      <dt>Break-even</dt>
+      <dd>How often the team actually has to win for you to come out even after the price
+        and the fee. Always higher than the market price.</dd>
+      <dt>Difference</dt>
+      <dd>Our estimate minus break-even. Positive means the model thinks the contract is
+        cheap. It does not mean the model is right.</dd>
+      <dt>Data quality</dt>
+      <dd>How many of the six input groups the data feed actually supplied for this game.</dd>
+      <dt>Starter / bullpen quality</dt>
+      <dd>FIP — an ERA-like number built only from strikeouts, walks and home runs, which
+        is more stable than ERA. Lower is better; about 4.10 is average.</dd>
+    </dl>
+  </div>
+</section>
+
+<!-- ————— PICKS ————— -->
+<section id="tab-picks" hidden>
+  <div class="stats" id="cal-stats"></div>
+  <div class="panel" style="margin-top:14px">
+    <h2 class="sec">Are the estimates honest?</h2>
+    <p class="hint" style="margin-top:0">If the model says 70% and those picks win 70% of the
+      time, it's calibrated and worth listening to. If they win 55% of the time, it's
+      overconfident and every "edge" it finds is imaginary.</p>
+    <table class="grid" id="cal-buckets" style="margin-top:12px"></table>
+  </div>
+  <div class="panel">
+    <div class="row" style="justify-content:space-between">
+      <h2 class="sec" style="margin:0">Logged picks</h2>
+      <div class="row">
+        <button class="act tiny" id="btn-export">Export CSV</button>
+        <label for="file-import" class="act tiny" style="cursor:pointer;color:var(--chalk);margin:0">Import CSV</label>
+        <input type="file" id="file-import" accept=".csv" style="display:none;width:auto">
+      </div>
+    </div>
+    <div style="margin-top:12px;overflow-x:auto"><table class="grid" id="picks-table"></table></div>
+  </div>
+</section>
+
+<!-- ————— ADVANCED ————— -->
+<section id="tab-adv" hidden>
+  <div class="panel">
+    <h2 class="sec">Feed diagnostics</h2>
+    <p class="hint" style="margin-top:0">What each data source reported on the last run.</p>
+    <table class="grid" id="diag-table" style="margin-top:12px"></table>
+    <div id="kalshi-sample"></div>
+  </div>
+
+  <div class="panel">
+    <h2 class="sec">Manual matchup</h2>
+    <p class="hint" style="margin-top:0">Type inputs directly to see what the v5 engine does
+      with them. Selecting a game on the Games tab fills these in.</p>
+    <div class="two" id="slate" style="margin-top:14px"></div>
+    <div id="adv-out" style="margin-top:16px"></div>
+  </div>
+
+  <div class="panel">
+    <h2 class="sec">Model constants</h2>
+    <p class="hint" style="margin-top:0">Every knob in baseline.py. Changes apply immediately
+      and persist in this browser.</p>
+    <div class="fields" id="const-grid" style="margin-top:14px"></div>
+    <div class="row" style="margin-top:14px">
+      <button class="act" id="btn-const-reset">Reset to v5 defaults</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="mono">v5 · roster-blended strength + pitching + platoon + travel/park ·
+  runs entirely in this browser</span>
+</footer>
+</div>
+
+<script src="model.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
