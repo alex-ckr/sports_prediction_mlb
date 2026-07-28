@@ -1,0 +1,48 @@
+name: Fetch StatsAPI history
+
+# Pulls one season of game results + per-start pitching lines and commits
+# them to data/. Run once per season: 2024, 2025, 2026.
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Season to pull (2024 / 2025 / 2026)"
+        default: "2025"
+      dump:
+        description: "Dump N raw payloads and exit (use 2 on the first ever run)"
+        default: "0"
+      limit:
+        description: "Stop after N games (0 = all)"
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Pull season data
+        run: |
+          python fetch_statsapi.py \
+            --season ${{ github.event.inputs.season || 2025 }} \
+            --dump ${{ github.event.inputs.dump || 0 }} \
+            --limit ${{ github.event.inputs.limit || 0 }}
+      - name: Commit CSVs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/statsapi_*.csv || true
+          if git diff --staged --quiet; then
+            echo "no change (dump mode or nothing new)"
+          else
+            git commit -m "statsapi ${{ github.event.inputs.season }} $(date -u +'%Y-%m-%d')"
+            git pull --rebase --autostash
+            git push
+          fi

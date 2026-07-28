@@ -347,22 +347,66 @@ def dec(v):
     return int(round(f * 100)) if f <= 1.0 else int(round(f))
 
 
-def closing_quote(candles, before_ts):
-    """Last candle that closed at or before the game started."""
-    usable = [c for c in candles
-              if c.get("end_period_ts") and c["end_period_ts"] <= before_ts]
+SHOWN_SHAPE = set()
+
+
+def candle_ts(c):
+    """Period end, whatever it is called and whatever unit it uses."""
+    for k in ("end_period_ts", "end_ts", "ts", "timestamp", "period_end",
+              "end_time", "end_period_time"):
+        if k in c:
+            t = to_ts(c[k])
+            if t:
+                return t
+    return None
+
+
+def candle_leg(c, *names, field="close"):
+    """A price from a candle, tolerating every shape Kalshi serves.
+
+    The historical tier nests {"yes_bid": {"close": "0.5600"}}. Other tiers
+    have used flat scalars and _dollars suffixes. Rather than assume, try
+    each spelling and each container type.
+    """
+    for base in names:
+        for key in (base, base + "_dollars", base + "_cents"):
+            if key not in c:
+                continue
+            blob = c[key]
+            if isinstance(blob, dict):
+                for f in (field, "close", "mean", "last", "open", "price"):
+                    if f in blob:
+                        v = dec(blob[f])
+                        if v is not None:
+                            return v
+            else:
+                v = dec(blob)
+                if v is not None:
+                    return v
+    return None
+
+
+def closing_quote(candles, before_ts, tier="?"):
+    """Last candle that closed at or before first pitch."""
+    if candles and tier not in SHOWN_SHAPE:
+        SHOWN_SHAPE.add(tier)
+        print(f"\n  [{tier}] first candle shape: "
+              f"{json.dumps(candles[0])[:400]}\n", flush=True)
+
+    usable = []
+    for c in candles:
+        t = candle_ts(c)
+        if t and t <= before_ts:
+            usable.append((t, c))
     if not usable:
         return None
-    c = max(usable, key=lambda x: x["end_period_ts"])
-    def leg(name, field="close"):
-        blob = c.get(name)
-        if isinstance(blob, dict):
-            return dec(blob.get(field))
-        return dec(blob)
-    return {"bid": leg("yes_bid"), "ask": leg("yes_ask"),
-            "last": leg("price"), "volume": c.get("volume"),
-            "open_interest": c.get("open_interest"),
-            "ts": c["end_period_ts"]}
+    t, c = max(usable, key=lambda x: x[0])
+    return {"bid": candle_leg(c, "yes_bid", "bid"),
+            "ask": candle_leg(c, "yes_ask", "ask"),
+            "last": candle_leg(c, "price", "last_price", "close"),
+            "volume": c.get("volume") or c.get("volume_fp"),
+            "open_interest": c.get("open_interest") or c.get("open_interest_fp"),
+            "ts": t}
 
 
 # ————————————————————————————————————————————————
@@ -472,7 +516,7 @@ def main():
     except FileNotFoundError:
         pass
 
-    rows, no_quote, no_time = [], 0, 0
+    rows, no_quote, no_time, no_price, out_of_range = [], 0, 0, 0, 0
     for i, m in enumerate(unique, 1):
         ticker = m.get("ticker", "")
         if ticker in done:
@@ -490,7 +534,7 @@ def main():
         base = HIST if tier == "hist" else LIVE
         candles = candlesticks(base, ticker, open_ts, start_ts + 3600,
                                args.interval, tier=tier)
-        q = closing_quote(candles, start_ts)
+        q = closing_quote(candles, start_ts, tier)
         if not q:
             no_quote += 1
             if i <= 3:
@@ -498,6 +542,9 @@ def main():
                       f"(window {open_ts}..{start_ts}, base {base})")
             continue
 
+        if q["bid"] is None and q["ask"] is None:
+            # Some payloads quote only the NO side; YES is 100 minus it.
+            nb = candle_leg({}, "no_bid")
         mid = None
         if q["bid"] is not None and q["ask"] is not None:
             mid = round((q["bid"] + q["ask"]) / 200, 4)
@@ -506,8 +553,11 @@ def main():
         # A pre-game moneyline is basically never outside 3-97%. Anything
         # beyond that is a post-first-pitch candle and must not be counted
         # as a closing line.
-        if mid is None or mid < 0.03 or mid > 0.97:
-            no_quote += 1
+        if mid is None:
+            no_price += 1
+            continue
+        if mid < 0.03 or mid > 0.97:
+            out_of_range += 1
             continue
         rows.append({
             "date": datetime.fromtimestamp(start_ts, timezone.utc).strftime("%Y-%m-%d"),
@@ -525,8 +575,11 @@ def main():
             print(f"  {i}/{len(unique)} games, {len(rows)} with prices",
                   end="\r", flush=True)
 
-    print(f"\n\n{len(rows)} games with a closing quote, {no_quote} without candles, "
-          f"{no_time} without a usable time")
+    print(f"\n\n{len(rows)} games with a closing quote")
+    print(f"  {no_quote} had no candle before first pitch")
+    print(f"  {no_price} had candles but no readable price  <- payload shape")
+    print(f"  {out_of_range} had a price outside 3-97% (post-game candle)")
+    print(f"  {no_time} had no usable game time")
     print(f"working routes: {CANDLE_ROUTE if CANDLE_ROUTE else 'none'}")
     if rows:
         recent = sorted(r["date"] for r in rows)
