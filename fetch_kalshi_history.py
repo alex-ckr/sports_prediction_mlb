@@ -284,24 +284,39 @@ def candlestick_variants(start_ts, end_ts, interval):
     ]
 
 
-CANDLE_ROUTE = None      # remembered once a combination works
+# Routes are remembered PER TIER. The historical and live APIs need
+# different endpoints, and a route that works for one returns nothing for
+# the other — which is exactly how games after the cutoff went missing.
+CANDLE_ROUTE = {}
 
 
-def candlesticks(base, ticker, start_ts, end_ts, interval=60, verbose=False):
-    global CANDLE_ROUTE
-    paths = [(HIST, f"/historical/markets/{ticker}/candlesticks"),
-             (LIVE, f"/series/{SERIES}/markets/{ticker}/candlesticks"),
-             (LIVE, f"/markets/{ticker}/candlesticks")]
+def candlesticks(base, ticker, start_ts, end_ts, interval=60, verbose=False,
+                 tier=None):
+    tier = tier or ("hist" if base == HIST else "live")
+
+    if tier == "hist":
+        paths = [(HIST, f"/historical/markets/{ticker}/candlesticks"),
+                 (LIVE, f"/series/{SERIES}/markets/{ticker}/candlesticks"),
+                 (LIVE, f"/markets/{ticker}/candlesticks")]
+    else:
+        paths = [(LIVE, f"/series/{SERIES}/markets/{ticker}/candlesticks"),
+                 (LIVE, f"/markets/{ticker}/candlesticks"),
+                 (HIST, f"/historical/markets/{ticker}/candlesticks")]
+
     variants = candlestick_variants(start_ts, end_ts, interval)
 
-    # Once one route works, stop probing the others.
-    if CANDLE_ROUTE:
-        b, path_tpl, vi = CANDLE_ROUTE
+    cached = CANDLE_ROUTE.get(tier)
+    if cached:
+        b, tpl, vi = cached
         try:
-            d = get(b, path_tpl.format(ticker=ticker), **variants[vi])
-            return d.get("candlesticks") or []
+            d = get(b, tpl.format(ticker=ticker), **variants[vi])
+            c = d.get("candlesticks") or []
+            if c:
+                return c
+            # Empty is NOT proof the route is right — fall through and
+            # re-probe rather than silently dropping the market.
         except Exception:
-            CANDLE_ROUTE = None
+            pass
 
     for b, path in paths:
         tpl = path.replace(ticker, "{ticker}")
@@ -310,13 +325,13 @@ def candlesticks(base, ticker, start_ts, end_ts, interval=60, verbose=False):
                 d = get(b, path, **params)
             except Exception as e:
                 if verbose:
-                    print(f"    FAIL {b}{path} {list(params)} -> {e}")
+                    print(f"    FAIL [{tier}] {b}{path} {list(params)} -> {e}")
                 continue
             c = d.get("candlesticks") or []
             if verbose:
-                print(f"    OK   {b}{path} {list(params)} -> {len(c)} candles")
+                print(f"    OK   [{tier}] {b}{path} {list(params)} -> {len(c)} candles")
             if c:
-                CANDLE_ROUTE = (b, tpl, vi)
+                CANDLE_ROUTE[tier] = (b, tpl, vi)
                 return c
     return []
 
@@ -471,8 +486,10 @@ def main():
             no_time += 1
             continue
 
-        base = HIST if (settle_ts or start_ts) < cutoff else LIVE
-        candles = candlesticks(base, ticker, open_ts, start_ts + 3600, args.interval)
+        tier = "hist" if (settle_ts or start_ts) < cutoff else "live"
+        base = HIST if tier == "hist" else LIVE
+        candles = candlesticks(base, ticker, open_ts, start_ts + 3600,
+                               args.interval, tier=tier)
         q = closing_quote(candles, start_ts)
         if not q:
             no_quote += 1
@@ -510,6 +527,16 @@ def main():
 
     print(f"\n\n{len(rows)} games with a closing quote, {no_quote} without candles, "
           f"{no_time} without a usable time")
+    print(f"working routes: {CANDLE_ROUTE if CANDLE_ROUTE else 'none'}")
+    if rows:
+        recent = sorted(r["date"] for r in rows)
+        print(f"coverage: {recent[0]} to {recent[-1]}")
+        post = sum(1 for r in rows if r["settled_ts"] > cutoff)
+        print(f"  {post} games from after the historical cutoff "
+              f"({datetime.fromtimestamp(cutoff, timezone.utc):%Y-%m-%d})")
+        if post == 0:
+            print("  WARNING: nothing after the cutoff — the live-tier "
+                  "candlestick route is not working")
     if not rows:
         print("No candlesticks came back. Try --interval 1440.")
         return 1
