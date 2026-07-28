@@ -37,6 +37,8 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 
+import re
+
 import requests
 
 LIVE = "https://api.elections.kalshi.com/trade-api/v2"
@@ -114,6 +116,60 @@ def get(base, path, **params):
     raise RuntimeError(f"failed: {url}")
 
 
+
+MONTHS = {"JAN":1,"FEB":2,"MAR":3,"APR":4,"MAY":5,"JUN":6,
+          "JUL":7,"AUG":8,"SEP":9,"OCT":10,"NOV":11,"DEC":12}
+
+
+def to_ts(v):
+    """Unix seconds from an int, a millisecond int, or an ISO-8601 string."""
+    if v is None or v == "":
+        return None
+    if isinstance(v, (int, float)):
+        v = int(v)
+        return v // 1000 if v > 10_000_000_000 else v
+    try:
+        txt = str(v).replace("Z", "+00:00")
+        return int(datetime.fromisoformat(txt).timestamp())
+    except Exception:
+        return None
+
+
+def field_ts(m, *names):
+    """First parseable timestamp among several candidate field names."""
+    for n in names:
+        t = to_ts(m.get(n))
+        if t:
+            return t
+    return None
+
+
+def start_from_ticker(ticker):
+    """KXMLBGAME-26JUL292210SEALAD-SEA -> first pitch, 2026-07-29 22:10 UTC.
+
+    The market's close_time is when it SETTLES, which is after the game ends.
+    The closing line is the last quote before first pitch, and the ticker is
+    the only place that time is reliably encoded.
+    """
+    m = re.search(r"-(\d{2})([A-Z]{3})(\d{2})(\d{0,4})", ticker or "")
+    if not m:
+        return None
+    yy, mon, dd, tail = m.groups()
+    if mon not in MONTHS:
+        return None
+    # Kalshi strips leading zeros from the time, so the tail is 0-4 digits.
+    tail = tail or "0"
+    hhmm = tail.zfill(4)
+    hh, mm = int(hhmm[:2]), int(hhmm[2:])
+    if hh > 23 or mm > 59:
+        return None
+    try:
+        return int(datetime(2000 + int(yy), MONTHS[mon], int(dd), hh, mm,
+                            tzinfo=timezone.utc).timestamp())
+    except ValueError:
+        return None
+
+
 # ————————————————————————————————————————————————
 # Discovery
 # ————————————————————————————————————————————————
@@ -128,11 +184,9 @@ def historical_cutoff():
     try:
         d = get(HIST, "/historical/cutoff")
         inner = d.get("cutoff") if isinstance(d.get("cutoff"), dict) else d
-        for k in ("market_settled_ts", "markets_settled_ts", "cutoff_ts"):
-            if k in inner and inner[k]:
-                ts = int(inner[k])
-                # Some payloads use milliseconds.
-                return ts // 1000 if ts > 10_000_000_000 else ts
+        ts = field_ts(inner, "market_settled_ts", "markets_settled_ts", "cutoff_ts")
+        if ts:
+            return ts
         print(f"unrecognised cutoff payload: {json.dumps(d)[:300]}", file=sys.stderr)
     except Exception as e:
         print(f"cutoff lookup failed ({e})", file=sys.stderr)
@@ -219,6 +273,9 @@ def main():
     ap.add_argument("--interval", type=int, default=60,
                     choices=[1, 60, 1440], help="candle size in minutes")
     ap.add_argument("--limit", type=int, default=0, help="stop after N markets (testing)")
+    ap.add_argument("--dump", type=int, default=0,
+                    help="print raw JSON for N markets plus one candlestick "
+                         "response, then exit. Use this when fields look wrong.")
     args = ap.parse_args()
 
     now = int(time.time())
@@ -233,6 +290,39 @@ def main():
         print("listing live markets...")
         markets += list_markets(LIVE, "/markets", cutoff, now)
 
+    if args.dump:
+        print("\n" + "=" * 70)
+        print("RAW CUTOFF")
+        print("=" * 70)
+        try:
+            print(json.dumps(get(HIST, "/historical/cutoff"), indent=2))
+        except Exception as e:
+            print(f"failed: {e}")
+        print("\n" + "=" * 70)
+        print(f"RAW MARKETS (first {args.dump})")
+        print("=" * 70)
+        for m in markets[:args.dump]:
+            print(json.dumps(m, indent=2)[:2500])
+            print("-" * 70)
+        if markets:
+            t = markets[0].get("ticker")
+            print("\n" + "=" * 70)
+            print(f"RAW CANDLESTICKS for {t}")
+            print("=" * 70)
+            now_ts = int(time.time())
+            for base, path in ((HIST, f"/historical/markets/{t}/candlesticks"),
+                               (LIVE, f"/series/{SERIES}/markets/{t}/candlesticks"),
+                               (LIVE, f"/markets/{t}/candlesticks")):
+                try:
+                    d = get(base, path, start_ts=now_ts - 400 * 86400,
+                            end_ts=now_ts, period_interval=60)
+                    print(f"OK  {base}{path}")
+                    print(json.dumps(d, indent=2)[:2000])
+                    break
+                except Exception as e:
+                    print(f"FAIL {base}{path} -> {e}")
+        return 0
+
     settled = [m for m in markets if m.get("result") in ("yes", "no")]
     print(f"{len(markets)} markets, {len(settled)} settled\n")
     if not settled:
@@ -240,29 +330,56 @@ def main():
               "series ticker changed. Try --days 700, or check the ticker on Kalshi.")
         return 1
 
-    if args.limit:
-        settled = settled[:args.limit]
-
-    rows, no_quote = [], 0
-    for i, m in enumerate(settled, 1):
-        ticker = m.get("ticker", "")
-        close_ts = m.get("close_ts") or m.get("expiration_ts")
-        open_ts = m.get("open_ts") or (close_ts - 86400 if close_ts else None)
-        if not close_ts:
+    # Two markets per game (one per team) and we only need one — the other
+    # side is one minus this one. Halves the request count.
+    seen_events, unique = set(), []
+    for m in settled:
+        ev = m.get("event_ticker") or m.get("ticker", "")[:-4]
+        if ev in seen_events:
             continue
-        base = HIST if close_ts < cutoff else LIVE
-        candles = candlesticks(base, ticker, open_ts, close_ts, args.interval)
-        q = closing_quote(candles, close_ts)
+        seen_events.add(ev)
+        unique.append(m)
+    print(f"{len(unique)} distinct games after collapsing both sides")
+
+    if args.limit:
+        unique = unique[:args.limit]
+
+    rows, no_quote, no_time = [], 0, 0
+    for i, m in enumerate(unique, 1):
+        ticker = m.get("ticker", "")
+        # close_time is settlement; first pitch comes from the ticker.
+        settle_ts = field_ts(m, "close_time", "close_ts", "expiration_time",
+                             "expiration_ts", "settlement_time")
+        start_ts = start_from_ticker(ticker) or settle_ts
+        open_ts = field_ts(m, "open_time", "open_ts") or (start_ts - 3 * 86400
+                                                          if start_ts else None)
+        if not start_ts or not open_ts:
+            no_time += 1
+            continue
+
+        base = HIST if (settle_ts or start_ts) < cutoff else LIVE
+        candles = candlesticks(base, ticker, open_ts, start_ts + 3600, args.interval)
+        q = closing_quote(candles, start_ts)
         if not q:
             no_quote += 1
+            if i <= 3:
+                print(f"\n  no candles for {ticker} "
+                      f"(window {open_ts}..{start_ts}, base {base})")
             continue
+
         mid = None
         if q["bid"] is not None and q["ask"] is not None:
             mid = round((q["bid"] + q["ask"]) / 200, 4)
         elif q["last"] is not None:
             mid = round(q["last"] / 100, 4)
+        # A pre-game moneyline is basically never outside 3-97%. Anything
+        # beyond that is a post-first-pitch candle and must not be counted
+        # as a closing line.
+        if mid is None or mid < 0.03 or mid > 0.97:
+            no_quote += 1
+            continue
         rows.append({
-            "date": datetime.fromtimestamp(close_ts, timezone.utc).strftime("%Y-%m-%d"),
+            "date": datetime.fromtimestamp(start_ts, timezone.utc).strftime("%Y-%m-%d"),
             "ticker": ticker,
             "event": m.get("event_ticker", ""),
             "yes_team": m.get("yes_sub_title") or m.get("subtitle") or "",
@@ -270,12 +387,14 @@ def main():
             "volume": q["volume"] if q["volume"] is not None else m.get("volume"),
             "open_interest": q["open_interest"],
             "result": m.get("result"),
-            "settled_ts": close_ts,
+            "settled_ts": start_ts,
         })
         if i % 25 == 0:
-            print(f"  {i}/{len(settled)} markets, {len(rows)} with prices", end="\r", flush=True)
+            print(f"  {i}/{len(unique)} games, {len(rows)} with prices",
+                  end="\r", flush=True)
 
-    print(f"\n\n{len(rows)} markets with a closing quote, {no_quote} without")
+    print(f"\n\n{len(rows)} games with a closing quote, {no_quote} without candles, "
+          f"{no_time} without a usable time")
     if not rows:
         print("No candlesticks came back. Try --interval 1440.")
         return 1
