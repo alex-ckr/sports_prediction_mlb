@@ -97,23 +97,31 @@ def load_signer():
 
 
 def get(base, path, **params):
-    """GET with automatic retry using signed headers on a 401."""
+    """GET with signed-header retry on 401 and exponential backoff on 429/5xx."""
     url = base + path
     headers = dict(UA)
-    for attempt in (0, 1):
-        r = requests.get(url, params=params or None, headers=headers, timeout=TIMEOUT)
-        if r.status_code == 401 and attempt == 0:
+    signed = False
+    delay = 1.0
+    for attempt in range(6):
+        try:
+            r = requests.get(url, params=params or None, headers=headers,
+                             timeout=TIMEOUT)
+        except requests.RequestException:
+            time.sleep(delay); delay *= 2
+            continue
+        if r.status_code == 401 and not signed:
             sign = load_signer()
             if not sign:
                 r.raise_for_status()
             headers.update(sign("GET", "/trade-api/v2" + path))
+            signed = True
             continue
-        if r.status_code == 429:
-            time.sleep(2)
+        if r.status_code == 429 or r.status_code >= 500:
+            time.sleep(delay); delay *= 2
             continue
         r.raise_for_status()
         return r.json()
-    raise RuntimeError(f"failed: {url}")
+    raise RuntimeError(f"failed after retries: {url}")
 
 
 
@@ -438,9 +446,22 @@ def main():
     if args.limit:
         unique = unique[:args.limit]
 
+    # Resume: skip anything already in the output file.
+    done = set()
+    try:
+        with open(args.out) as f:
+            for r in csv.DictReader(f):
+                done.add(r["ticker"])
+        if done:
+            print(f"resuming — {len(done)} games already collected")
+    except FileNotFoundError:
+        pass
+
     rows, no_quote, no_time = [], 0, 0
     for i, m in enumerate(unique, 1):
         ticker = m.get("ticker", "")
+        if ticker in done:
+            continue
         # close_time is settlement; first pitch comes from the ticker.
         settle_ts = field_ts(m, "close_time", "settlement_ts", "expiration_time")
         start_ts = game_start(m)
@@ -498,6 +519,13 @@ def main():
               "settled_ts"]
     from pathlib import Path as _P
     _P(args.out).parent.mkdir(parents=True, exist_ok=True)
+    if done:
+        try:
+            with open(args.out) as f:
+                rows = list(csv.DictReader(f)) + rows
+            print(f"merged with {len(done)} previously collected games")
+        except FileNotFoundError:
+            pass
     with open(args.out, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
