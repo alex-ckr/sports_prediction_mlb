@@ -1,0 +1,60 @@
+name: Fetch Kalshi history
+
+# Runs on demand only. Pulls settled KXMLBGAME markets and their closing
+# prices, then commits data/kalshi_history.csv to the repo.
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "How many days back to pull"
+        default: "400"
+      limit:
+        description: "Stop after N markets (0 = all). Use 20 for a quick test."
+        default: "0"
+      interval:
+        description: "Candle size in minutes: 1, 60, or 1440"
+        default: "60"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests cryptography
+
+      - name: Pull settled markets and closing prices
+        env:
+          # Optional. Only used if Kalshi returns 401 on market data.
+          KALSHI_KEY_ID: ${{ secrets.KALSHI_KEY_ID }}
+          KALSHI_PRIVATE_KEY_PATH: kalshi_key.pem
+          KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
+        run: |
+          if [ -n "$KALSHI_PRIVATE_KEY" ]; then
+            printf '%s' "$KALSHI_PRIVATE_KEY" > kalshi_key.pem
+            chmod 600 kalshi_key.pem
+          fi
+          python fetch_kalshi_history.py \
+            --days ${{ github.event.inputs.days || 400 }} \
+            --interval ${{ github.event.inputs.interval || 60 }} \
+            --limit ${{ github.event.inputs.limit || 0 }}
+          rm -f kalshi_key.pem
+
+      - name: Commit the CSV
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/kalshi_history.csv
+          if git diff --staged --quiet; then
+            echo "no change"
+          else
+            git commit -m "kalshi history $(date -u +'%Y-%m-%d')"
+            git pull --rebase --autostash
+            git push
+          fi
