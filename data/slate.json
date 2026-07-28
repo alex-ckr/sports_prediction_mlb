@@ -545,15 +545,26 @@
     "bp_rate": 4.219,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3091,
+    "woba_vs_hand": 0.3203,
     "woba_overall": 0.308,
-    "lineup_woba": 0.308,
+    "lineup_woba": 0.3208,
     "staff_fip": 4.084,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0036,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "JJ Wetherholt",
+     "Jordan Walker",
+     "Iv\u00e1n Herrera",
+     "Alec Burleson",
+     "Masyn Winn",
+     "Nelson Vel\u00e1zquez",
+     "Jos\u00e9 Ferm\u00edn",
+     "Lars Nootbaar",
+     "Blaze Jordan"
+    ]
    },
    "away": {
     "id": 112,
@@ -571,15 +582,26 @@
     "bp_rate": 4.605,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3452,
+    "woba_vs_hand": 0.3364,
     "woba_overall": 0.3316,
-    "lineup_woba": 0.3316,
+    "lineup_woba": 0.3339,
     "staff_fip": 4.745,
     "ptype_rv100": null,
     "travel_runs": 0.0306,
     "park_fit_runs": 0.0019,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Pete Crow-Armstrong",
+     "Seiya Suzuki",
+     "Alex Bregman",
+     "Carson Kelly",
+     "Michael Busch",
+     "Nico Hoerner",
+     "Ian Happ",
+     "Dansby Swanson",
+     "Miguel Amaya"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -595,7 +617,7 @@
     "closeTime": "2026-08-02T18:15:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824001,
@@ -619,15 +641,26 @@
     "bp_rate": 4.252,
     "bp_is_proxy": false,
     "bp_ip3": 14.0,
-    "woba_vs_hand": 0.3085,
+    "woba_vs_hand": 0.3026,
     "woba_overall": 0.3108,
-    "lineup_woba": 0.3108,
+    "lineup_woba": 0.3023,
     "staff_fip": 4.275,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0027,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Zach Neto",
+     "Mike Trout",
+     "Nolan Schanuel",
+     "Jorge Soler",
+     "Vaughn Grissom",
+     "Josh Lowe",
+     "Jo Adell",
+     "Denzer Guzman",
+     "Tyler Heineman"
+    ]
    },
    "away": {
     "id": 117,
@@ -645,15 +678,26 @@
     "bp_rate": 4.654,
     "bp_is_proxy": false,
     "bp_ip3": 12.7,
-    "woba_vs_hand": 0.3213,
+    "woba_vs_hand": 0.3277,
     "woba_overall": 0.3184,
-    "lineup_woba": 0.3184,
+    "lineup_woba": 0.3252,
     "staff_fip": 4.831,
     "ptype_rv100": null,
     "travel_runs": 0.0673,
     "park_fit_runs": 0.0214,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jeremy Pe\u00f1a",
+     "Yordan Alvarez",
+     "Isaac Paredes",
+     "LaMonte Wade Jr.",
+     "Jose Altuve",
+     "Taylor Trammell",
+     "Christian Walker",
+     "Lucas Spence",
+     "Christian V\u00e1zquez"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -669,7 +713,7 @@
     "closeTime": "2026-08-02T01:38:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824977,
@@ -693,15 +737,26 @@
     "bp_rate": 4.711,
     "bp_is_proxy": false,
     "bp_ip3": 16.3,
-    "woba_vs_hand": 0.3181,
+    "woba_vs_hand": 0.3043,
     "woba_overall": 0.3195,
-    "lineup_woba": 0.3195,
+    "lineup_woba": 0.3047,
     "staff_fip": 4.893,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0128,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Jacob Wilson",
+     "Tyler Soderstrom",
+     "Jonah Heim",
+     "Colby Thomas",
+     "Tommy White",
+     "Jeff McNeil",
+     "Henry Bolte",
+     "Alika Williams",
+     "Lawrence Butler"
+    ]
    },
    "away": {
     "id": 111,
@@ -719,15 +774,26 @@
     "bp_rate": 3.874,
     "bp_is_proxy": false,
     "bp_ip3": 13.3,
-    "woba_vs_hand": 0.3013,
+    "woba_vs_hand": 0.3254,
     "woba_overall": 0.3113,
-    "lineup_woba": 0.3113,
+    "lineup_woba": 0.3311,
     "staff_fip": 3.752,
     "ptype_rv100": null,
     "travel_runs": 0.1012,
     "park_fit_runs": 0.0113,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Masataka Yoshida",
+     "Curtis Mead",
+     "Willson Contreras",
+     "Wilyer Abreu",
+     "Ceddanne Rafaela",
+     "Caleb Durbin",
+     "Jarren Duran",
+     "Andruw Monasterio",
+     "Connor Wong"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -743,7 +809,7 @@
     "closeTime": "2026-08-02T01:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823195,
@@ -767,15 +833,26 @@
     "bp_rate": 4.471,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3202,
+    "woba_vs_hand": 0.3113,
     "woba_overall": 0.3154,
-    "lineup_woba": 0.3154,
+    "lineup_woba": 0.3066,
     "staff_fip": 4.288,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0194,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Luis Arraez",
+     "Heliot Ramos",
+     "Bryce Eldridge",
+     "Rafael Devers",
+     "Casey Schmitt",
+     "Drew Gilbert",
+     "Willy Adames",
+     "Grant McCray",
+     "Jesus Rodriguez"
+    ]
    },
    "away": {
     "id": 158,
@@ -793,15 +870,26 @@
     "bp_rate": 3.743,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3337,
+    "woba_vs_hand": 0.3448,
     "woba_overall": 0.3254,
-    "lineup_woba": 0.3254,
+    "lineup_woba": 0.3428,
     "staff_fip": 3.626,
     "ptype_rv100": null,
     "travel_runs": 0.0683,
     "park_fit_runs": 0.053,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Christian Yelich",
+     "Jackson Chourio",
+     "Brice Turang",
+     "William Contreras",
+     "Jake Bauers",
+     "Andrew Vaughn",
+     "Garrett Mitchell",
+     "Cooper Pratt",
+     "Joey Ortiz"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -817,7 +905,7 @@
     "closeTime": "2026-08-01T19:45:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824243,
