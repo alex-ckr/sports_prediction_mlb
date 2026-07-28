@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-28T08:05:55.612722+00:00",
+ "generatedAt": "2026-07-28T16:53:16.134434+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 824490,
    "date": "2026-07-28",
    "startsAt": "2026-07-28T17:40:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Great American Ball Park",
    "home": {
     "id": 113,
@@ -230,9 +230,9 @@
     "title": "Baltimore vs Detroit Winner?",
     "subtitle": "Detroit",
     "yesBid": 58,
-    "yesAsk": 60,
-    "last": 60,
-    "mid": 0.59,
+    "yesAsk": 59,
+    "last": 59,
+    "mid": 0.585,
     "volume": null,
     "closeTime": "2026-08-01T17:10:00Z"
    },
@@ -367,7 +367,7 @@
     "subtitle": "Texas",
     "yesBid": 43,
     "yesAsk": 45,
-    "last": 44,
+    "last": 45,
     "mid": 0.44,
     "volume": null,
     "closeTime": "2026-08-02T16:10:00Z"
@@ -439,10 +439,10 @@
     "eventTicker": "KXMLBGAME-26JUL291210PHIMIA",
     "title": "Philadelphia vs Miami Winner?",
     "subtitle": "Philadelphia",
-    "yesBid": 56,
-    "yesAsk": 57,
+    "yesBid": 55,
+    "yesAsk": 56,
     "last": 57,
-    "mid": 0.565,
+    "mid": 0.555,
     "volume": null,
     "closeTime": "2026-08-01T16:10:00Z"
    },
@@ -515,7 +515,7 @@
     "subtitle": "Washington",
     "yesBid": 49,
     "yesAsk": 50,
-    "last": 49,
+    "last": 50,
     "mid": 0.495,
     "volume": null,
     "closeTime": "2026-08-01T17:05:00Z"
@@ -587,10 +587,10 @@
     "eventTicker": "KXMLBGAME-26JUL291310ATLNYM",
     "title": "Atlanta vs New York M Winner?",
     "subtitle": "New York M",
-    "yesBid": 47,
-    "yesAsk": 48,
+    "yesBid": 46,
+    "yesAsk": 47,
     "last": 47,
-    "mid": 0.475,
+    "mid": 0.465,
     "volume": null,
     "closeTime": "2026-08-01T17:10:00Z"
    },
@@ -663,7 +663,7 @@
     "subtitle": "Minnesota",
     "yesBid": 56,
     "yesAsk": 57,
-    "last": 58,
+    "last": 57,
     "mid": 0.565,
     "volume": null,
     "closeTime": "2026-08-02T17:40:00Z"
@@ -735,10 +735,10 @@
     "eventTicker": "KXMLBGAME-26JUL301410NYYCWS",
     "title": "New York Y vs Chicago WS Winner?",
     "subtitle": "New York Y",
-    "yesBid": 48,
+    "yesBid": 50,
     "yesAsk": 51,
-    "last": 51,
-    "mid": 0.495,
+    "last": 52,
+    "mid": 0.505,
     "volume": null,
     "closeTime": "2026-08-02T18:10:00Z"
    },
@@ -809,10 +809,10 @@
     "eventTicker": "KXMLBGAME-26JUL301415CHCSTL",
     "title": "Chicago C vs St. Louis Winner?",
     "subtitle": "St. Louis",
-    "yesBid": 48,
-    "yesAsk": 49,
+    "yesBid": 47,
+    "yesAsk": 48,
     "last": 50,
-    "mid": 0.485,
+    "mid": 0.475,
     "volume": null,
     "closeTime": "2026-08-02T18:15:00Z"
    },
@@ -957,10 +957,10 @@
     "eventTicker": "KXMLBGAME-26JUL302140BOSATH",
     "title": "Boston vs A's Winner?",
     "subtitle": "Boston",
-    "yesBid": 55,
-    "yesAsk": 60,
-    "last": 61,
-    "mid": 0.575,
+    "yesBid": 56,
+    "yesAsk": 58,
+    "last": 60,
+    "mid": 0.57,
     "volume": null,
     "closeTime": "2026-08-03T01:40:00Z"
    },
@@ -1106,9 +1106,9 @@
     "title": "Milwaukee vs San Francisco Winner?",
     "subtitle": "San Francisco",
     "yesBid": 46,
-    "yesAsk": 48,
-    "last": 48,
-    "mid": 0.47,
+    "yesAsk": 47,
+    "last": 47,
+    "mid": 0.465,
     "volume": null,
     "closeTime": "2026-08-01T19:45:00Z"
    },
@@ -1179,10 +1179,10 @@
     "eventTicker": "KXMLBGAME-26JUL302210SEALAD",
     "title": "Seattle vs Los Angeles D Winner?",
     "subtitle": "Seattle",
-    "yesBid": 41,
-    "yesAsk": 46,
-    "last": 0,
-    "mid": 0.435,
+    "yesBid": 40,
+    "yesAsk": 45,
+    "last": 45,
+    "mid": 0.425,
     "volume": null,
     "closeTime": "2026-08-03T02:10:00Z"
    },
@@ -1253,10 +1253,10 @@
     "eventTicker": "KXMLBGAME-26JUL291210PHIMIA",
     "title": "Philadelphia vs Miami Winner?",
     "subtitle": "Philadelphia",
-    "yesBid": 56,
-    "yesAsk": 57,
+    "yesBid": 55,
+    "yesAsk": 56,
     "last": 57,
-    "mid": 0.565,
+    "mid": 0.555,
     "volume": null,
     "closeTime": "2026-08-01T16:10:00Z"
    },
@@ -1391,7 +1391,7 @@
     "subtitle": "Washington",
     "yesBid": 49,
     "yesAsk": 50,
-    "last": 49,
+    "last": 50,
     "mid": 0.495,
     "volume": null,
     "closeTime": "2026-08-01T17:05:00Z"
@@ -1464,9 +1464,9 @@
     "title": "Baltimore vs Detroit Winner?",
     "subtitle": "Detroit",
     "yesBid": 58,
-    "yesAsk": 60,
-    "last": 60,
-    "mid": 0.59,
+    "yesAsk": 59,
+    "last": 59,
+    "mid": 0.585,
     "volume": null,
     "closeTime": "2026-08-01T17:10:00Z"
    },
@@ -1537,10 +1537,10 @@
     "eventTicker": "KXMLBGAME-26JUL291310ATLNYM",
     "title": "Atlanta vs New York M Winner?",
     "subtitle": "New York M",
-    "yesBid": 47,
-    "yesAsk": 48,
+    "yesBid": 46,
+    "yesAsk": 47,
     "last": 47,
-    "mid": 0.475,
+    "mid": 0.465,
     "volume": null,
     "closeTime": "2026-08-01T17:10:00Z"
    },
@@ -1612,9 +1612,9 @@
     "title": "Milwaukee vs San Francisco Winner?",
     "subtitle": "San Francisco",
     "yesBid": 46,
-    "yesAsk": 48,
-    "last": 48,
-    "mid": 0.47,
+    "yesAsk": 47,
+    "last": 47,
+    "mid": 0.465,
     "volume": null,
     "closeTime": "2026-08-01T19:45:00Z"
    },
@@ -1761,7 +1761,7 @@
     "subtitle": "Texas",
     "yesBid": 43,
     "yesAsk": 45,
-    "last": 44,
+    "last": 45,
     "mid": 0.44,
     "volume": null,
     "closeTime": "2026-08-02T16:10:00Z"
@@ -1909,7 +1909,7 @@
     "subtitle": "Minnesota",
     "yesBid": 56,
     "yesAsk": 57,
-    "last": 58,
+    "last": 57,
     "mid": 0.565,
     "volume": null,
     "closeTime": "2026-08-02T17:40:00Z"
@@ -1981,10 +1981,10 @@
     "eventTicker": "KXMLBGAME-26JUL301410NYYCWS",
     "title": "New York Y vs Chicago WS Winner?",
     "subtitle": "New York Y",
-    "yesBid": 48,
+    "yesBid": 50,
     "yesAsk": 51,
-    "last": 51,
-    "mid": 0.495,
+    "last": 52,
+    "mid": 0.505,
     "volume": null,
     "closeTime": "2026-08-02T18:10:00Z"
    },
@@ -2055,10 +2055,10 @@
     "eventTicker": "KXMLBGAME-26JUL301415CHCSTL",
     "title": "Chicago C vs St. Louis Winner?",
     "subtitle": "St. Louis",
-    "yesBid": 48,
-    "yesAsk": 49,
+    "yesBid": 47,
+    "yesAsk": 48,
     "last": 50,
-    "mid": 0.485,
+    "mid": 0.475,
     "volume": null,
     "closeTime": "2026-08-02T18:15:00Z"
    },
@@ -2203,10 +2203,10 @@
     "eventTicker": "KXMLBGAME-26JUL302140BOSATH",
     "title": "Boston vs A's Winner?",
     "subtitle": "Boston",
-    "yesBid": 55,
-    "yesAsk": 60,
-    "last": 61,
-    "mid": 0.575,
+    "yesBid": 56,
+    "yesAsk": 58,
+    "last": 60,
+    "mid": 0.57,
     "volume": null,
     "closeTime": "2026-08-03T01:40:00Z"
    },
@@ -2277,10 +2277,10 @@
     "eventTicker": "KXMLBGAME-26JUL302210SEALAD",
     "title": "Seattle vs Los Angeles D Winner?",
     "subtitle": "Seattle",
-    "yesBid": 41,
-    "yesAsk": 46,
-    "last": 0,
-    "mid": 0.435,
+    "yesBid": 40,
+    "yesAsk": 45,
+    "last": 45,
+    "mid": 0.425,
     "volume": null,
     "closeTime": "2026-08-03T02:10:00Z"
    },
@@ -2332,85 +2332,85 @@
    "ticker": "KXMLBGAME-26JUL302210SEALAD-SEA",
    "title": "Seattle vs Los Angeles D Winner?",
    "subtitle": "Seattle",
-   "yesBid": 41,
-   "yesAsk": 46
+   "yesBid": 40,
+   "yesAsk": 45
   },
   {
    "ticker": "KXMLBGAME-26JUL302210SEALAD-LAD",
    "title": "Seattle vs Los Angeles D Winner?",
    "subtitle": "Los Angeles D",
-   "yesBid": 57,
-   "yesAsk": 58
+   "yesBid": 58,
+   "yesAsk": 59
   },
   {
    "ticker": "KXMLBGAME-26JUL302140BOSATH-BOS",
    "title": "Boston vs A's Winner?",
    "subtitle": "Boston",
-   "yesBid": 55,
-   "yesAsk": 60
+   "yesBid": 56,
+   "yesAsk": 58
   },
   {
    "ticker": "KXMLBGAME-26JUL302140BOSATH-ATH",
    "title": "Boston vs A's Winner?",
    "subtitle": "A's",
-   "yesBid": 40,
-   "yesAsk": 45
+   "yesBid": 41,
+   "yesAsk": 44
   },
   {
    "ticker": "KXMLBGAME-26JUL302140SFSD-SF",
    "title": "San Francisco vs San Diego Winner?",
    "subtitle": "San Francisco",
-   "yesBid": 43,
-   "yesAsk": 48
+   "yesBid": 44,
+   "yesAsk": 47
   },
   {
    "ticker": "KXMLBGAME-26JUL302140SFSD-SD",
    "title": "San Francisco vs San Diego Winner?",
    "subtitle": "San Diego",
-   "yesBid": 53,
-   "yesAsk": 57
+   "yesBid": 52,
+   "yesAsk": 55
   },
   {
    "ticker": "KXMLBGAME-26JUL301910MIANYM-NYM",
    "title": "Miami vs New York M Winner?",
    "subtitle": "New York M",
-   "yesBid": 55,
-   "yesAsk": 58
+   "yesBid": 52,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26JUL301910MIANYM-MIA",
    "title": "Miami vs New York M Winner?",
    "subtitle": "Miami",
-   "yesBid": 41,
-   "yesAsk": 48
+   "yesBid": 43,
+   "yesAsk": 46
   },
   {
    "ticker": "KXMLBGAME-26JUL301915WSHATL-WSH",
    "title": "Washington vs Atlanta Winner?",
    "subtitle": "Washington",
-   "yesBid": 43,
-   "yesAsk": 47
+   "yesBid": 42,
+   "yesAsk": 45
   },
   {
    "ticker": "KXMLBGAME-26JUL301915WSHATL-ATL",
    "title": "Washington vs Atlanta Winner?",
    "subtitle": "Atlanta",
-   "yesBid": 52,
-   "yesAsk": 56
+   "yesBid": 53,
+   "yesAsk": 57
   },
   {
    "ticker": "KXMLBGAME-26JUL301910PITCIN-PIT",
    "title": "Pittsburgh vs Cincinnati Winner?",
    "subtitle": "Pittsburgh",
-   "yesBid": 47,
-   "yesAsk": 53
+   "yesBid": 49,
+   "yesAsk": 50
   },
   {
    "ticker": "KXMLBGAME-26JUL301910PITCIN-CIN",
    "title": "Pittsburgh vs Cincinnati Winner?",
    "subtitle": "Cincinnati",
    "yesBid": 48,
-   "yesAsk": 53
+   "yesAsk": 50
   }
  ]
 }
