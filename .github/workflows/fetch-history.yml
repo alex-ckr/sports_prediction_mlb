@@ -40,7 +40,7 @@ jobs:
             printf '%s' "$KALSHI_PRIVATE_KEY" > kalshi_key.pem
             chmod 600 kalshi_key.pem
           fi
-          python fetch_kalshi_history.py --days 400 --dump 2
+          python fetch_kalshi_history.py --days 400
           rm -f kalshi_key.pem
 
       - name: Commit the CSV
