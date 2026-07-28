@@ -374,11 +374,14 @@ def candle_leg(c, *names, field="close"):
                 continue
             blob = c[key]
             if isinstance(blob, dict):
+                # Inner names vary by tier too: hist uses "close",
+                # live uses "close_dollars". Try every combination.
                 for f in (field, "close", "mean", "last", "open", "price"):
-                    if f in blob:
-                        v = dec(blob[f])
-                        if v is not None:
-                            return v
+                    for fk in (f, f + "_dollars", f + "_cents"):
+                        if fk in blob:
+                            v = dec(blob[fk])
+                            if v is not None:
+                                return v
             else:
                 v = dec(blob)
                 if v is not None:
