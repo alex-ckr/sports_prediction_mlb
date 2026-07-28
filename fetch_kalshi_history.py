@@ -144,6 +144,51 @@ def field_ts(m, *names):
     return None
 
 
+
+TZ_OFFSET = {"EDT": 4, "EST": 5, "CDT": 5, "CST": 6,
+             "MDT": 6, "MST": 7, "PDT": 7, "PST": 8, "UTC": 0, "GMT": 0}
+MONTH_NAME = {"JANUARY":1,"FEBRUARY":2,"MARCH":3,"APRIL":4,"MAY":5,"JUNE":6,
+              "JULY":7,"AUGUST":8,"SEPTEMBER":9,"OCTOBER":10,"NOVEMBER":11,
+              "DECEMBER":12}
+
+
+def game_start(m):
+    """First pitch, in unix seconds.
+
+    Kalshi states it in plain English in rules_primary: "originally scheduled
+    for May 27, 2026 at 4:10 PM EDT". That is unambiguous, unlike the ticker,
+    whose time encoding varies in length. Falls back to open/close times.
+    """
+    rules = (m.get("rules_primary") or "") + " " + (m.get("rules_secondary") or "")
+    hit = re.search(
+        r"scheduled for\s+([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})\s+at\s+"
+        r"(\d{1,2}):(\d{2})\s*([AP])M\s+([A-Z]{3})", rules)
+    if hit:
+        mon, day, year, hh, mm, ampm, tz = hit.groups()
+        mnum = MONTH_NAME.get(mon.upper())
+        if mnum:
+            hh = int(hh) % 12 + (12 if ampm == "P" else 0)
+            try:
+                local = datetime(int(year), mnum, int(day), hh, int(mm),
+                                 tzinfo=timezone.utc)
+                return int(local.timestamp()) + TZ_OFFSET.get(tz, 0) * 3600
+            except ValueError:
+                pass
+    # Fallbacks: markets close when the game ends, so back off ~3.5 hours.
+    close = field_ts(m, "close_time", "expected_expiration_time", "settlement_ts")
+    if close:
+        return close - int(3.5 * 3600)
+    return None
+
+
+def yes_team(m):
+    """Which team a YES contract pays on."""
+    r = re.search(r"^If\s+(.+?)\s+wins", m.get("rules_primary") or "")
+    if r:
+        return r.group(1).strip()
+    return (m.get("yes_sub_title") or m.get("ticker", "").rsplit("-", 1)[-1])
+
+
 def start_from_ticker(ticker):
     """KXMLBGAME-26JUL292210SEALAD-SEA -> first pitch, 2026-07-29 22:10 UTC.
 
@@ -219,18 +264,52 @@ def list_markets(base, path, since_ts, until_ts):
     return out
 
 
-def candlesticks(base, ticker, start_ts, end_ts, interval=60):
-    for path in (f"/historical/markets/{ticker}/candlesticks",
-                 f"/series/{SERIES}/markets/{ticker}/candlesticks",
-                 f"/markets/{ticker}/candlesticks"):
+def candlestick_variants(start_ts, end_ts, interval):
+    """Kalshi's param spelling is not documented consistently. Try each."""
+    iso = lambda t: datetime.fromtimestamp(t, timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return [
+        {"start_ts": start_ts, "end_ts": end_ts, "period_interval": interval},
+        {"start_time": iso(start_ts), "end_time": iso(end_ts), "period_interval": interval},
+        {"min_ts": start_ts, "max_ts": end_ts, "period_interval": interval},
+        {"start_ts": start_ts, "end_ts": end_ts, "period_interval_minutes": interval},
+        {"period_interval": interval},
+    ]
+
+
+CANDLE_ROUTE = None      # remembered once a combination works
+
+
+def candlesticks(base, ticker, start_ts, end_ts, interval=60, verbose=False):
+    global CANDLE_ROUTE
+    paths = [(HIST, f"/historical/markets/{ticker}/candlesticks"),
+             (LIVE, f"/series/{SERIES}/markets/{ticker}/candlesticks"),
+             (LIVE, f"/markets/{ticker}/candlesticks")]
+    variants = candlestick_variants(start_ts, end_ts, interval)
+
+    # Once one route works, stop probing the others.
+    if CANDLE_ROUTE:
+        b, path_tpl, vi = CANDLE_ROUTE
         try:
-            d = get(base, path, start_ts=start_ts, end_ts=end_ts,
-                    period_interval=interval)
-            c = d.get("candlesticks") or []
-            if c:
-                return c
+            d = get(b, path_tpl.format(ticker=ticker), **variants[vi])
+            return d.get("candlesticks") or []
         except Exception:
-            continue
+            CANDLE_ROUTE = None
+
+    for b, path in paths:
+        tpl = path.replace(ticker, "{ticker}")
+        for vi, params in enumerate(variants):
+            try:
+                d = get(b, path, **params)
+            except Exception as e:
+                if verbose:
+                    print(f"    FAIL {b}{path} {list(params)} -> {e}")
+                continue
+            c = d.get("candlesticks") or []
+            if verbose:
+                print(f"    OK   {b}{path} {list(params)} -> {len(c)} candles")
+            if c:
+                CANDLE_ROUTE = (b, tpl, vi)
+                return c
     return []
 
 
@@ -305,6 +384,21 @@ def main():
             print(json.dumps(m, indent=2)[:2500])
             print("-" * 70)
         if markets:
+            m0 = markets[0]
+            print("\n" + "=" * 70)
+            print("PARSED FROM THAT MARKET")
+            print("=" * 70)
+            gs = game_start(m0)
+            print(f"  first pitch : {datetime.fromtimestamp(gs, timezone.utc)} UTC"
+                  if gs else "  first pitch : UNPARSED")
+            print(f"  yes team    : {yes_team(m0)}")
+            print(f"  open_time   : {m0.get('open_time')}")
+            print(f"  close_time  : {m0.get('close_time')}")
+            print("\n" + "=" * 70)
+            print("CANDLESTICK PROBE (every route x every param spelling)")
+            print("=" * 70)
+            o = field_ts(m0, "open_time", "created_time") or (gs - 3 * 86400)
+            candlesticks(HIST, m0.get("ticker"), o, (gs or o) + 3600, 60, verbose=True)
             t = markets[0].get("ticker")
             print("\n" + "=" * 70)
             print(f"RAW CANDLESTICKS for {t}")
@@ -348,11 +442,10 @@ def main():
     for i, m in enumerate(unique, 1):
         ticker = m.get("ticker", "")
         # close_time is settlement; first pitch comes from the ticker.
-        settle_ts = field_ts(m, "close_time", "close_ts", "expiration_time",
-                             "expiration_ts", "settlement_time")
-        start_ts = start_from_ticker(ticker) or settle_ts
-        open_ts = field_ts(m, "open_time", "open_ts") or (start_ts - 3 * 86400
-                                                          if start_ts else None)
+        settle_ts = field_ts(m, "close_time", "settlement_ts", "expiration_time")
+        start_ts = game_start(m)
+        open_ts = field_ts(m, "open_time", "created_time") or (
+            start_ts - 3 * 86400 if start_ts else None)
         if not start_ts or not open_ts:
             no_time += 1
             continue
@@ -382,9 +475,10 @@ def main():
             "date": datetime.fromtimestamp(start_ts, timezone.utc).strftime("%Y-%m-%d"),
             "ticker": ticker,
             "event": m.get("event_ticker", ""),
-            "yes_team": m.get("yes_sub_title") or m.get("subtitle") or "",
+            "yes_team": yes_team(m),
+            "winner": m.get("expiration_value", ""),
             "close_bid": q["bid"], "close_ask": q["ask"], "close_mid": mid,
-            "volume": q["volume"] if q["volume"] is not None else m.get("volume"),
+            "volume": q["volume"] if q["volume"] is not None else m.get("volume_fp"),
             "open_interest": q["open_interest"],
             "result": m.get("result"),
             "settled_ts": start_ts,
@@ -399,8 +493,9 @@ def main():
         print("No candlesticks came back. Try --interval 1440.")
         return 1
 
-    fields = ["date", "ticker", "event", "yes_team", "close_bid", "close_ask",
-              "close_mid", "volume", "open_interest", "result", "settled_ts"]
+    fields = ["date", "ticker", "event", "yes_team", "winner", "close_bid",
+              "close_ask", "close_mid", "volume", "open_interest", "result",
+              "settled_ts"]
     from pathlib import Path as _P
     _P(args.out).parent.mkdir(parents=True, exist_ok=True)
     with open(args.out, "w", newline="") as f:
