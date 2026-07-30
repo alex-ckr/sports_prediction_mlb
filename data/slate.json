@@ -409,15 +409,26 @@
     "bp_rate": 4.044,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": 0.3021,
+    "woba_vs_hand": 0.2948,
     "woba_overall": 0.3038,
-    "lineup_woba": 0.3038,
+    "lineup_woba": 0.2948,
     "staff_fip": 4.013,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0028,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "A.J. Ewing",
+     "Francisco Lindor",
+     "Bo Bichette",
+     "Carson Benge",
+     "Luis Robert Jr.",
+     "Brett Baty",
+     "Marcus Semien",
+     "Jorge Polanco",
+     "Francisco Alvarez"
+    ]
    },
    "away": {
     "id": 146,
@@ -435,15 +446,26 @@
     "bp_rate": 4.056,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3266,
+    "woba_vs_hand": 0.333,
     "woba_overall": 0.3225,
-    "lineup_woba": 0.3225,
+    "lineup_woba": 0.3294,
     "staff_fip": 4.022,
     "ptype_rv100": null,
     "travel_runs": 0.011,
     "park_fit_runs": 0.001,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Liam Hicks",
+     "Xavier Edwards",
+     "Otto Lopez",
+     "Kyle Stowers",
+     "Heriberto Hern\u00e1ndez",
+     "Griffin Conine",
+     "Jakob Marsee",
+     "Graham Pauley",
+     "Joe Mack"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -459,7 +481,7 @@
     "closeTime": "2026-08-04T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824894,
@@ -483,15 +505,26 @@
     "bp_rate": 3.898,
     "bp_is_proxy": false,
     "bp_ip3": 12.7,
-    "woba_vs_hand": 0.326,
+    "woba_vs_hand": 0.3376,
     "woba_overall": 0.319,
-    "lineup_woba": 0.319,
+    "lineup_woba": 0.3326,
     "staff_fip": 4.143,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0058,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Drake Baldwin",
+     "Ronald Acu\u00f1a Jr.",
+     "Matt Olson",
+     "Michael Harris II",
+     "Ozzie Albies",
+     "Mauricio Dub\u00f3n",
+     "Dominic Smith",
+     "Mike Yastrzemski",
+     "Jim Jarvis"
+    ]
    },
    "away": {
     "id": 120,
@@ -509,15 +542,26 @@
     "bp_rate": 5.2,
     "bp_is_proxy": false,
     "bp_ip3": 14.0,
-    "woba_vs_hand": 0.3318,
+    "woba_vs_hand": 0.3359,
     "woba_overall": 0.3376,
-    "lineup_woba": 0.3376,
+    "lineup_woba": 0.335,
     "staff_fip": 4.826,
     "ptype_rv100": null,
     "travel_runs": 0.0054,
     "park_fit_runs": 0.0055,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "James Wood",
+     "Luis Garc\u00eda Jr.",
+     "Dylan Crews",
+     "CJ Abrams",
+     "Daylen Lile",
+     "Keibert Ruiz",
+     "Jos\u00e9 Tena",
+     "Jorbit Vivas",
+     "Nasim Nu\u00f1ez"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -533,7 +577,7 @@
     "closeTime": "2026-08-04T23:15:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824974,
