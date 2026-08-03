@@ -113,15 +113,26 @@
     "bp_rate": 3.63,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": 0.3161,
+    "woba_vs_hand": 0.3186,
     "woba_overall": 0.3157,
-    "lineup_woba": 0.3157,
+    "lineup_woba": 0.3146,
     "staff_fip": 3.608,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0736,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Trent Grisham",
+     "Ben Rice",
+     "Luis Garc\u00eda Jr.",
+     "Spencer Jones",
+     "Jasson Dom\u00ednguez",
+     "Jazz Chisholm Jr.",
+     "Ryan McMahon",
+     "Jos\u00e9 Caballero",
+     "Austin Wells"
+    ]
    },
    "away": {
     "id": 138,
@@ -139,15 +150,26 @@
     "bp_rate": 4.177,
     "bp_is_proxy": false,
     "bp_ip3": 8.0,
-    "woba_vs_hand": 0.3046,
+    "woba_vs_hand": 0.3123,
     "woba_overall": 0.305,
-    "lineup_woba": 0.305,
+    "lineup_woba": 0.3117,
     "staff_fip": 4.032,
     "ptype_rv100": null,
     "travel_runs": 0.0034,
     "park_fit_runs": -0.016,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "JJ Wetherholt",
+     "Jordan Walker",
+     "Alec Burleson",
+     "Iv\u00e1n Herrera",
+     "Lars Nootbaar",
+     "Masyn Winn",
+     "Nathan Church",
+     "Jos\u00e9 Ferm\u00edn",
+     "Jimmy Crooks"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -163,7 +185,7 @@
     "closeTime": "2026-08-08T23:05:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823757,
