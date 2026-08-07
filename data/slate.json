@@ -557,15 +557,26 @@
     "bp_rate": 3.628,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3308,
+    "woba_vs_hand": 0.3358,
     "woba_overall": 0.3236,
-    "lineup_woba": 0.3236,
+    "lineup_woba": 0.3316,
     "staff_fip": 3.53,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0379,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Brice Turang",
+     "Jackson Chourio",
+     "Jake Bauers",
+     "William Contreras",
+     "Garrett Mitchell",
+     "Christian Yelich",
+     "Luis Lara",
+     "Cooper Pratt",
+     "David Hamilton"
+    ]
    },
    "away": {
     "id": 142,
@@ -583,7 +594,7 @@
     "bp_rate": 4.185,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.2999,
+    "woba_vs_hand": 0.3208,
     "woba_overall": 0.3176,
     "lineup_woba": 0.3176,
     "staff_fip": 4.219,
@@ -591,7 +602,18 @@
     "travel_runs": 0.0044,
     "park_fit_runs": 0.0044,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Austin Martin",
+     "Ryan Jeffers",
+     "Royce Lewis",
+     "Josh Bell",
+     "Kody Clemens",
+     "Luke Keaschall",
+     "Kaelen Culpepper",
+     "Victor Caratini",
+     "Ryan Kreidler"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -607,7 +629,7 @@
     "closeTime": "2026-08-12T18:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824081,
@@ -631,15 +653,26 @@
     "bp_rate": 5.493,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": 0.3122,
+    "woba_vs_hand": 0.3187,
     "woba_overall": 0.3111,
-    "lineup_woba": 0.3111,
+    "lineup_woba": 0.3189,
     "staff_fip": 4.74,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0029,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Carter Jensen",
+     "Bobby Witt Jr.",
+     "Jac Caglianone",
+     "Salvador Perez",
+     "Isaac Collins",
+     "Nick Loftin",
+     "Michael Massey",
+     "Starling Marte",
+     "Tyler Tolbert"
+    ]
    },
    "away": {
     "id": 112,
@@ -657,15 +690,26 @@
     "bp_rate": 4.452,
     "bp_is_proxy": false,
     "bp_ip3": 13.3,
-    "woba_vs_hand": 0.3519,
+    "woba_vs_hand": 0.3405,
     "woba_overall": 0.3319,
-    "lineup_woba": 0.3319,
+    "lineup_woba": 0.3357,
     "staff_fip": 4.507,
     "ptype_rv100": null,
     "travel_runs": 0.0041,
     "park_fit_runs": 0.0029,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Pete Crow-Armstrong",
+     "Seiya Suzuki",
+     "Alex Bregman",
+     "Michael Busch",
+     "Nico Hoerner",
+     "Ian Happ",
+     "Carson Kelly",
+     "Pedro Ram\u00edrez",
+     "Dansby Swanson"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -681,7 +725,7 @@
     "closeTime": "2026-08-12T18:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823024,
@@ -779,15 +823,26 @@
     "bp_rate": 4.267,
     "bp_is_proxy": false,
     "bp_ip3": 7.7,
-    "woba_vs_hand": 0.3142,
+    "woba_vs_hand": 0.3218,
     "woba_overall": 0.3174,
-    "lineup_woba": 0.3174,
+    "lineup_woba": 0.3219,
     "staff_fip": 4.161,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0133,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Joc Pederson",
+     "Wyatt Langford",
+     "Corey Seager",
+     "Brandon Nimmo",
+     "Ezequiel Duran",
+     "Evan Carter",
+     "Jake Burger",
+     "Elias D\u00edaz",
+     "Nicky Lopez"
+    ]
    },
    "away": {
     "id": 110,
@@ -805,15 +860,26 @@
     "bp_rate": 4.098,
     "bp_is_proxy": false,
     "bp_ip3": 10.7,
-    "woba_vs_hand": 0.3156,
+    "woba_vs_hand": 0.3015,
     "woba_overall": 0.3141,
-    "lineup_woba": 0.3141,
+    "lineup_woba": 0.3027,
     "staff_fip": 4.035,
     "ptype_rv100": null,
     "travel_runs": 0.0373,
     "park_fit_runs": 0.0051,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Gunnar Henderson",
+     "Pete Alonso",
+     "Jackson Holliday",
+     "Tyler O'Neill",
+     "Dylan Beavers",
+     "Leody Taveras",
+     "Coby Mayo",
+     "Colton Cowser",
+     "Carlos Narv\u00e1ez"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -829,7 +895,7 @@
     "closeTime": "2026-08-12T18:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 825051,
