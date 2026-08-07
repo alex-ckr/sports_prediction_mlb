@@ -779,15 +779,26 @@
     "bp_rate": 3.82,
     "bp_is_proxy": false,
     "bp_ip3": 7.7,
-    "woba_vs_hand": 0.3017,
+    "woba_vs_hand": 0.3213,
     "woba_overall": 0.3117,
-    "lineup_woba": 0.3117,
+    "lineup_woba": 0.3229,
     "staff_fip": 4.369,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0075,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Geraldo Perdomo",
+     "Corbin Carroll",
+     "Gabriel Moreno",
+     "Ketel Marte",
+     "Lars Nootbaar",
+     "Nolan Arenado",
+     "Max Kepler",
+     "Tim Tawa",
+     "Ryan Waldschmidt"
+    ]
    },
    "away": {
     "id": 135,
@@ -805,19 +816,30 @@
     "bp_rate": 3.43,
     "bp_is_proxy": false,
     "bp_ip3": 10.7,
-    "woba_vs_hand": 0.2927,
+    "woba_vs_hand": 0.2996,
     "woba_overall": 0.3064,
-    "lineup_woba": 0.3064,
+    "lineup_woba": 0.3004,
     "staff_fip": 4.05,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0009,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Fernando Tatis Jr.",
+     "Luis Rengifo",
+     "Manny Machado",
+     "Ty France",
+     "Jackson Merrill",
+     "Xander Bogaerts",
+     "Gavin Sheets",
+     "Freddy Fermin",
+     "Jake Cronenworth"
+    ]
    },
    "kalshi": null,
    "kalshiWhy": "no market matched both team codes",
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823349,
