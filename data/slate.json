@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-07T17:36:29.864789+00:00",
+ "generatedAt": "2026-08-07T21:20:31.861907+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 823349,
    "date": "2026-08-07",
    "startsAt": "2026-08-07T22:40:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "PNC Park",
    "home": {
     "id": 134,
@@ -39,26 +39,15 @@
     "bp_rate": 4.124,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3179,
+    "woba_vs_hand": 0.3051,
     "woba_overall": 0.3285,
-    "lineup_woba": 0.3211,
+    "lineup_woba": 0.3285,
     "staff_fip": 3.985,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0026,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Jake Mangum",
-     "Brandon Lowe",
-     "Bryan Reynolds",
-     "Esmerlyn Valdez",
-     "Spencer Horwitz",
-     "Nick Gonzales",
-     "Ronny Simon",
-     "Jared Triolo",
-     "Rafael Flores Jr."
-    ]
+    "oppHand": "L"
    },
    "away": {
     "id": 121,
@@ -76,26 +65,15 @@
     "bp_rate": 4.218,
     "bp_is_proxy": false,
     "bp_ip3": 12.0,
-    "woba_vs_hand": 0.2947,
+    "woba_vs_hand": 0.301,
     "woba_overall": 0.3049,
-    "lineup_woba": 0.296,
+    "lineup_woba": 0.3049,
     "staff_fip": 4.045,
     "ptype_rv100": null,
     "travel_runs": 0.0011,
     "park_fit_runs": -0.027,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "A.J. Ewing",
-     "Francisco Lindor",
-     "Bo Bichette",
-     "Carson Benge",
-     "Jared Young",
-     "Marcus Semien",
-     "Brett Baty",
-     "Jorge Polanco",
-     "Luis Torrens"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "home",
@@ -103,21 +81,21 @@
     "eventTicker": "KXMLBGAME-26AUG091335NYMPIT",
     "title": "New York M vs Pittsburgh Winner?",
     "subtitle": "Pittsburgh",
-    "yesBid": 53,
+    "yesBid": 54,
     "yesAsk": 55,
     "last": 55,
-    "mid": 0.54,
+    "mid": 0.545,
     "volume": null,
     "closeTime": "2026-08-12T17:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 823428,
    "date": "2026-08-07",
    "startsAt": "2026-08-07T22:40:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Citizens Bank Park",
    "home": {
     "id": 143,
@@ -135,26 +113,15 @@
     "bp_rate": 3.68,
     "bp_is_proxy": false,
     "bp_ip3": 12.0,
-    "woba_vs_hand": 0.3386,
+    "woba_vs_hand": 0.3123,
     "woba_overall": 0.3107,
-    "lineup_woba": 0.3439,
+    "lineup_woba": 0.3107,
     "staff_fip": 3.779,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0247,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Kyle Schwarber",
-     "Trea Turner",
-     "Bryce Harper",
-     "Luis Arraez",
-     "Alec Bohm",
-     "Brandon Marsh",
-     "J.T. Realmuto",
-     "Bryson Stott",
-     "Justin Crawford"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 141,
@@ -172,7 +139,7 @@
     "bp_rate": 3.711,
     "bp_is_proxy": false,
     "bp_ip3": 15.3,
-    "woba_vs_hand": 0.3108,
+    "woba_vs_hand": 0.3053,
     "woba_overall": 0.2988,
     "lineup_woba": 0.2988,
     "staff_fip": 4.122,
@@ -180,18 +147,7 @@
     "travel_runs": 0.0617,
     "park_fit_runs": -0.002,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Nathan Lukes",
-     "Alejandro Kirk",
-     "Jes\u00fas S\u00e1nchez",
-     "George Springer",
-     "Kazuma Okamoto",
-     "Andr\u00e9s Gim\u00e9nez",
-     "Ernie Clement",
-     "Josh Smith",
-     "Brett Bateman"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "away",
@@ -207,13 +163,13 @@
     "closeTime": "2026-08-12T17:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 822699,
    "date": "2026-08-07",
    "startsAt": "2026-08-07T22:45:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Nationals Park",
    "home": {
     "id": 120,
@@ -231,26 +187,15 @@
     "bp_rate": 5.329,
     "bp_is_proxy": false,
     "bp_ip3": 16.3,
-    "woba_vs_hand": 0.3158,
+    "woba_vs_hand": 0.331,
     "woba_overall": 0.3344,
-    "lineup_woba": 0.3188,
+    "lineup_woba": 0.3344,
     "staff_fip": 4.928,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0015,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "CJ Abrams",
-     "Abimelec Ortiz",
-     "Brady House",
-     "Daylen Lile",
-     "Dylan Crews",
-     "Harry Ford",
-     "Nasim Nu\u00f1ez",
-     "Jos\u00e9 Tena",
-     "Jacob Young"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 113,
@@ -268,26 +213,15 @@
     "bp_rate": 4.99,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": 0.2932,
+    "woba_vs_hand": 0.3071,
     "woba_overall": 0.3126,
-    "lineup_woba": 0.2959,
+    "lineup_woba": 0.3126,
     "staff_fip": 4.73,
     "ptype_rv100": null,
     "travel_runs": 0.004,
     "park_fit_runs": -0.0047,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Elly De La Cruz",
-     "Sal Stewart",
-     "JJ Bleday",
-     "Tyler Stephenson",
-     "Eugenio Su\u00e1rez",
-     "H\u00e9ctor Rodr\u00edguez",
-     "Noelvi Marte",
-     "Ke'Bryan Hayes",
-     "Matt McLain"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "home",
@@ -295,21 +229,21 @@
     "eventTicker": "KXMLBGAME-26AUG091215CINWSH",
     "title": "Cincinnati vs Washington Winner?",
     "subtitle": "Washington",
-    "yesBid": 48,
-    "yesAsk": 50,
-    "last": 50,
-    "mid": 0.49,
+    "yesBid": 47,
+    "yesAsk": 49,
+    "last": 49,
+    "mid": 0.48,
     "volume": null,
     "closeTime": "2026-08-12T16:15:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 823515,
    "date": "2026-08-07",
    "startsAt": "2026-08-07T23:05:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Yankee Stadium",
    "home": {
     "id": 147,
@@ -327,26 +261,15 @@
     "bp_rate": 3.758,
     "bp_is_proxy": false,
     "bp_ip3": 6.7,
-    "woba_vs_hand": 0.339,
+    "woba_vs_hand": 0.3163,
     "woba_overall": 0.3161,
-    "lineup_woba": 0.3323,
+    "lineup_woba": 0.3161,
     "staff_fip": 3.648,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0831,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Trent Grisham",
-     "Ben Rice",
-     "Heliot Ramos",
-     "Luis Garc\u00eda Jr.",
-     "Jazz Chisholm Jr.",
-     "Spencer Jones",
-     "George Lombard Jr.",
-     "Ryan McMahon",
-     "Austin Wells"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 144,
@@ -364,26 +287,15 @@
     "bp_rate": 3.671,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.2819,
+    "woba_vs_hand": 0.3125,
     "woba_overall": 0.3222,
-    "lineup_woba": 0.2822,
+    "lineup_woba": 0.3222,
     "staff_fip": 4.015,
     "ptype_rv100": null,
     "travel_runs": 0.0075,
     "park_fit_runs": 0.0321,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Ronald Acu\u00f1a Jr.",
-     "Drake Baldwin",
-     "Ozzie Albies",
-     "Matt Olson",
-     "Mauricio Dub\u00f3n",
-     "Lane Thomas",
-     "Austin Riley",
-     "Sean Murphy",
-     "Ha-Seong Kim"
-    ]
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "home",
@@ -399,13 +311,13 @@
     "closeTime": "2026-08-12T17:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 824727,
    "date": "2026-08-07",
    "startsAt": "2026-08-07T23:10:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Fenway Park",
    "home": {
     "id": 111,
@@ -423,26 +335,15 @@
     "bp_rate": 3.829,
     "bp_is_proxy": false,
     "bp_ip3": 17.0,
-    "woba_vs_hand": 0.3114,
+    "woba_vs_hand": 0.3086,
     "woba_overall": 0.3168,
-    "lineup_woba": 0.3149,
+    "lineup_woba": 0.3168,
     "staff_fip": 3.693,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.004,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Nick Sogard",
-     "Ceddanne Rafaela",
-     "Wilyer Abreu",
-     "Caleb Durbin",
-     "Masataka Yoshida",
-     "Andruw Monasterio",
-     "Jarren Duran",
-     "Anthony Seigler",
-     "Jake Rogers"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 133,
@@ -460,26 +361,15 @@
     "bp_rate": 4.947,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.3108,
+    "woba_vs_hand": 0.3151,
     "woba_overall": 0.316,
-    "lineup_woba": 0.31,
+    "lineup_woba": 0.316,
     "staff_fip": 4.909,
     "ptype_rv100": null,
     "travel_runs": 0.0074,
     "park_fit_runs": -0.0071,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Henry Bolte",
-     "Jacob Wilson",
-     "Jonah Heim",
-     "Tyler Soderstrom",
-     "Tommy White",
-     "Brian Serven",
-     "Lawrence Butler",
-     "Max Muncy",
-     "Jonathan Ornelas"
-    ]
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "home",
@@ -487,21 +377,21 @@
     "eventTicker": "KXMLBGAME-26AUG091335ATHBOS",
     "title": "A's vs Boston Winner?",
     "subtitle": "Boston",
-    "yesBid": 64,
+    "yesBid": 66,
     "yesAsk": 67,
     "last": 67,
-    "mid": 0.655,
+    "mid": 0.665,
     "volume": null,
     "closeTime": "2026-08-12T17:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 823836,
    "date": "2026-08-07",
    "startsAt": "2026-08-07T23:10:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "loanDepot park",
    "home": {
     "id": 146,
@@ -519,26 +409,15 @@
     "bp_rate": 4.065,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3326,
+    "woba_vs_hand": 0.3228,
     "woba_overall": 0.3199,
-    "lineup_woba": 0.3297,
+    "lineup_woba": 0.3199,
     "staff_fip": 3.982,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0081,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Kyle Stowers",
-     "Otto Lopez",
-     "Griffin Conine",
-     "Xavier Edwards",
-     "Owen Caissie",
-     "Leo Jim\u00e9nez",
-     "Jakob Marsee",
-     "Joe Mack",
-     "Esteury Ruiz"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 108,
@@ -556,26 +435,15 @@
     "bp_rate": 4.757,
     "bp_is_proxy": false,
     "bp_ip3": 9.3,
-    "woba_vs_hand": 0.3067,
+    "woba_vs_hand": 0.3048,
     "woba_overall": 0.3065,
-    "lineup_woba": 0.3052,
+    "lineup_woba": 0.3065,
     "staff_fip": 4.462,
     "ptype_rv100": null,
     "travel_runs": 0.0096,
     "park_fit_runs": -0.0032,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Wade Meckler",
-     "Mike Trout",
-     "Nolan Schanuel",
-     "Zach Neto",
-     "Vaughn Grissom",
-     "Mois\u00e9s Ballesteros",
-     "Oswald Peraza",
-     "Josh Lowe",
-     "Tyler Heineman"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "home",
@@ -591,13 +459,13 @@
     "closeTime": "2026-08-12T17:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 824566,
    "date": "2026-08-07",
    "startsAt": "2026-08-07T23:40:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Rate Field",
    "home": {
     "id": 145,
@@ -615,26 +483,15 @@
     "bp_rate": 3.858,
     "bp_is_proxy": false,
     "bp_ip3": 15.0,
-    "woba_vs_hand": 0.3123,
+    "woba_vs_hand": 0.3128,
     "woba_overall": 0.3165,
-    "lineup_woba": 0.3068,
+    "lineup_woba": 0.3165,
     "staff_fip": 4.165,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0085,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Chase Meidroth",
-     "Munetaka Murakami",
-     "Miguel Vargas",
-     "Randal Grichuk",
-     "Colson Montgomery",
-     "Brenton Doyle",
-     "Braden Montgomery",
-     "Edgar Quero",
-     "Luisangel Acu\u00f1a"
-    ]
+    "oppHand": "L"
    },
    "away": {
     "id": 114,
@@ -652,26 +509,15 @@
     "bp_rate": 3.899,
     "bp_is_proxy": false,
     "bp_ip3": 13.3,
-    "woba_vs_hand": 0.3327,
+    "woba_vs_hand": 0.2926,
     "woba_overall": 0.3022,
-    "lineup_woba": 0.3281,
+    "lineup_woba": 0.3022,
     "staff_fip": 3.935,
     "ptype_rv100": null,
     "travel_runs": 0.0281,
     "park_fit_runs": -0.0026,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Steven Kwan",
-     "Chase DeLauter",
-     "Jos\u00e9 Ram\u00edrez",
-     "Jo Adell",
-     "Angel Mart\u00ednez",
-     "Rhys Hoskins",
-     "Brayan Rocchio",
-     "Austin Hedges",
-     "Angel Genao"
-    ]
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "home",
@@ -681,19 +527,19 @@
     "subtitle": "Chicago WS",
     "yesBid": 52,
     "yesAsk": 53,
-    "last": 54,
+    "last": 53,
     "mid": 0.525,
     "volume": null,
     "closeTime": "2026-08-12T18:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 823750,
    "date": "2026-08-07",
    "startsAt": "2026-08-07T23:40:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "American Family Field",
    "home": {
     "id": 158,
@@ -753,10 +599,10 @@
     "eventTicker": "KXMLBGAME-26AUG091410MINMIL",
     "title": "Minnesota vs Milwaukee Winner?",
     "subtitle": "Minnesota",
-    "yesBid": 32,
-    "yesAsk": 34,
-    "last": 34,
-    "mid": 0.33,
+    "yesBid": 30,
+    "yesAsk": 33,
+    "last": 32,
+    "mid": 0.315,
     "volume": null,
     "closeTime": "2026-08-12T18:10:00Z"
    },
@@ -767,7 +613,7 @@
    "gamePk": 824081,
    "date": "2026-08-07",
    "startsAt": "2026-08-08T00:10:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Kauffman Stadium",
    "home": {
     "id": 118,
@@ -785,7 +631,7 @@
     "bp_rate": 5.493,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3122,
     "woba_overall": 0.3111,
     "lineup_woba": 0.3111,
     "staff_fip": 4.74,
@@ -793,7 +639,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0029,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "away": {
     "id": 112,
@@ -802,12 +648,12 @@
     "nick": "Cubs",
     "wins": 67,
     "losses": 49,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Kevin Gausman",
+    "starterId": 592332,
+    "starterHand": "R",
+    "sp_rate": 3.503,
+    "sp_era": 4.38,
+    "sp_ip": 5.54,
     "bp_rate": 4.452,
     "bp_is_proxy": false,
     "bp_ip3": 13.3,
@@ -827,10 +673,10 @@
     "eventTicker": "KXMLBGAME-26AUG091410CHCKC",
     "title": "Chicago C vs Kansas City Winner?",
     "subtitle": "Kansas City",
-    "yesBid": 38,
+    "yesBid": 39,
     "yesAsk": 41,
     "last": 41,
-    "mid": 0.395,
+    "mid": 0.4,
     "volume": null,
     "closeTime": "2026-08-12T18:10:00Z"
    },
@@ -841,7 +687,7 @@
    "gamePk": 823024,
    "date": "2026-08-07",
    "startsAt": "2026-08-08T00:15:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Busch Stadium",
    "home": {
     "id": 138,
@@ -859,26 +705,15 @@
     "bp_rate": 4.264,
     "bp_is_proxy": false,
     "bp_ip3": 5.3,
-    "woba_vs_hand": 0.3181,
+    "woba_vs_hand": 0.3074,
     "woba_overall": 0.3067,
-    "lineup_woba": 0.2856,
+    "lineup_woba": 0.3067,
     "staff_fip": 4.2,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0044,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "JJ Wetherholt",
-     "Jordan Walker",
-     "Alec Burleson",
-     "Iv\u00e1n Herrera",
-     "Jimmy Crooks",
-     "Masyn Winn",
-     "Nathan Church",
-     "Bryan Torres",
-     "C\u00e9sar Prieto"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 115,
@@ -896,26 +731,15 @@
     "bp_rate": 4.671,
     "bp_is_proxy": false,
     "bp_ip3": 9.7,
-    "woba_vs_hand": 0.3445,
+    "woba_vs_hand": 0.3324,
     "woba_overall": 0.3257,
-    "lineup_woba": 0.3407,
+    "lineup_woba": 0.3257,
     "staff_fip": 4.9,
     "ptype_rv100": null,
     "travel_runs": 0.0315,
     "park_fit_runs": 0.0051,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Jake McCarthy",
-     "Cole Carrigg",
-     "Mickey Moniak",
-     "Hunter Goodman",
-     "TJ Rumfield",
-     "Willi Castro",
-     "Ezequiel Tovar",
-     "Troy Johnston",
-     "Edouard Julien"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "home",
@@ -925,19 +749,19 @@
     "subtitle": "St. Louis",
     "yesBid": 57,
     "yesAsk": 58,
-    "last": 61,
+    "last": 58,
     "mid": 0.575,
     "volume": null,
     "closeTime": "2026-08-12T18:15:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 822863,
    "date": "2026-08-07",
    "startsAt": "2026-08-08T00:15:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Globe Life Field",
    "home": {
     "id": 140,
@@ -997,10 +821,10 @@
     "eventTicker": "KXMLBGAME-26AUG091435BALTEX",
     "title": "Baltimore vs Texas Winner?",
     "subtitle": "Texas",
-    "yesBid": 53,
+    "yesBid": 55,
     "yesAsk": 56,
-    "last": 53,
-    "mid": 0.545,
+    "last": 56,
+    "mid": 0.555,
     "volume": null,
     "closeTime": "2026-08-12T18:35:00Z"
    },
@@ -1011,7 +835,7 @@
    "gamePk": 825051,
    "date": "2026-08-07",
    "startsAt": "2026-08-08T01:40:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Chase Field",
    "home": {
     "id": 109,
@@ -1133,10 +957,10 @@
     "eventTicker": "KXMLBGAME-26AUG092020HOUSD",
     "title": "Houston vs San Diego Winner?",
     "subtitle": "San Diego",
-    "yesBid": 51,
-    "yesAsk": 53,
+    "yesBid": 52,
+    "yesAsk": 54,
     "last": 54,
-    "mid": 0.52,
+    "mid": 0.53,
     "volume": null,
     "closeTime": "2026-08-13T00:20:00Z"
    },
@@ -1209,7 +1033,7 @@
     "subtitle": "Tampa Bay",
     "yesBid": 50,
     "yesAsk": 52,
-    "last": 53,
+    "last": 52,
     "mid": 0.51,
     "volume": null,
     "closeTime": "2026-08-12T20:10:00Z"
@@ -1429,10 +1253,10 @@
     "eventTicker": "KXMLBGAME-26AUG091335ATHBOS",
     "title": "A's vs Boston Winner?",
     "subtitle": "Boston",
-    "yesBid": 64,
+    "yesBid": 66,
     "yesAsk": 67,
     "last": 67,
-    "mid": 0.655,
+    "mid": 0.665,
     "volume": null,
     "closeTime": "2026-08-12T17:35:00Z"
    },
@@ -1651,10 +1475,10 @@
     "eventTicker": "KXMLBGAME-26AUG091335NYMPIT",
     "title": "New York M vs Pittsburgh Winner?",
     "subtitle": "Pittsburgh",
-    "yesBid": 53,
+    "yesBid": 54,
     "yesAsk": 55,
     "last": 55,
-    "mid": 0.54,
+    "mid": 0.545,
     "volume": null,
     "closeTime": "2026-08-12T17:35:00Z"
    },
@@ -1725,10 +1549,10 @@
     "eventTicker": "KXMLBGAME-26AUG091215CINWSH",
     "title": "Cincinnati vs Washington Winner?",
     "subtitle": "Washington",
-    "yesBid": 48,
-    "yesAsk": 50,
-    "last": 50,
-    "mid": 0.49,
+    "yesBid": 47,
+    "yesAsk": 49,
+    "last": 49,
+    "mid": 0.48,
     "volume": null,
     "closeTime": "2026-08-12T16:15:00Z"
    },
@@ -1799,10 +1623,10 @@
     "eventTicker": "KXMLBGAME-26AUG091410CHCKC",
     "title": "Chicago C vs Kansas City Winner?",
     "subtitle": "Kansas City",
-    "yesBid": 38,
+    "yesBid": 39,
     "yesAsk": 41,
     "last": 41,
-    "mid": 0.395,
+    "mid": 0.4,
     "volume": null,
     "closeTime": "2026-08-12T18:10:00Z"
    },
@@ -1873,10 +1697,10 @@
     "eventTicker": "KXMLBGAME-26AUG091410MINMIL",
     "title": "Minnesota vs Milwaukee Winner?",
     "subtitle": "Minnesota",
-    "yesBid": 32,
-    "yesAsk": 34,
-    "last": 34,
-    "mid": 0.33,
+    "yesBid": 30,
+    "yesAsk": 33,
+    "last": 32,
+    "mid": 0.315,
     "volume": null,
     "closeTime": "2026-08-12T18:10:00Z"
    },
@@ -1947,10 +1771,10 @@
     "eventTicker": "KXMLBGAME-26AUG092020HOUSD",
     "title": "Houston vs San Diego Winner?",
     "subtitle": "San Diego",
-    "yesBid": 51,
-    "yesAsk": 53,
+    "yesBid": 52,
+    "yesAsk": 54,
     "last": 54,
-    "mid": 0.52,
+    "mid": 0.53,
     "volume": null,
     "closeTime": "2026-08-13T00:20:00Z"
    },
@@ -2097,7 +1921,7 @@
     "subtitle": "St. Louis",
     "yesBid": 57,
     "yesAsk": 58,
-    "last": 61,
+    "last": 58,
     "mid": 0.575,
     "volume": null,
     "closeTime": "2026-08-12T18:15:00Z"
@@ -2169,10 +1993,10 @@
     "eventTicker": "KXMLBGAME-26AUG091435BALTEX",
     "title": "Baltimore vs Texas Winner?",
     "subtitle": "Texas",
-    "yesBid": 53,
+    "yesBid": 55,
     "yesAsk": 56,
-    "last": 53,
-    "mid": 0.545,
+    "last": 56,
+    "mid": 0.555,
     "volume": null,
     "closeTime": "2026-08-12T18:35:00Z"
    },
@@ -2245,7 +2069,7 @@
     "subtitle": "Chicago WS",
     "yesBid": 52,
     "yesAsk": 53,
-    "last": 54,
+    "last": 53,
     "mid": 0.525,
     "volume": null,
     "closeTime": "2026-08-12T18:10:00Z"
@@ -2381,7 +2205,7 @@
     "subtitle": "Tampa Bay",
     "yesBid": 50,
     "yesAsk": 52,
-    "last": 53,
+    "last": 52,
     "mid": 0.51,
     "volume": null,
     "closeTime": "2026-08-12T20:10:00Z"
@@ -2393,7 +2217,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "30 games, 2 starters still TBD"
+   "detail": "30 games, 1 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -2405,11 +2229,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 784 arms, 30 bullpens, 57/60 probables matched, FIP constant 3.10"
+   "detail": "bulk: 784 arms, 30 bullpens, 58/60 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "58/58 resolved"
+   "detail": "59/59 resolved"
   },
   "hitting": {
    "ok": true,
@@ -2434,8 +2258,8 @@
    "ticker": "KXMLBGAME-26AUG092020HOUSD-SD",
    "title": "Houston vs San Diego Winner?",
    "subtitle": "San Diego",
-   "yesBid": 51,
-   "yesAsk": 53
+   "yesBid": 52,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26AUG092020HOUSD-HOU",
@@ -2469,7 +2293,7 @@
    "ticker": "KXMLBGAME-26AUG091610TBSEA-SEA",
    "title": "Tampa Bay vs Seattle Winner?",
    "subtitle": "Seattle",
-   "yesBid": 46,
+   "yesBid": 48,
    "yesAsk": 49
   },
   {
@@ -2483,14 +2307,14 @@
    "ticker": "KXMLBGAME-26AUG091610LADAZ-AZ",
    "title": "Los Angeles D vs Arizona Winner?",
    "subtitle": "Arizona",
-   "yesBid": 43,
+   "yesBid": 45,
    "yesAsk": 46
   },
   {
    "ticker": "KXMLBGAME-26AUG091435BALTEX-TEX",
    "title": "Baltimore vs Texas Winner?",
    "subtitle": "Texas",
-   "yesBid": 53,
+   "yesBid": 55,
    "yesAsk": 56
   },
   {
@@ -2504,7 +2328,7 @@
    "ticker": "KXMLBGAME-26AUG091410CHCKC-KC",
    "title": "Chicago C vs Kansas City Winner?",
    "subtitle": "Kansas City",
-   "yesBid": 38,
+   "yesBid": 39,
    "yesAsk": 41
   },
   {
