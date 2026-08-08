@@ -1283,15 +1283,26 @@
     "bp_rate": 4.053,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": 0.3099,
+    "woba_vs_hand": 0.311,
     "woba_overall": 0.3036,
-    "lineup_woba": 0.3036,
+    "lineup_woba": 0.297,
     "staff_fip": 3.745,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0097,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Taylor Ward",
+     "Cole Young",
+     "Randy Arozarena",
+     "Dominic Canzone",
+     "Julio Rodr\u00edguez",
+     "Josh Naylor",
+     "Brendan Donovan",
+     "Cal Raleigh",
+     "Colt Emerson"
+    ]
    },
    "away": {
     "id": 139,
@@ -1309,15 +1320,26 @@
     "bp_rate": 4.184,
     "bp_is_proxy": false,
     "bp_ip3": 5.3,
-    "woba_vs_hand": 0.3307,
+    "woba_vs_hand": 0.3275,
     "woba_overall": 0.3216,
-    "lineup_woba": 0.3216,
+    "lineup_woba": 0.3231,
     "staff_fip": 4.027,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0034,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Yandy D\u00edaz",
+     "Jonathan Aranda",
+     "Junior Caminero",
+     "Victor Mesa Jr.",
+     "Chandler Simpson",
+     "Cedric Mullins",
+     "Richie Palacios",
+     "Nick Fortes",
+     "Taylor Walls"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1333,7 +1355,7 @@
     "closeTime": "2026-08-12T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 822700,
