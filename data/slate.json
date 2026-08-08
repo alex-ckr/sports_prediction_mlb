@@ -39,15 +39,26 @@
     "bp_rate": 3.794,
     "bp_is_proxy": false,
     "bp_ip3": 7.3,
-    "woba_vs_hand": 0.3154,
+    "woba_vs_hand": 0.3371,
     "woba_overall": 0.3158,
-    "lineup_woba": 0.3158,
+    "lineup_woba": 0.3379,
     "staff_fip": 3.646,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0809,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Paul Goldschmidt",
+     "Heliot Ramos",
+     "Ben Rice",
+     "Amed Rosario",
+     "Trent Grisham",
+     "George Lombard Jr.",
+     "Spencer Jones",
+     "Jos\u00e9 Caballero",
+     "Austin Wells"
+    ]
    },
    "away": {
     "id": 144,
@@ -65,15 +76,26 @@
     "bp_rate": 3.673,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": 0.3274,
+    "woba_vs_hand": 0.335,
     "woba_overall": 0.3217,
-    "lineup_woba": 0.3217,
+    "lineup_woba": 0.3315,
     "staff_fip": 4.026,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.035,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Drake Baldwin",
+     "Ronald Acu\u00f1a Jr.",
+     "Matt Olson",
+     "Michael Harris II",
+     "Ozzie Albies",
+     "Mauricio Dub\u00f3n",
+     "Mike Yastrzemski",
+     "Austin Riley",
+     "Jim Jarvis"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -89,7 +111,7 @@
     "closeTime": "2026-08-12T17:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824726,
@@ -113,15 +135,26 @@
     "bp_rate": 3.811,
     "bp_is_proxy": false,
     "bp_ip3": 16.0,
-    "woba_vs_hand": 0.3392,
+    "woba_vs_hand": 0.3201,
     "woba_overall": 0.3183,
-    "lineup_woba": 0.3183,
+    "lineup_woba": 0.3141,
     "staff_fip": 3.663,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0052,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Jahmai Jones",
+     "Ceddanne Rafaela",
+     "Caleb Durbin",
+     "Willson Contreras",
+     "Andruw Monasterio",
+     "Eli White",
+     "Nick Sogard",
+     "Jarren Duran",
+     "Connor Wong"
+    ]
    },
    "away": {
     "id": 133,
@@ -139,15 +172,26 @@
     "bp_rate": 4.947,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": 0.311,
+    "woba_vs_hand": 0.3036,
     "woba_overall": 0.3146,
-    "lineup_woba": 0.3146,
+    "lineup_woba": 0.3032,
     "staff_fip": 4.907,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0076,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Henry Bolte",
+     "Jacob Wilson",
+     "Jonah Heim",
+     "Tyler Soderstrom",
+     "Tommy White",
+     "Brian Serven",
+     "Lawrence Butler",
+     "Max Muncy",
+     "Alika Williams"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -163,7 +207,7 @@
     "closeTime": "2026-08-12T17:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823834,
