@@ -989,15 +989,26 @@
     "bp_rate": 3.283,
     "bp_is_proxy": false,
     "bp_ip3": 12.0,
-    "woba_vs_hand": 0.3109,
+    "woba_vs_hand": 0.3037,
     "woba_overall": 0.3068,
-    "lineup_woba": 0.3068,
+    "lineup_woba": 0.301,
     "staff_fip": 4.05,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0003,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Fernando Tatis Jr.",
+     "Jake Cronenworth",
+     "Manny Machado",
+     "Ty France",
+     "Jackson Merrill",
+     "Luis Rengifo",
+     "Gavin Sheets",
+     "Xander Bogaerts",
+     "Freddy Fermin"
+    ]
    },
    "away": {
     "id": 117,
@@ -1015,15 +1026,26 @@
     "bp_rate": 4.551,
     "bp_is_proxy": false,
     "bp_ip3": 7.3,
-    "woba_vs_hand": 0.3267,
+    "woba_vs_hand": 0.346,
     "woba_overall": 0.323,
-    "lineup_woba": 0.323,
+    "lineup_woba": 0.342,
     "staff_fip": 4.694,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0062,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jeremy Pe\u00f1a",
+     "Yordan Alvarez",
+     "Isaac Paredes",
+     "Jose Altuve",
+     "Taylor Trammell",
+     "Christian Walker",
+     "Daulton Varsho",
+     "Yainer Diaz",
+     "LaMonte Wade Jr."
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -1039,7 +1061,7 @@
     "closeTime": "2026-08-13T00:20:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 822780,
