@@ -323,7 +323,7 @@
     "bp_rate": 4.212,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3137,
+    "woba_vs_hand": 0.3345,
     "woba_overall": 0.3201,
     "lineup_woba": 0.3201,
     "staff_fip": 4.072,
@@ -331,7 +331,18 @@
     "travel_runs": 0.0,
     "park_fit_runs": -0.0082,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Gleyber Torres",
+     "Dillon Dingler",
+     "Kevin McGonigle",
+     "Hao-Yu Lee",
+     "Spencer Torkelson",
+     "Ben Malgeri",
+     "Max Clark",
+     "Javier B\u00e1ez",
+     "Corey Julks"
+    ]
    },
    "away": {
     "id": 114,
@@ -349,15 +360,26 @@
     "bp_rate": 3.957,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.2937,
+    "woba_vs_hand": 0.3325,
     "woba_overall": 0.3032,
-    "lineup_woba": 0.3032,
+    "lineup_woba": 0.3302,
     "staff_fip": 3.943,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.002,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Steven Kwan",
+     "Chase DeLauter",
+     "Jos\u00e9 Ram\u00edrez",
+     "Jo Adell",
+     "Angel Mart\u00ednez",
+     "Rhys Hoskins",
+     "Angel Genao",
+     "Austin Hedges",
+     "Brayan Rocchio"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -373,7 +395,7 @@
     "closeTime": "2026-08-16T17:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823833,
@@ -471,15 +493,26 @@
     "bp_rate": 5.239,
     "bp_is_proxy": false,
     "bp_ip3": 12.0,
-    "woba_vs_hand": 0.3444,
+    "woba_vs_hand": 0.3497,
     "woba_overall": 0.3353,
-    "lineup_woba": 0.3353,
+    "lineup_woba": 0.3467,
     "staff_fip": 4.8,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0015,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Dylan Crews",
+     "Andr\u00e9s Chaparro",
+     "Brady House",
+     "CJ Abrams",
+     "Harry Ford",
+     "Andrew Pinckney",
+     "Jacob Young",
+     "Daylen Lile",
+     "Nasim Nu\u00f1ez"
+    ]
    },
    "away": {
     "id": 112,
@@ -497,15 +530,26 @@
     "bp_rate": 4.396,
     "bp_is_proxy": false,
     "bp_ip3": 6.3,
-    "woba_vs_hand": 0.3525,
+    "woba_vs_hand": 0.3474,
     "woba_overall": 0.3332,
-    "lineup_woba": 0.3332,
+    "lineup_woba": 0.3387,
     "staff_fip": 4.378,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0003,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Pete Crow-Armstrong",
+     "Seiya Suzuki",
+     "Alex Bregman",
+     "Carson Kelly",
+     "Michael Busch",
+     "Nico Hoerner",
+     "Tyrone Taylor",
+     "Pedro Ram\u00edrez",
+     "Dansby Swanson"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -521,7 +565,7 @@
     "closeTime": "2026-08-16T20:05:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823511,
@@ -693,15 +737,26 @@
     "bp_rate": 3.697,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3135,
+    "woba_vs_hand": 0.3071,
     "woba_overall": 0.3202,
-    "lineup_woba": 0.3202,
+    "lineup_woba": 0.3059,
     "staff_fip": 4.031,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0078,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Ronald Acu\u00f1a Jr.",
+     "Drake Baldwin",
+     "Matt Olson",
+     "Ozzie Albies",
+     "Michael Harris II",
+     "Mauricio Dub\u00f3n",
+     "Lane Thomas",
+     "Austin Riley",
+     "Sean Murphy"
+    ]
    },
    "away": {
     "id": 121,
@@ -719,15 +774,26 @@
     "bp_rate": 4.412,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3034,
+    "woba_vs_hand": 0.3131,
     "woba_overall": 0.3058,
-    "lineup_woba": 0.3058,
+    "lineup_woba": 0.3132,
     "staff_fip": 4.201,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0107,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "A.J. Ewing",
+     "Francisco Lindor",
+     "Bo Bichette",
+     "Carson Benge",
+     "Luis Robert Jr.",
+     "Jared Young",
+     "Francisco Alvarez",
+     "Brett Baty",
+     "Luis Torrens"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -743,7 +809,7 @@
     "closeTime": "2026-08-15T23:15:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824562,
@@ -767,15 +833,26 @@
     "bp_rate": 4.129,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3174,
+    "woba_vs_hand": 0.3238,
     "woba_overall": 0.3171,
-    "lineup_woba": 0.3171,
+    "lineup_woba": 0.324,
     "staff_fip": 4.16,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0101,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Sam Antonacci",
+     "Munetaka Murakami",
+     "Andrew Benintendi",
+     "Braden Montgomery",
+     "Colson Montgomery",
+     "Chase Meidroth",
+     "Tristan Peters",
+     "Brenton Doyle",
+     "Drew Romo"
+    ]
    },
    "away": {
     "id": 113,
@@ -793,15 +870,26 @@
     "bp_rate": 4.947,
     "bp_is_proxy": false,
     "bp_ip3": 8.0,
-    "woba_vs_hand": 0.3058,
+    "woba_vs_hand": 0.3111,
     "woba_overall": 0.3104,
-    "lineup_woba": 0.3104,
+    "lineup_woba": 0.313,
     "staff_fip": 4.711,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0245,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Elly De La Cruz",
+     "Sal Stewart",
+     "JJ Bleday",
+     "Eugenio Su\u00e1rez",
+     "Michael Toglia",
+     "H\u00e9ctor Rodr\u00edguez",
+     "Jose Trevino",
+     "TJ Friedl",
+     "Matt McLain"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -817,7 +905,7 @@
     "closeTime": "2026-08-16T18:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823916,
@@ -841,15 +929,26 @@
     "bp_rate": 4.064,
     "bp_is_proxy": false,
     "bp_ip3": 12.7,
-    "woba_vs_hand": 0.3274,
+    "woba_vs_hand": 0.3366,
     "woba_overall": 0.3346,
-    "lineup_woba": 0.3346,
+    "lineup_woba": 0.3362,
     "staff_fip": 4.007,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0044,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Shohei Ohtani",
+     "Andy Pages",
+     "Freddie Freeman",
+     "Kyle Tucker",
+     "Mookie Betts",
+     "Max Muncy",
+     "Teoscar Hern\u00e1ndez",
+     "Hunter Feduccia",
+     "Miguel Rojas"
+    ]
    },
    "away": {
     "id": 118,
@@ -867,15 +966,26 @@
     "bp_rate": 5.468,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3082,
+    "woba_vs_hand": 0.3132,
     "woba_overall": 0.3106,
-    "lineup_woba": 0.3106,
+    "lineup_woba": 0.3145,
     "staff_fip": 4.708,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0029,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Nick Loftin",
+     "Bobby Witt Jr.",
+     "Jac Caglianone",
+     "Salvador Perez",
+     "Starling Marte",
+     "Carter Jensen",
+     "Isaac Collins",
+     "Tyler Tolbert",
+     "Josh Rojas"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -891,7 +1001,7 @@
     "closeTime": "2026-08-16T02:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823994,
