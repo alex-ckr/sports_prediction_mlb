@@ -39,15 +39,26 @@
     "bp_rate": 4.483,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": 0.3529,
+    "woba_vs_hand": 0.3426,
     "woba_overall": 0.333,
-    "lineup_woba": 0.333,
+    "lineup_woba": 0.3373,
     "staff_fip": 4.377,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Pete Crow-Armstrong",
+     "Seiya Suzuki",
+     "Alex Bregman",
+     "Michael Busch",
+     "Nico Hoerner",
+     "Carson Kelly",
+     "Ian Happ",
+     "Tyrone Taylor",
+     "Dansby Swanson"
+    ]
    },
    "away": {
     "id": 138,
@@ -65,15 +76,26 @@
     "bp_rate": 4.274,
     "bp_is_proxy": false,
     "bp_ip3": 7.0,
-    "woba_vs_hand": 0.3078,
+    "woba_vs_hand": 0.292,
     "woba_overall": 0.3075,
-    "lineup_woba": 0.3075,
+    "lineup_woba": 0.2901,
     "staff_fip": 4.167,
     "ptype_rv100": null,
     "travel_runs": 0.0013,
     "park_fit_runs": 0.0,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "JJ Wetherholt",
+     "Iv\u00e1n Herrera",
+     "Alec Burleson",
+     "Jordan Walker",
+     "Nathan Church",
+     "Masyn Winn",
+     "Bryan Torres",
+     "Jos\u00e9 Ferm\u00edn",
+     "C\u00e9sar Prieto"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-08-19T19:15:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824479,
