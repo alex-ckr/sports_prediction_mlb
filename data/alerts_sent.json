@@ -1114,5 +1114,17 @@
   "modelHome": 0.5083,
   "marketMid": 0.445,
   "runDelta": 0.0
+ },
+ "823993": {
+  "sentAt": "2026-08-14T21:54:15.568322+00:00",
+  "modelHome": 0.4887,
+  "marketMid": 0.455,
+  "runDelta": 0.0
+ },
+ "823185": {
+  "sentAt": "2026-08-14T21:54:15.568322+00:00",
+  "modelHome": 0.2644,
+  "marketMid": 0.535,
+  "runDelta": 0.0
  }
 }
