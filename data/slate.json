@@ -929,15 +929,26 @@
     "bp_rate": 5.032,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3162,
+    "woba_vs_hand": 0.3196,
     "woba_overall": 0.3144,
-    "lineup_woba": 0.3144,
+    "lineup_woba": 0.3187,
     "staff_fip": 4.915,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0125,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jeff McNeil",
+     "Jacob Wilson",
+     "Tyler Soderstrom",
+     "Zack Gelof",
+     "Lawrence Butler",
+     "Carlos Cortes",
+     "Donovan Walton",
+     "Jonah Heim",
+     "Henry Bolte"
+    ]
    },
    "away": {
     "id": 140,
@@ -955,15 +966,26 @@
     "bp_rate": 4.213,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3111,
     "woba_overall": 0.3136,
-    "lineup_woba": 0.3136,
+    "lineup_woba": 0.3067,
     "staff_fip": 4.128,
     "ptype_rv100": null,
     "travel_runs": 0.0039,
     "park_fit_runs": -0.0128,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": null,
+    "lineup": [
+     "Wyatt Langford",
+     "Brandon Nimmo",
+     "Corey Seager",
+     "Ezequiel Duran",
+     "Jake Burger",
+     "Justin Foscue",
+     "Cody Freeman",
+     "Elias D\u00edaz",
+     "Evan Carter"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -979,7 +1001,7 @@
     "closeTime": "2026-08-19T20:05:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823913,
@@ -1003,15 +1025,26 @@
     "bp_rate": 4.028,
     "bp_is_proxy": false,
     "bp_ip3": 9.7,
-    "woba_vs_hand": 0.3261,
+    "woba_vs_hand": 0.3309,
     "woba_overall": 0.3344,
-    "lineup_woba": 0.3344,
+    "lineup_woba": 0.3307,
     "staff_fip": 3.99,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0073,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Shohei Ohtani",
+     "Andy Pages",
+     "Teoscar Hern\u00e1ndez",
+     "Mookie Betts",
+     "Tommy Edman",
+     "Kyle Tucker",
+     "Max Muncy",
+     "Enrique Hern\u00e1ndez",
+     "Hunter Feduccia"
+    ]
    },
    "away": {
     "id": 158,
@@ -1029,15 +1062,26 @@
     "bp_rate": 3.645,
     "bp_is_proxy": false,
     "bp_ip3": 10.7,
-    "woba_vs_hand": 0.3287,
+    "woba_vs_hand": 0.3261,
     "woba_overall": 0.3222,
-    "lineup_woba": 0.3222,
+    "lineup_woba": 0.3269,
     "staff_fip": 3.602,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0505,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Garrett Mitchell",
+     "Jackson Chourio",
+     "Jake Bauers",
+     "Andrew Vaughn",
+     "Christian Yelich",
+     "William Contreras",
+     "Luis Lara",
+     "David Hamilton",
+     "Joey Ortiz"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1053,7 +1097,7 @@
     "closeTime": "2026-08-19T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823185,
