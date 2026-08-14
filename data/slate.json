@@ -335,15 +335,26 @@
     "bp_rate": 4.456,
     "bp_is_proxy": false,
     "bp_ip3": 4.0,
-    "woba_vs_hand": 0.3124,
+    "woba_vs_hand": 0.3163,
     "woba_overall": 0.306,
-    "lineup_woba": 0.306,
+    "lineup_woba": 0.3139,
     "staff_fip": 4.231,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.003,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "A.J. Ewing",
+     "Francisco Lindor",
+     "Bo Bichette",
+     "Luis Robert Jr.",
+     "Carson Benge",
+     "Francisco Alvarez",
+     "Marcus Semien",
+     "Jared Young",
+     "Luis Torrens"
+    ]
    },
    "away": {
     "id": 120,
@@ -361,15 +372,26 @@
     "bp_rate": 5.282,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": 0.3313,
+    "woba_vs_hand": 0.3329,
     "woba_overall": 0.3355,
-    "lineup_woba": 0.3355,
+    "lineup_woba": 0.3348,
     "staff_fip": 4.797,
     "ptype_rv100": null,
     "travel_runs": 0.0021,
     "park_fit_runs": -0.0014,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "CJ Abrams",
+     "Abimelec Ortiz",
+     "Brady House",
+     "Daylen Lile",
+     "Keibert Ruiz",
+     "Jos\u00e9 Tena",
+     "Nasim Nu\u00f1ez",
+     "Jorbit Vivas",
+     "Jacob Young"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -385,7 +407,7 @@
     "closeTime": "2026-08-19T17:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824399,
@@ -619,15 +641,26 @@
     "bp_rate": 3.892,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3077,
+    "woba_vs_hand": 0.3071,
     "woba_overall": 0.2987,
-    "lineup_woba": 0.2987,
+    "lineup_woba": 0.3054,
     "staff_fip": 4.235,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0006,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Brett Bateman",
+     "Nathan Lukes",
+     "Vladimir Guerrero Jr.",
+     "George Springer",
+     "Alejandro Kirk",
+     "Andr\u00e9s Gim\u00e9nez",
+     "Kazuma Okamoto",
+     "Jes\u00fas S\u00e1nchez",
+     "Ernie Clement"
+    ]
    },
    "away": {
     "id": 147,
@@ -645,15 +678,26 @@
     "bp_rate": 3.677,
     "bp_is_proxy": false,
     "bp_ip3": 12.3,
-    "woba_vs_hand": 0.3158,
+    "woba_vs_hand": 0.3166,
     "woba_overall": 0.3161,
-    "lineup_woba": 0.3161,
+    "lineup_woba": 0.3051,
     "staff_fip": 3.624,
     "ptype_rv100": null,
     "travel_runs": 0.0034,
     "park_fit_runs": 0.0043,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Trent Grisham",
+     "Ben Rice",
+     "Spencer Jones",
+     "Luis Garc\u00eda Jr.",
+     "Jazz Chisholm Jr.",
+     "Heliot Ramos",
+     "Ryan McMahon",
+     "Austin Wells",
+     "George Lombard Jr."
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -669,7 +713,7 @@
     "closeTime": "2026-08-19T17:37:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824159,
@@ -693,15 +737,26 @@
     "bp_rate": 4.501,
     "bp_is_proxy": false,
     "bp_ip3": 11.3,
-    "woba_vs_hand": 0.3234,
+    "woba_vs_hand": 0.3345,
     "woba_overall": 0.3194,
-    "lineup_woba": 0.3194,
+    "lineup_woba": 0.3314,
     "staff_fip": 4.692,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0089,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jeremy Pe\u00f1a",
+     "Yordan Alvarez",
+     "Isaac Paredes",
+     "Taylor Trammell",
+     "Jose Altuve",
+     "Daulton Varsho",
+     "Christian Walker",
+     "Cam Smith",
+     "Christian V\u00e1zquez"
+    ]
    },
    "away": {
     "id": 136,
@@ -719,7 +774,7 @@
     "bp_rate": 4.028,
     "bp_is_proxy": false,
     "bp_ip3": 8.0,
-    "woba_vs_hand": 0.3098,
+    "woba_vs_hand": 0.3179,
     "woba_overall": 0.3025,
     "lineup_woba": 0.3025,
     "staff_fip": 3.72,
@@ -727,7 +782,18 @@
     "travel_runs": 0.0392,
     "park_fit_runs": 0.0115,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Cole Young",
+     "Randy Arozarena",
+     "Dominic Canzone",
+     "Julio Rodr\u00edguez",
+     "Josh Naylor",
+     "Brendan Donovan",
+     "Cal Raleigh",
+     "Victor Robles",
+     "Brock Rodden"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -743,7 +809,7 @@
     "closeTime": "2026-08-19T23:20:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823993,
