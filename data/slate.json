@@ -1239,15 +1239,26 @@
     "bp_rate": 5.016,
     "bp_is_proxy": false,
     "bp_ip3": 7.7,
-    "woba_vs_hand": 0.313,
+    "woba_vs_hand": 0.3,
     "woba_overall": 0.3154,
-    "lineup_woba": 0.3154,
+    "lineup_woba": 0.2973,
     "staff_fip": 4.919,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0122,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Henry Bolte",
+     "Zack Gelof",
+     "Jeff McNeil",
+     "Jonah Heim",
+     "Tommy White",
+     "Lawrence Butler",
+     "Max Muncy",
+     "Brian Serven",
+     "Alika Williams"
+    ]
    },
    "away": {
     "id": 140,
@@ -1265,15 +1276,26 @@
     "bp_rate": 4.248,
     "bp_is_proxy": false,
     "bp_ip3": 12.0,
-    "woba_vs_hand": 0.3091,
+    "woba_vs_hand": 0.295,
     "woba_overall": 0.313,
-    "lineup_woba": 0.313,
+    "lineup_woba": 0.2938,
     "staff_fip": 4.149,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.013,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Joc Pederson",
+     "Brandon Nimmo",
+     "Corey Seager",
+     "Wyatt Langford",
+     "Ezequiel Duran",
+     "Evan Carter",
+     "Jake Burger",
+     "Austin Wynns",
+     "Nicky Lopez"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1289,7 +1311,7 @@
     "closeTime": "2026-08-19T20:05:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 822940,
