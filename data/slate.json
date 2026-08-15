@@ -483,15 +483,26 @@
     "bp_rate": 4.9,
     "bp_is_proxy": false,
     "bp_ip3": 9.3,
-    "woba_vs_hand": 0.3049,
+    "woba_vs_hand": 0.3037,
     "woba_overall": 0.3094,
-    "lineup_woba": 0.3094,
+    "lineup_woba": 0.3065,
     "staff_fip": 4.66,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0826,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Elly De La Cruz",
+     "Sal Stewart",
+     "JJ Bleday",
+     "Tyler Stephenson",
+     "Eugenio Su\u00e1rez",
+     "Dane Myers",
+     "Noelvi Marte",
+     "Ke'Bryan Hayes",
+     "Matt McLain"
+    ]
    },
    "away": {
     "id": 146,
@@ -509,15 +520,26 @@
     "bp_rate": 4.087,
     "bp_is_proxy": false,
     "bp_ip3": 7.7,
-    "woba_vs_hand": 0.3229,
+    "woba_vs_hand": 0.3248,
     "woba_overall": 0.3197,
-    "lineup_woba": 0.3197,
+    "lineup_woba": 0.3248,
     "staff_fip": 3.954,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0179,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jakob Marsee",
+     "Xavier Edwards",
+     "Heriberto Hern\u00e1ndez",
+     "Griffin Conine",
+     "Otto Lopez",
+     "Owen Caissie",
+     "Joe Mack",
+     "Graham Pauley",
+     "Esteury Ruiz"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -533,7 +555,7 @@
     "closeTime": "2026-08-19T17:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824400,
@@ -557,15 +579,26 @@
     "bp_rate": 3.909,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.2957,
+    "woba_vs_hand": 0.3107,
     "woba_overall": 0.3032,
-    "lineup_woba": 0.3032,
+    "lineup_woba": 0.3106,
     "staff_fip": 3.954,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.001,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Steven Kwan",
+     "Chase DeLauter",
+     "Jos\u00e9 Ram\u00edrez",
+     "Jo Adell",
+     "Nathaniel Lowe",
+     "Angel Genao",
+     "Travis Bazzana",
+     "Patrick Bailey",
+     "Petey Halpin"
+    ]
    },
    "away": {
     "id": 135,
@@ -583,15 +616,26 @@
     "bp_rate": 3.223,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3019,
+    "woba_vs_hand": 0.3167,
     "woba_overall": 0.3105,
-    "lineup_woba": 0.3105,
+    "lineup_woba": 0.3141,
     "staff_fip": 4.029,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0034,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Fernando Tatis Jr.",
+     "Jake Cronenworth",
+     "Manny Machado",
+     "Ty France",
+     "Jackson Merrill",
+     "Luis Campusano",
+     "Austin Hays",
+     "Xander Bogaerts",
+     "Freddy Fermin"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -607,7 +651,7 @@
     "closeTime": "2026-08-19T17:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824157,
@@ -897,15 +941,26 @@
     "bp_rate": 3.771,
     "bp_is_proxy": false,
     "bp_ip3": 6.0,
-    "woba_vs_hand": 0.3134,
+    "woba_vs_hand": 0.3173,
     "woba_overall": 0.3197,
-    "lineup_woba": 0.3197,
+    "lineup_woba": 0.3198,
     "staff_fip": 4.033,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0084,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Ronald Acu\u00f1a Jr.",
+     "Drake Baldwin",
+     "Matt Olson",
+     "Ozzie Albies",
+     "Michael Harris II",
+     "Mauricio Dub\u00f3n",
+     "Lane Thomas",
+     "Austin Riley",
+     "Sean Murphy"
+    ]
    },
    "away": {
     "id": 109,
@@ -923,19 +978,30 @@
     "bp_rate": 3.758,
     "bp_is_proxy": false,
     "bp_ip3": 6.0,
-    "woba_vs_hand": 0.3031,
+    "woba_vs_hand": 0.3184,
     "woba_overall": 0.3131,
-    "lineup_woba": 0.3131,
+    "lineup_woba": 0.3209,
     "staff_fip": 4.427,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0089,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Lars Nootbaar",
+     "Corbin Carroll",
+     "Geraldo Perdomo",
+     "Gabriel Moreno",
+     "Max Kepler",
+     "Nolan Arenado",
+     "Tim Tawa",
+     "Ildemaro Vargas",
+     "Ryan Waldschmidt"
+    ]
    },
    "kalshi": null,
    "kalshiWhy": "no market matched both team codes",
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823914,
