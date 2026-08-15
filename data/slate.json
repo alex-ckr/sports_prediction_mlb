@@ -519,15 +519,26 @@
     "bp_rate": 4.291,
     "bp_is_proxy": false,
     "bp_ip3": 12.0,
-    "woba_vs_hand": 0.3339,
+    "woba_vs_hand": 0.3373,
     "woba_overall": 0.3239,
-    "lineup_woba": 0.3239,
+    "lineup_woba": 0.3307,
     "staff_fip": 4.017,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0044,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Yandy D\u00edaz",
+     "Jonathan Aranda",
+     "Junior Caminero",
+     "Liam Hicks",
+     "Chandler Simpson",
+     "Jonny DeLuca",
+     "Cedric Mullins",
+     "Richie Palacios",
+     "Taylor Walls"
+    ]
    },
    "away": {
     "id": 110,
@@ -545,15 +556,26 @@
     "bp_rate": 4.053,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.3119,
+    "woba_vs_hand": 0.3116,
     "woba_overall": 0.3163,
-    "lineup_woba": 0.3163,
+    "lineup_woba": 0.3076,
     "staff_fip": 4.007,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0047,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Tyler O'Neill",
+     "Pete Alonso",
+     "Jackson Holliday",
+     "Coby Mayo",
+     "Gunnar Henderson",
+     "Christian Encarnacion-Strand",
+     "Christian Franklin",
+     "Leody Taveras",
+     "Carlos Narv\u00e1ez"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -569,7 +591,7 @@
     "closeTime": "2026-08-20T22:05:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824480,
