@@ -423,15 +423,26 @@
     "bp_rate": 4.638,
     "bp_is_proxy": false,
     "bp_ip3": 6.7,
-    "woba_vs_hand": 0.3045,
+    "woba_vs_hand": 0.3031,
     "woba_overall": 0.3061,
-    "lineup_woba": 0.3061,
+    "lineup_woba": 0.3016,
     "staff_fip": 4.216,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0031,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "A.J. Ewing",
+     "Francisco Lindor",
+     "Bo Bichette",
+     "Carson Benge",
+     "Jared Young",
+     "Marcus Semien",
+     "Brett Baty",
+     "Jorge Polanco",
+     "Francisco Alvarez"
+    ]
    },
    "away": {
     "id": 120,
@@ -449,15 +460,26 @@
     "bp_rate": 5.29,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": 0.3446,
+    "woba_vs_hand": 0.3324,
     "woba_overall": 0.3347,
-    "lineup_woba": 0.3347,
+    "lineup_woba": 0.3285,
     "staff_fip": 4.802,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0014,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Dylan Crews",
+     "Andr\u00e9s Chaparro",
+     "Brady House",
+     "CJ Abrams",
+     "Harry Ford",
+     "Jacob Young",
+     "Daylen Lile",
+     "Nasim Nu\u00f1ez",
+     "Andrew Pinckney"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -473,7 +495,7 @@
     "closeTime": "2026-08-19T17:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 822941,

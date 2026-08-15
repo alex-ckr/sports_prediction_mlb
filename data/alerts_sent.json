@@ -1162,5 +1162,11 @@
   "modelHome": 0.3842,
   "marketMid": 0.525,
   "runDelta": 0.0
+ },
+ "823588": {
+  "sentAt": "2026-08-15T17:51:52.324942+00:00",
+  "modelHome": 0.4887,
+  "marketMid": 0.38,
+  "runDelta": 0.0
  }
 }
