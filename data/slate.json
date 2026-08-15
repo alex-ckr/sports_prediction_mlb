@@ -1143,15 +1143,26 @@
     "bp_rate": 4.547,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3034,
+    "woba_vs_hand": 0.303,
     "woba_overall": 0.3051,
-    "lineup_woba": 0.3051,
+    "lineup_woba": 0.3009,
     "staff_fip": 4.484,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Wade Meckler",
+     "Mike Trout",
+     "Nolan Schanuel",
+     "Zach Neto",
+     "Mois\u00e9s Ballesteros",
+     "Josh Lowe",
+     "Denzer Guzman",
+     "Adam Frazier",
+     "Tyler Heineman"
+    ]
    },
    "away": {
     "id": 118,
@@ -1169,15 +1180,26 @@
     "bp_rate": 5.418,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3092,
+    "woba_vs_hand": 0.3239,
     "woba_overall": 0.3102,
-    "lineup_woba": 0.3102,
+    "lineup_woba": 0.3217,
     "staff_fip": 4.704,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0017,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Nick Loftin",
+     "Bobby Witt Jr.",
+     "Jac Caglianone",
+     "Salvador Perez",
+     "Isaac Collins",
+     "Michael Massey",
+     "Starling Marte",
+     "Luke Maile",
+     "Tyler Tolbert"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -1193,7 +1215,7 @@
     "closeTime": "2026-08-19T20:07:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824966,
