@@ -801,15 +801,26 @@
     "bp_rate": 3.945,
     "bp_is_proxy": false,
     "bp_ip3": 9.7,
-    "woba_vs_hand": 0.3384,
+    "woba_vs_hand": 0.3517,
     "woba_overall": 0.329,
-    "lineup_woba": 0.329,
+    "lineup_woba": 0.3511,
     "staff_fip": 3.877,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0033,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Spencer Horwitz",
+     "Brandon Lowe",
+     "Bryan Reynolds",
+     "Esmerlyn Valdez",
+     "Ronny Simon",
+     "Jacob Gonzalez",
+     "Jake Mangum",
+     "Rafael Flores Jr.",
+     "Jared Triolo"
+    ]
    },
    "away": {
     "id": 111,
@@ -827,15 +838,26 @@
     "bp_rate": 3.709,
     "bp_is_proxy": false,
     "bp_ip3": 8.0,
-    "woba_vs_hand": 0.3106,
+    "woba_vs_hand": 0.3211,
     "woba_overall": 0.3171,
-    "lineup_woba": 0.3171,
+    "lineup_woba": 0.3188,
     "staff_fip": 3.604,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0135,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Masataka Yoshida",
+     "Ceddanne Rafaela",
+     "Adley Rutschman",
+     "Willson Contreras",
+     "Wilyer Abreu",
+     "Caleb Durbin",
+     "Jarren Duran",
+     "Andruw Monasterio",
+     "Nick Sogard"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -851,7 +873,7 @@
     "closeTime": "2026-08-19T17:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824884,
