@@ -771,15 +771,26 @@
     "bp_rate": 4.133,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3086,
+    "woba_vs_hand": 0.3267,
     "woba_overall": 0.319,
-    "lineup_woba": 0.319,
+    "lineup_woba": 0.3273,
     "staff_fip": 4.225,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0006,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Austin Martin",
+     "Byron Buxton",
+     "Ryan Jeffers",
+     "Royce Lewis",
+     "Josh Bell",
+     "Luke Keaschall",
+     "Brooks Lee",
+     "Ryan Kreidler",
+     "Kaelen Culpepper"
+    ]
    },
    "away": {
     "id": 143,
@@ -797,15 +808,26 @@
     "bp_rate": 3.749,
     "bp_is_proxy": false,
     "bp_ip3": 7.0,
-    "woba_vs_hand": 0.3072,
+    "woba_vs_hand": 0.3144,
     "woba_overall": 0.311,
-    "lineup_woba": 0.311,
+    "lineup_woba": 0.313,
     "staff_fip": 3.735,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0046,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Kyle Schwarber",
+     "Trea Turner",
+     "Bryce Harper",
+     "Luis Arraez",
+     "Alec Bohm",
+     "Edmundo Sosa",
+     "Bryson Stott",
+     "J.T. Realmuto",
+     "Derek Hill"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -821,7 +843,7 @@
     "closeTime": "2026-08-19T18:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823347,
@@ -1025,15 +1047,26 @@
     "bp_rate": 4.028,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.3376,
+    "woba_vs_hand": 0.3382,
     "woba_overall": 0.3343,
-    "lineup_woba": 0.3343,
+    "lineup_woba": 0.3377,
     "staff_fip": 3.975,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0087,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Shohei Ohtani",
+     "Freddie Freeman",
+     "Andy Pages",
+     "Max Muncy",
+     "Mookie Betts",
+     "Tommy Edman",
+     "Teoscar Hern\u00e1ndez",
+     "Alex Call",
+     "Hunter Feduccia"
+    ]
    },
    "away": {
     "id": 158,
@@ -1051,15 +1084,26 @@
     "bp_rate": 3.636,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3053,
+    "woba_vs_hand": 0.3233,
     "woba_overall": 0.3216,
-    "lineup_woba": 0.3216,
+    "lineup_woba": 0.3202,
     "staff_fip": 3.607,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0505,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Jackson Chourio",
+     "Luis Lara",
+     "Andrew Vaughn",
+     "Jake Bauers",
+     "Gary S\u00e1nchez",
+     "Christian Yelich",
+     "William Contreras",
+     "Joey Ortiz",
+     "Jonathan Ornelas"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1075,7 +1119,7 @@
     "closeTime": "2026-08-19T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823990,
