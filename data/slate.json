@@ -1179,15 +1179,26 @@
     "bp_rate": 4.533,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3094,
+    "woba_vs_hand": 0.3113,
     "woba_overall": 0.3047,
-    "lineup_woba": 0.3047,
+    "lineup_woba": 0.3089,
     "staff_fip": 4.441,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0002,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Zach Neto",
+     "Mike Trout",
+     "Vaughn Grissom",
+     "Jose Siri",
+     "Wade Meckler",
+     "Denzer Guzman",
+     "Oswald Peraza",
+     "Travis d'Arnaud",
+     "Josh Lowe"
+    ]
    },
    "away": {
     "id": 118,
@@ -1205,15 +1216,26 @@
     "bp_rate": 5.413,
     "bp_is_proxy": false,
     "bp_ip3": 6.7,
-    "woba_vs_hand": 0.3103,
+    "woba_vs_hand": 0.3136,
     "woba_overall": 0.3087,
-    "lineup_woba": 0.3087,
+    "lineup_woba": 0.3124,
     "staff_fip": 4.692,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0017,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Carter Jensen",
+     "Bobby Witt Jr.",
+     "Jac Caglianone",
+     "Salvador Perez",
+     "Michael Massey",
+     "Nick Loftin",
+     "Isaac Collins",
+     "John Rave",
+     "Kyle Isbel"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -1229,7 +1251,7 @@
     "closeTime": "2026-08-19T20:07:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823912,
