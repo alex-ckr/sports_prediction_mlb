@@ -965,15 +965,26 @@
     "bp_rate": 4.477,
     "bp_is_proxy": false,
     "bp_ip3": 6.3,
-    "woba_vs_hand": 0.3177,
+    "woba_vs_hand": 0.2976,
     "woba_overall": 0.311,
-    "lineup_woba": 0.311,
+    "lineup_woba": 0.2574,
     "staff_fip": 4.143,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0199,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Drew Gilbert",
+     "Rafael Devers",
+     "Bryce Eldridge",
+     "Jung Hoo Lee",
+     "Osleivis Basabe",
+     "Drew Cavanaugh",
+     "Turner Hill",
+     "Buddy Kennedy",
+     "Christian Koss"
+    ]
    },
    "away": {
     "id": 115,
@@ -991,15 +1002,26 @@
     "bp_rate": 4.589,
     "bp_is_proxy": false,
     "bp_ip3": 5.3,
-    "woba_vs_hand": 0.3303,
+    "woba_vs_hand": 0.3467,
     "woba_overall": 0.3244,
-    "lineup_woba": 0.3244,
+    "lineup_woba": 0.3142,
     "staff_fip": 4.888,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0087,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jake McCarthy",
+     "Cole Carrigg",
+     "Mickey Moniak",
+     "Willi Castro",
+     "Troy Johnston",
+     "Zac Veen",
+     "Jordan Beck",
+     "Brett Sullivan",
+     "Adael Amador"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -1015,7 +1037,7 @@
     "closeTime": "2026-08-19T20:05:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824965,
