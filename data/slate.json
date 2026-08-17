@@ -39,15 +39,26 @@
     "bp_rate": 4.95,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3248,
+    "woba_vs_hand": 0.2987,
     "woba_overall": 0.3088,
-    "lineup_woba": 0.3088,
+    "lineup_woba": 0.2935,
     "staff_fip": 4.695,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0861,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Elly De La Cruz",
+     "Sal Stewart",
+     "Tyler Stephenson",
+     "Eugenio Su\u00e1rez",
+     "Dane Myers",
+     "Michael Toglia",
+     "Matt McLain",
+     "Noelvi Marte",
+     "Ke'Bryan Hayes"
+    ]
    },
    "away": {
     "id": 138,
@@ -65,15 +76,26 @@
     "bp_rate": 4.308,
     "bp_is_proxy": false,
     "bp_ip3": 9.7,
-    "woba_vs_hand": 0.3114,
+    "woba_vs_hand": 0.3619,
     "woba_overall": 0.3086,
-    "lineup_woba": 0.3086,
+    "lineup_woba": 0.3601,
     "staff_fip": 4.175,
     "ptype_rv100": null,
     "travel_runs": 0.0576,
     "park_fit_runs": -0.0138,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Joshua B\u00e1ez",
+     "Iv\u00e1n Herrera",
+     "Jordan Walker",
+     "Alec Burleson",
+     "Jos\u00e9 Ferm\u00edn",
+     "Masyn Winn",
+     "Blaze Jordan",
+     "Everson Pereira",
+     "Pedro Pag\u00e9s"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-08-22T22:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824478,
