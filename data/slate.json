@@ -847,15 +847,26 @@
     "bp_rate": 4.484,
     "bp_is_proxy": false,
     "bp_ip3": 11.3,
-    "woba_vs_hand": 0.3255,
+    "woba_vs_hand": 0.3357,
     "woba_overall": 0.3321,
-    "lineup_woba": 0.3321,
+    "lineup_woba": 0.339,
     "staff_fip": 4.418,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Pete Crow-Armstrong",
+     "Seiya Suzuki",
+     "Michael Busch",
+     "Alex Bregman",
+     "Ian Happ",
+     "Nico Hoerner",
+     "Pedro Ram\u00edrez",
+     "Michael Conforto",
+     "Carson Kelly"
+    ]
    },
    "away": {
     "id": 145,
@@ -873,15 +884,26 @@
     "bp_rate": 4.126,
     "bp_is_proxy": false,
     "bp_ip3": 16.0,
-    "woba_vs_hand": 0.3221,
+    "woba_vs_hand": 0.3183,
     "woba_overall": 0.3206,
-    "lineup_woba": 0.3206,
+    "lineup_woba": 0.2808,
     "staff_fip": 4.174,
     "ptype_rv100": null,
     "travel_runs": 0.0274,
     "park_fit_runs": 0.0,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Chase Meidroth",
+     "Munetaka Murakami",
+     "Miguel Vargas",
+     "Randal Grichuk",
+     "Braden Montgomery",
+     "Brenton Doyle",
+     "Sam Antonacci",
+     "Luisangel Acu\u00f1a",
+     "Jake Rogers"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -897,7 +919,7 @@
     "closeTime": "2026-08-22T18:20:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824320,
