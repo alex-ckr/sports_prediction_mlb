@@ -335,15 +335,26 @@
     "bp_rate": 3.688,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3345,
+    "woba_vs_hand": 0.3195,
     "woba_overall": 0.3169,
-    "lineup_woba": 0.3169,
+    "lineup_woba": 0.3124,
     "staff_fip": 3.577,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0058,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Nick Sogard",
+     "Ceddanne Rafaela",
+     "Wilyer Abreu",
+     "Willson Contreras",
+     "Adley Rutschman",
+     "Caleb Durbin",
+     "Andruw Monasterio",
+     "Mickey Gasper",
+     "Eli White"
+    ]
    },
    "away": {
     "id": 109,
@@ -361,19 +372,30 @@
     "bp_rate": 3.573,
     "bp_is_proxy": false,
     "bp_ip3": 7.3,
-    "woba_vs_hand": 0.3427,
+    "woba_vs_hand": 0.331,
     "woba_overall": 0.314,
-    "lineup_woba": 0.314,
+    "lineup_woba": 0.3291,
     "staff_fip": 4.373,
     "ptype_rv100": null,
     "travel_runs": 0.0093,
     "park_fit_runs": 0.0078,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Ildemaro Vargas",
+     "Corbin Carroll",
+     "Gabriel Moreno",
+     "Geraldo Perdomo",
+     "Jordan Lawlar",
+     "Tim Tawa",
+     "Jose Fernandez",
+     "Lars Nootbaar",
+     "Ryan Waldschmidt"
+    ]
    },
    "kalshi": null,
    "kalshiWhy": "no market matched both team codes",
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823589,
