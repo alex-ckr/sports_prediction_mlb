@@ -39,15 +39,26 @@
     "bp_rate": 4.005,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3165,
+    "woba_vs_hand": 0.3189,
     "woba_overall": 0.3175,
-    "lineup_woba": 0.3175,
+    "lineup_woba": 0.3143,
     "staff_fip": 4.02,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0025,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Jackson Holliday",
+     "Pete Alonso",
+     "Tyler O'Neill",
+     "Coby Mayo",
+     "Gunnar Henderson",
+     "Christian Encarnacion-Strand",
+     "Leody Taveras",
+     "Christian Franklin",
+     "Carlos Narv\u00e1ez"
+    ]
    },
    "away": {
     "id": 147,
@@ -65,15 +76,26 @@
     "bp_rate": 3.702,
     "bp_is_proxy": false,
     "bp_ip3": 5.3,
-    "woba_vs_hand": 0.313,
+    "woba_vs_hand": 0.3107,
     "woba_overall": 0.3139,
-    "lineup_woba": 0.3139,
+    "lineup_woba": 0.2967,
     "staff_fip": 3.61,
     "ptype_rv100": null,
     "travel_runs": 0.0017,
     "park_fit_runs": 0.0087,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Trent Grisham",
+     "Ben Rice",
+     "Heliot Ramos",
+     "Luis Garc\u00eda Jr.",
+     "Spencer Jones",
+     "Jazz Chisholm Jr.",
+     "George Lombard Jr.",
+     "Ryan McMahon",
+     "Austin Wells"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-08-23T22:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823341,
@@ -483,15 +505,26 @@
     "bp_rate": 3.66,
     "bp_is_proxy": false,
     "bp_ip3": 13.7,
-    "woba_vs_hand": 0.3126,
+    "woba_vs_hand": 0.3196,
     "woba_overall": 0.3185,
-    "lineup_woba": 0.3185,
+    "lineup_woba": 0.3174,
     "staff_fip": 3.567,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.006,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Nick Sogard",
+     "Ceddanne Rafaela",
+     "Wilyer Abreu",
+     "Willson Contreras",
+     "Adley Rutschman",
+     "Caleb Durbin",
+     "Jarren Duran",
+     "Andruw Monasterio",
+     "Mickey Gasper"
+    ]
    },
    "away": {
     "id": 109,
@@ -509,19 +542,30 @@
     "bp_rate": 3.772,
     "bp_is_proxy": false,
     "bp_ip3": 10.3,
-    "woba_vs_hand": 0.3408,
+    "woba_vs_hand": 0.3309,
     "woba_overall": 0.3131,
-    "lineup_woba": 0.3131,
+    "lineup_woba": 0.3288,
     "staff_fip": 4.433,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0079,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Ildemaro Vargas",
+     "Corbin Carroll",
+     "Gabriel Moreno",
+     "Geraldo Perdomo",
+     "Tim Tawa",
+     "Jordan Lawlar",
+     "James McCann",
+     "Jose Fernandez",
+     "Ryan Waldschmidt"
+    ]
    },
    "kalshi": null,
    "kalshiWhy": "no market matched both team codes",
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823586,
