@@ -1414,5 +1414,29 @@
   "modelHome": 0.6179,
   "marketMid": null,
   "runDelta": 0.0
+ },
+ "823423": {
+  "sentAt": "2026-08-18T20:25:57.424302+00:00",
+  "modelHome": 0.6135,
+  "marketMid": 0.535,
+  "runDelta": 0.0
+ },
+ "823586": {
+  "sentAt": "2026-08-18T20:25:57.424302+00:00",
+  "modelHome": 0.518,
+  "marketMid": 0.545,
+  "runDelta": 0.0
+ },
+ "823667": {
+  "sentAt": "2026-08-18T20:25:57.424302+00:00",
+  "modelHome": 0.5039,
+  "marketMid": 0.485,
+  "runDelta": 0.0
+ },
+ "822859": {
+  "sentAt": "2026-08-18T20:25:57.424302+00:00",
+  "modelHome": 0.5531,
+  "marketMid": 0.475,
+  "runDelta": 0.0
  }
 }
