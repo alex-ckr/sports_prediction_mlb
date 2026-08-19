@@ -39,15 +39,26 @@
     "bp_rate": 3.84,
     "bp_is_proxy": false,
     "bp_ip3": 13.0,
-    "woba_vs_hand": 0.3366,
+    "woba_vs_hand": 0.335,
     "woba_overall": 0.3273,
-    "lineup_woba": 0.3273,
+    "lineup_woba": 0.3326,
     "staff_fip": 3.821,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0066,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Spencer Horwitz",
+     "Brandon Lowe",
+     "Bryan Reynolds",
+     "Esmerlyn Valdez",
+     "Oneil Cruz",
+     "Nick Gonzales",
+     "Jacob Gonzalez",
+     "Jared Triolo",
+     "Henry Davis"
+    ]
    },
    "away": {
     "id": 116,
@@ -65,15 +76,26 @@
     "bp_rate": 4.242,
     "bp_is_proxy": false,
     "bp_ip3": 10.3,
-    "woba_vs_hand": 0.3237,
+    "woba_vs_hand": 0.3647,
     "woba_overall": 0.3193,
-    "lineup_woba": 0.3193,
+    "lineup_woba": 0.3593,
     "staff_fip": 4.125,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0109,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Colt Keith",
+     "Gleyber Torres",
+     "Kevin McGonigle",
+     "Dillon Dingler",
+     "Brett Callahan",
+     "Zach McKinstry",
+     "Spencer Torkelson",
+     "Max Clark",
+     "Hao-Yu Lee"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -89,7 +111,7 @@
     "closeTime": "2026-08-22T16:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823587,
@@ -113,15 +135,26 @@
     "bp_rate": 4.613,
     "bp_is_proxy": false,
     "bp_ip3": 9.7,
-    "woba_vs_hand": 0.3054,
+    "woba_vs_hand": 0.3144,
     "woba_overall": 0.3065,
-    "lineup_woba": 0.3065,
+    "lineup_woba": 0.3136,
     "staff_fip": 4.23,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0031,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "A.J. Ewing",
+     "Francisco Lindor",
+     "Bo Bichette",
+     "Carson Benge",
+     "Jared Young",
+     "Francisco Alvarez",
+     "Brett Baty",
+     "Marcus Semien",
+     "Luis Torrens"
+    ]
    },
    "away": {
     "id": 135,
@@ -139,15 +172,26 @@
     "bp_rate": 3.211,
     "bp_is_proxy": false,
     "bp_ip3": 8.0,
-    "woba_vs_hand": 0.3136,
+    "woba_vs_hand": 0.3161,
     "woba_overall": 0.3105,
-    "lineup_woba": 0.3105,
+    "lineup_woba": 0.3131,
     "staff_fip": 4.002,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0012,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Fernando Tatis Jr.",
+     "Jake Cronenworth",
+     "Manny Machado",
+     "Ty France",
+     "Jackson Merrill",
+     "Luis Rengifo",
+     "Luis Campusano",
+     "Xander Bogaerts",
+     "Sung-Mun Song"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -163,7 +207,7 @@
     "closeTime": "2026-08-22T17:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823664,
@@ -187,15 +231,26 @@
     "bp_rate": 4.099,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": 0.3237,
+    "woba_vs_hand": 0.3302,
     "woba_overall": 0.3196,
-    "lineup_woba": 0.3196,
+    "lineup_woba": 0.3275,
     "staff_fip": 4.209,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0005,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Luke Keaschall",
+     "Byron Buxton",
+     "Josh Bell",
+     "Kody Clemens",
+     "Royce Lewis",
+     "Trevor Larnach",
+     "Brooks Lee",
+     "Victor Caratini",
+     "Kaelen Culpepper"
+    ]
    },
    "away": {
     "id": 144,
@@ -213,15 +268,26 @@
     "bp_rate": 3.71,
     "bp_is_proxy": false,
     "bp_ip3": 7.3,
-    "woba_vs_hand": 0.3207,
+    "woba_vs_hand": 0.3275,
     "woba_overall": 0.3179,
-    "lineup_woba": 0.3179,
+    "lineup_woba": 0.3254,
     "staff_fip": 4.017,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0042,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Ronald Acu\u00f1a Jr.",
+     "Drake Baldwin",
+     "Matt Olson",
+     "Michael Harris II",
+     "Dominic Smith",
+     "Ozzie Albies",
+     "Mike Yastrzemski",
+     "Austin Riley",
+     "Jim Jarvis"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -237,7 +303,7 @@
     "closeTime": "2026-08-22T17:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824640,
@@ -261,15 +327,26 @@
     "bp_rate": 4.497,
     "bp_is_proxy": false,
     "bp_ip3": 14.0,
-    "woba_vs_hand": 0.3532,
+    "woba_vs_hand": 0.3452,
     "woba_overall": 0.3331,
-    "lineup_woba": 0.3331,
+    "lineup_woba": 0.3403,
     "staff_fip": 4.424,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Pete Crow-Armstrong",
+     "Seiya Suzuki",
+     "Alex Bregman",
+     "Michael Busch",
+     "Nico Hoerner",
+     "Pedro Ram\u00edrez",
+     "Carson Kelly",
+     "Ian Happ",
+     "Tyrone Taylor"
+    ]
    },
    "away": {
     "id": 145,
@@ -287,15 +364,26 @@
     "bp_rate": 4.166,
     "bp_is_proxy": false,
     "bp_ip3": 16.7,
-    "woba_vs_hand": 0.3207,
+    "woba_vs_hand": 0.3267,
     "woba_overall": 0.3205,
-    "lineup_woba": 0.3205,
+    "lineup_woba": 0.3228,
     "staff_fip": 4.213,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Sam Antonacci",
+     "Munetaka Murakami",
+     "Miguel Vargas",
+     "Andrew Benintendi",
+     "Braden Montgomery",
+     "Colson Montgomery",
+     "Chase Meidroth",
+     "Tristan Peters",
+     "Jake Rogers"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -311,7 +399,7 @@
     "closeTime": "2026-08-22T18:20:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824722,
