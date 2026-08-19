@@ -855,15 +855,26 @@
     "bp_rate": 5.479,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3144,
     "woba_overall": 0.3099,
-    "lineup_woba": 0.3099,
+    "lineup_woba": 0.3157,
     "staff_fip": 4.729,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0032,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": null,
+    "lineup": [
+     "Nick Loftin",
+     "Bobby Witt Jr.",
+     "Jac Caglianone",
+     "Maikel Garcia",
+     "Vinnie Pasquantino",
+     "Salvador Perez",
+     "Carter Jensen",
+     "Tyler Tolbert",
+     "Kyle Isbel"
+    ]
    },
    "away": {
     "id": 133,
@@ -881,15 +892,26 @@
     "bp_rate": 4.949,
     "bp_is_proxy": false,
     "bp_ip3": 14.7,
-    "woba_vs_hand": 0.3174,
+    "woba_vs_hand": 0.3087,
     "woba_overall": 0.3164,
-    "lineup_woba": 0.3164,
+    "lineup_woba": 0.3106,
     "staff_fip": 4.869,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0168,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Henry Bolte",
+     "Jeff McNeil",
+     "Zack Gelof",
+     "Lawrence Butler",
+     "Tommy White",
+     "Carlos Cortes",
+     "Jonah Heim",
+     "Donovan Walton",
+     "Max Muncy"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -905,7 +927,7 @@
     "closeTime": "2026-08-23T18:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823748,
