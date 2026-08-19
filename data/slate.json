@@ -729,15 +729,26 @@
     "bp_rate": 4.875,
     "bp_is_proxy": false,
     "bp_ip3": 14.0,
-    "woba_vs_hand": 0.3253,
+    "woba_vs_hand": 0.3158,
     "woba_overall": 0.3073,
-    "lineup_woba": 0.3073,
+    "lineup_woba": 0.3116,
     "staff_fip": 4.657,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0854,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Elly De La Cruz",
+     "Sal Stewart",
+     "Dane Myers",
+     "Eugenio Su\u00e1rez",
+     "Tyler Stephenson",
+     "Michael Toglia",
+     "JJ Bleday",
+     "Jose Trevino",
+     "Matt McLain"
+    ]
    },
    "away": {
     "id": 138,
@@ -755,15 +766,26 @@
     "bp_rate": 4.248,
     "bp_is_proxy": false,
     "bp_ip3": 16.0,
-    "woba_vs_hand": 0.3072,
+    "woba_vs_hand": 0.3136,
     "woba_overall": 0.3085,
-    "lineup_woba": 0.3085,
+    "lineup_woba": 0.3121,
     "staff_fip": 4.124,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0145,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "JJ Wetherholt",
+     "Iv\u00e1n Herrera",
+     "Alec Burleson",
+     "Jordan Walker",
+     "Nathan Church",
+     "Masyn Winn",
+     "Bryan Torres",
+     "Blaze Jordan",
+     "Jimmy Crooks"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -779,7 +801,7 @@
     "closeTime": "2026-08-23T16:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 822937,
