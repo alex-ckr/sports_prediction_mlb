@@ -715,15 +715,26 @@
     "bp_rate": 4.345,
     "bp_is_proxy": false,
     "bp_ip3": 15.3,
-    "woba_vs_hand": 0.3347,
+    "woba_vs_hand": 0.3387,
     "woba_overall": 0.3245,
-    "lineup_woba": 0.3245,
+    "lineup_woba": 0.3327,
     "staff_fip": 4.057,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0044,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Chandler Simpson",
+     "Junior Caminero",
+     "Jonathan Aranda",
+     "Yandy D\u00edaz",
+     "Liam Hicks",
+     "Cedric Mullins",
+     "Ryan Vilade",
+     "Richie Palacios",
+     "Taylor Walls"
+    ]
    },
    "away": {
     "id": 141,
@@ -741,15 +752,26 @@
     "bp_rate": 4.007,
     "bp_is_proxy": false,
     "bp_ip3": 7.0,
-    "woba_vs_hand": 0.3083,
+    "woba_vs_hand": 0.3112,
     "woba_overall": 0.3001,
-    "lineup_woba": 0.3001,
+    "lineup_woba": 0.3107,
     "staff_fip": 4.242,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0028,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Brett Bateman",
+     "Nathan Lukes",
+     "Alejandro Kirk",
+     "Kazuma Okamoto",
+     "Andr\u00e9s Gim\u00e9nez",
+     "Jes\u00fas S\u00e1nchez",
+     "Josh Smith",
+     "Brandon Valenzuela",
+     "Charles McAdoo"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -765,7 +787,7 @@
     "closeTime": "2026-08-23T17:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824076,
