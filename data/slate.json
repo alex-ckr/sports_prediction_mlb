@@ -397,15 +397,26 @@
     "bp_rate": 3.728,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3144,
+    "woba_vs_hand": 0.3175,
     "woba_overall": 0.3127,
-    "lineup_woba": 0.3127,
+    "lineup_woba": 0.3111,
     "staff_fip": 3.739,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0158,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Kyle Schwarber",
+     "Trea Turner",
+     "Bryce Harper",
+     "Luis Arraez",
+     "Alec Bohm",
+     "Bryson Stott",
+     "Brandon Marsh",
+     "Justin Crawford",
+     "Garrett Stubbs"
+    ]
    },
    "away": {
     "id": 146,
@@ -423,15 +434,26 @@
     "bp_rate": 4.071,
     "bp_is_proxy": false,
     "bp_ip3": 12.7,
-    "woba_vs_hand": 0.3251,
+    "woba_vs_hand": 0.3341,
     "woba_overall": 0.3213,
-    "lineup_woba": 0.3213,
+    "lineup_woba": 0.3351,
     "staff_fip": 3.956,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0101,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jakob Marsee",
+     "Otto Lopez",
+     "Xavier Edwards",
+     "Griffin Conine",
+     "Heriberto Hern\u00e1ndez",
+     "Owen Caissie",
+     "Esteury Ruiz",
+     "Joe Mack",
+     "Javier Sanoja"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -447,7 +469,7 @@
     "closeTime": "2026-08-22T22:05:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824801,
