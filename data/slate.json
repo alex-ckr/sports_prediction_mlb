@@ -1327,15 +1327,26 @@
     "bp_rate": 4.113,
     "bp_is_proxy": false,
     "bp_ip3": 12.0,
-    "woba_vs_hand": 0.2865,
+    "woba_vs_hand": 0.3174,
     "woba_overall": 0.304,
-    "lineup_woba": 0.304,
+    "lineup_woba": 0.315,
     "staff_fip": 3.813,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0089,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Brendan Donovan",
+     "Randy Arozarena",
+     "Dominic Canzone",
+     "Julio Rodr\u00edguez",
+     "Josh Naylor",
+     "Taylor Ward",
+     "Cal Raleigh",
+     "Cole Young",
+     "Brock Rodden"
+    ]
    },
    "away": {
     "id": 112,
@@ -1353,15 +1364,26 @@
     "bp_rate": 4.497,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": 0.3245,
+    "woba_vs_hand": 0.333,
     "woba_overall": 0.332,
-    "lineup_woba": 0.332,
+    "lineup_woba": 0.337,
     "staff_fip": 4.428,
     "ptype_rv100": null,
     "travel_runs": 0.0336,
     "park_fit_runs": -0.0006,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Pete Crow-Armstrong",
+     "Seiya Suzuki",
+     "Michael Busch",
+     "Alex Bregman",
+     "Ian Happ",
+     "Nico Hoerner",
+     "Pedro Ram\u00edrez",
+     "Michael Conforto",
+     "Carson Kelly"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -1377,7 +1399,7 @@
     "closeTime": "2026-08-26T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823509,
