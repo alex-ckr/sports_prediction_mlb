@@ -113,15 +113,26 @@
     "bp_rate": 3.593,
     "bp_is_proxy": false,
     "bp_ip3": 15.3,
-    "woba_vs_hand": 0.3078,
+    "woba_vs_hand": 0.3294,
     "woba_overall": 0.3233,
-    "lineup_woba": 0.3233,
+    "lineup_woba": 0.3323,
     "staff_fip": 3.579,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0386,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Jackson Chourio",
+     "Brice Turang",
+     "William Contreras",
+     "Jake Bauers",
+     "Andrew Vaughn",
+     "Christian Yelich",
+     "Joey Ortiz",
+     "Luis Lara",
+     "Cooper Pratt"
+    ]
    },
    "away": {
     "id": 144,
@@ -139,15 +150,26 @@
     "bp_rate": 3.677,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.3189,
+    "woba_vs_hand": 0.3251,
     "woba_overall": 0.3164,
-    "lineup_woba": 0.3164,
+    "lineup_woba": 0.3232,
     "staff_fip": 3.986,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0168,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Drake Baldwin",
+     "Ronald Acu\u00f1a Jr.",
+     "Matt Olson",
+     "Michael Harris II",
+     "Ozzie Albies",
+     "Mauricio Dub\u00f3n",
+     "Mike Yastrzemski",
+     "Austin Riley",
+     "Jim Jarvis"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -163,7 +185,7 @@
     "closeTime": "2026-08-26T23:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823831,
