@@ -39,15 +39,26 @@
     "bp_rate": 3.637,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3131,
+    "woba_vs_hand": 0.3135,
     "woba_overall": 0.3137,
-    "lineup_woba": 0.3137,
+    "lineup_woba": 0.3021,
     "staff_fip": 3.603,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.078,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Trent Grisham",
+     "Ben Rice",
+     "Heliot Ramos",
+     "Luis Garc\u00eda Jr.",
+     "Spencer Jones",
+     "George Lombard Jr.",
+     "Jazz Chisholm Jr.",
+     "Austin Wells",
+     "Jos\u00e9 Caballero"
+    ]
    },
    "away": {
     "id": 141,
@@ -65,15 +76,26 @@
     "bp_rate": 3.973,
     "bp_is_proxy": false,
     "bp_ip3": 13.3,
-    "woba_vs_hand": 0.2833,
+    "woba_vs_hand": 0.3285,
     "woba_overall": 0.3012,
-    "lineup_woba": 0.3012,
+    "lineup_woba": 0.3274,
     "staff_fip": 4.281,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0095,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Brett Bateman",
+     "Vladimir Guerrero Jr.",
+     "Alejandro Kirk",
+     "George Springer",
+     "Kazuma Okamoto",
+     "Ernie Clement",
+     "Daz Cameron",
+     "Charles McAdoo",
+     "Myles Straw"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-08-26T17:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823743,
