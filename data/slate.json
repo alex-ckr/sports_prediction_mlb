@@ -453,15 +453,26 @@
     "bp_rate": 4.231,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3082,
+    "woba_vs_hand": 0.3145,
     "woba_overall": 0.3123,
-    "lineup_woba": 0.3123,
+    "lineup_woba": 0.3147,
     "staff_fip": 4.124,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0128,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Joc Pederson",
+     "Corey Seager",
+     "Wyatt Langford",
+     "Brandon Nimmo",
+     "Ezequiel Duran",
+     "Evan Carter",
+     "Jake Burger",
+     "Cody Freeman",
+     "Danny Jansen"
+    ]
    },
    "away": {
     "id": 108,
@@ -479,7 +490,7 @@
     "bp_rate": 4.423,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.304,
+    "woba_vs_hand": 0.2987,
     "woba_overall": 0.3032,
     "lineup_woba": 0.3032,
     "staff_fip": 4.367,
@@ -487,7 +498,18 @@
     "travel_runs": 0.0,
     "park_fit_runs": -0.0028,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Zach Neto",
+     "Mike Trout",
+     "Vaughn Grissom",
+     "Mois\u00e9s Ballesteros",
+     "Jose Siri",
+     "Gustavo Campero",
+     "Denzer Guzman",
+     "Christian Moore",
+     "Travis d'Arnaud"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -503,7 +525,7 @@
     "closeTime": "2026-08-26T18:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824151,
