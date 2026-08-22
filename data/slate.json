@@ -231,15 +231,26 @@
     "bp_rate": 4.083,
     "bp_is_proxy": false,
     "bp_ip3": 7.0,
-    "woba_vs_hand": 0.3238,
+    "woba_vs_hand": 0.3313,
     "woba_overall": 0.3205,
-    "lineup_woba": 0.3205,
+    "lineup_woba": 0.3323,
     "staff_fip": 3.969,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0097,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Xavier Edwards",
+     "Griffin Conine",
+     "Owen Caissie",
+     "Otto Lopez",
+     "Jakob Marsee",
+     "Heriberto Hern\u00e1ndez",
+     "Joe Mack",
+     "Javier Sanoja",
+     "Esteury Ruiz"
+    ]
    },
    "away": {
     "id": 120,
@@ -257,15 +268,26 @@
     "bp_rate": 5.199,
     "bp_is_proxy": false,
     "bp_ip3": 11.3,
-    "woba_vs_hand": 0.3271,
+    "woba_vs_hand": 0.3093,
     "woba_overall": 0.3316,
-    "lineup_woba": 0.3316,
+    "lineup_woba": 0.3154,
     "staff_fip": 4.739,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0158,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Daylen Lile",
+     "Dylan Crews",
+     "Brady House",
+     "Abimelec Ortiz",
+     "Harry Ford",
+     "Jos\u00e9 Tena",
+     "Jacob Young",
+     "Nasim Nu\u00f1ez",
+     "Andrew Pinckney"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -281,7 +303,7 @@
     "closeTime": "2026-08-26T17:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823422,
