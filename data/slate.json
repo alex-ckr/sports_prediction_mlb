@@ -801,15 +801,26 @@
     "bp_rate": 4.154,
     "bp_is_proxy": false,
     "bp_ip3": 13.0,
-    "woba_vs_hand": 0.2866,
+    "woba_vs_hand": 0.3018,
     "woba_overall": 0.3037,
-    "lineup_woba": 0.3037,
+    "lineup_woba": 0.3006,
     "staff_fip": 3.84,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0086,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Brendan Donovan",
+     "Randy Arozarena",
+     "Dominic Canzone",
+     "Julio Rodr\u00edguez",
+     "Josh Naylor",
+     "Taylor Ward",
+     "Cal Raleigh",
+     "Cole Young",
+     "Leo Rivas"
+    ]
    },
    "away": {
     "id": 112,
@@ -827,15 +838,26 @@
     "bp_rate": 4.482,
     "bp_is_proxy": false,
     "bp_ip3": 7.3,
-    "woba_vs_hand": 0.352,
+    "woba_vs_hand": 0.3404,
     "woba_overall": 0.3327,
-    "lineup_woba": 0.3327,
+    "lineup_woba": 0.3348,
     "staff_fip": 4.422,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0015,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Pete Crow-Armstrong",
+     "Seiya Suzuki",
+     "Alex Bregman",
+     "Michael Busch",
+     "Nico Hoerner",
+     "Tyrone Taylor",
+     "Pedro Ram\u00edrez",
+     "Kevin Alc\u00e1ntara",
+     "Miguel Amaya"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -851,7 +873,7 @@
     "closeTime": "2026-08-26T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824718,
