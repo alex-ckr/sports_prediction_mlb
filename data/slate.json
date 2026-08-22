@@ -1165,15 +1165,26 @@
     "bp_rate": 4.575,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3312,
+    "woba_vs_hand": 0.3531,
     "woba_overall": 0.324,
-    "lineup_woba": 0.324,
+    "lineup_woba": 0.3492,
     "staff_fip": 4.912,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0105,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jake McCarthy",
+     "Mickey Moniak",
+     "Cole Carrigg",
+     "TJ Rumfield",
+     "Kyle Karros",
+     "Willi Castro",
+     "Troy Johnston",
+     "Brett Sullivan",
+     "Zac Veen"
+    ]
    },
    "away": {
     "id": 114,
@@ -1191,15 +1202,26 @@
     "bp_rate": 3.856,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3055,
+    "woba_vs_hand": 0.3112,
     "woba_overall": 0.3035,
-    "lineup_woba": 0.3035,
+    "lineup_woba": 0.31,
     "staff_fip": 3.935,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0073,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Steven Kwan",
+     "Chase DeLauter",
+     "Jos\u00e9 Ram\u00edrez",
+     "Jo Adell",
+     "Nathaniel Lowe",
+     "Angel Genao",
+     "Travis Bazzana",
+     "Patrick Bailey",
+     "Petey Halpin"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -1215,7 +1237,7 @@
     "closeTime": "2026-08-26T19:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823261,
