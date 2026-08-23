@@ -1103,15 +1103,26 @@
     "bp_rate": 3.188,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": 0.3139,
+    "woba_vs_hand": 0.3232,
     "woba_overall": 0.311,
-    "lineup_woba": 0.311,
+    "lineup_woba": 0.3195,
     "staff_fip": 4.017,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0019,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Fernando Tatis Jr.",
+     "Jake Cronenworth",
+     "Manny Machado",
+     "Ty France",
+     "Jackson Merrill",
+     "Luis Campusano",
+     "Gavin Sheets",
+     "Xander Bogaerts",
+     "Luis Rengifo"
+    ]
    },
    "away": {
     "id": 142,
@@ -1129,15 +1140,26 @@
     "bp_rate": 4.055,
     "bp_is_proxy": false,
     "bp_ip3": 4.7,
-    "woba_vs_hand": 0.3224,
+    "woba_vs_hand": 0.3228,
     "woba_overall": 0.3188,
-    "lineup_woba": 0.3188,
+    "lineup_woba": 0.3209,
     "staff_fip": 4.182,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0005,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Luke Keaschall",
+     "Byron Buxton",
+     "Josh Bell",
+     "Kody Clemens",
+     "Royce Lewis",
+     "Brooks Lee",
+     "Alan Roden",
+     "Victor Caratini",
+     "Kaelen Culpepper"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -1153,7 +1175,7 @@
     "closeTime": "2026-08-26T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 825043,
