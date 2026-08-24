@@ -187,15 +187,26 @@
     "bp_rate": 5.181,
     "bp_is_proxy": false,
     "bp_ip3": 10.7,
-    "woba_vs_hand": 0.3245,
+    "woba_vs_hand": 0.3058,
     "woba_overall": 0.3298,
-    "lineup_woba": 0.3298,
+    "lineup_woba": 0.3089,
     "staff_fip": 4.738,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0015,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "CJ Abrams",
+     "Abimelec Ortiz",
+     "Dylan Crews",
+     "Daylen Lile",
+     "Brady House",
+     "Keibert Ruiz",
+     "Jacob Young",
+     "Jorbit Vivas",
+     "Nasim Nu\u00f1ez"
+    ]
    },
    "away": {
     "id": 115,
@@ -213,15 +224,26 @@
     "bp_rate": 4.543,
     "bp_is_proxy": false,
     "bp_ip3": 13.7,
-    "woba_vs_hand": 0.3308,
+    "woba_vs_hand": 0.3305,
     "woba_overall": 0.3232,
-    "lineup_woba": 0.3232,
+    "lineup_woba": 0.3261,
     "staff_fip": 4.894,
     "ptype_rv100": null,
     "travel_runs": 0.1249,
     "park_fit_runs": 0.0009,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jake McCarthy",
+     "Mickey Moniak",
+     "Willi Castro",
+     "TJ Rumfield",
+     "Troy Johnston",
+     "Connor Norby",
+     "Brett Sullivan",
+     "Zac Veen",
+     "Ezequiel Tovar"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -237,7 +259,7 @@
     "closeTime": "2026-08-30T17:05:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824557,
