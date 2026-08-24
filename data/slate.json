@@ -327,15 +327,26 @@
     "bp_rate": 4.115,
     "bp_is_proxy": false,
     "bp_ip3": 16.3,
-    "woba_vs_hand": 0.3184,
+    "woba_vs_hand": 0.3283,
     "woba_overall": 0.3194,
-    "lineup_woba": 0.3194,
+    "lineup_woba": 0.3275,
     "staff_fip": 4.188,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0119,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Sam Antonacci",
+     "Munetaka Murakami",
+     "Miguel Vargas",
+     "Andrew Benintendi",
+     "Braden Montgomery",
+     "Colson Montgomery",
+     "Chase Meidroth",
+     "Tristan Peters",
+     "Drew Romo"
+    ]
    },
    "away": {
     "id": 140,
@@ -353,15 +364,26 @@
     "bp_rate": 4.187,
     "bp_is_proxy": false,
     "bp_ip3": 10.7,
-    "woba_vs_hand": 0.3061,
+    "woba_vs_hand": 0.3148,
     "woba_overall": 0.3116,
-    "lineup_woba": 0.3116,
+    "lineup_woba": 0.3166,
     "staff_fip": 4.096,
     "ptype_rv100": null,
     "travel_runs": 0.0081,
     "park_fit_runs": 0.0095,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Joc Pederson",
+     "Corey Seager",
+     "Wyatt Langford",
+     "Brandon Nimmo",
+     "Ezequiel Duran",
+     "Evan Carter",
+     "Jake Burger",
+     "Elias D\u00edaz",
+     "Cody Freeman"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -377,7 +399,7 @@
     "closeTime": "2026-08-29T23:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823992,
