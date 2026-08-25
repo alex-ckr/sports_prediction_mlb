@@ -1069,15 +1069,26 @@
     "bp_rate": 4.938,
     "bp_is_proxy": false,
     "bp_ip3": 15.3,
-    "woba_vs_hand": 0.3177,
+    "woba_vs_hand": 0.3153,
     "woba_overall": 0.3166,
-    "lineup_woba": 0.3166,
+    "lineup_woba": 0.3149,
     "staff_fip": 4.861,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0119,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Henry Bolte",
+     "Jeff McNeil",
+     "Zack Gelof",
+     "Lawrence Butler",
+     "Tommy White",
+     "Donovan Walton",
+     "Alika Williams",
+     "Carlos Cortes",
+     "Brian Serven"
+    ]
    },
    "away": {
     "id": 142,
@@ -1095,15 +1106,26 @@
     "bp_rate": 4.122,
     "bp_is_proxy": false,
     "bp_ip3": 7.7,
-    "woba_vs_hand": 0.3109,
+    "woba_vs_hand": 0.3297,
     "woba_overall": 0.3192,
-    "lineup_woba": 0.3192,
+    "lineup_woba": 0.3327,
     "staff_fip": 4.211,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0011,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Luke Keaschall",
+     "Byron Buxton",
+     "Ryan Jeffers",
+     "Royce Lewis",
+     "Kody Clemens",
+     "Kaelen Culpepper",
+     "Brooks Lee",
+     "Victor Caratini",
+     "Ryan Kreidler"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1119,7 +1141,7 @@
     "closeTime": "2026-08-30T01:05:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823098,
