@@ -859,15 +859,26 @@
     "bp_rate": 4.407,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.3021,
+    "woba_vs_hand": 0.2866,
     "woba_overall": 0.3028,
-    "lineup_woba": 0.3028,
+    "lineup_woba": 0.2885,
     "staff_fip": 4.37,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0032,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Zach Neto",
+     "Mike Trout",
+     "Mois\u00e9s Ballesteros",
+     "Vaughn Grissom",
+     "Josh Lowe",
+     "Christian Moore",
+     "Gustavo Campero",
+     "Denzer Guzman",
+     "Adam Frazier"
+    ]
    },
    "away": {
     "id": 114,
@@ -885,15 +896,26 @@
     "bp_rate": 3.822,
     "bp_is_proxy": false,
     "bp_ip3": 10.0,
-    "woba_vs_hand": 0.3054,
+    "woba_vs_hand": 0.2992,
     "woba_overall": 0.3035,
-    "lineup_woba": 0.3035,
+    "lineup_woba": 0.2957,
     "staff_fip": 3.912,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0056,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Steven Kwan",
+     "Travis Bazzana",
+     "Jos\u00e9 Ram\u00edrez",
+     "Jo Adell",
+     "Nathaniel Lowe",
+     "Angel Mart\u00ednez",
+     "Patrick Bailey",
+     "Petey Halpin",
+     "Brayan Rocchio"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -909,7 +931,7 @@
     "closeTime": "2026-08-29T20:07:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 825042,
