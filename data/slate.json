@@ -39,15 +39,26 @@
     "bp_rate": 4.339,
     "bp_is_proxy": false,
     "bp_ip3": 14.3,
-    "woba_vs_hand": 0.3218,
+    "woba_vs_hand": 0.3358,
     "woba_overall": 0.3172,
-    "lineup_woba": 0.3172,
+    "lineup_woba": 0.3308,
     "staff_fip": 4.213,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0071,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Brett Callahan",
+     "Kevin McGonigle",
+     "Gleyber Torres",
+     "Colt Keith",
+     "Dillon Dingler",
+     "Zach McKinstry",
+     "Spencer Torkelson",
+     "Max Clark",
+     "Hao-Yu Lee"
+    ]
    },
    "away": {
     "id": 139,
@@ -65,15 +76,26 @@
     "bp_rate": 4.333,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": 0.3308,
+    "woba_vs_hand": 0.3348,
     "woba_overall": 0.3215,
-    "lineup_woba": 0.3215,
+    "lineup_woba": 0.3282,
     "staff_fip": 4.041,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0082,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Yandy D\u00edaz",
+     "Jonathan Aranda",
+     "Junior Caminero",
+     "Liam Hicks",
+     "Chandler Simpson",
+     "Jonny DeLuca",
+     "Richie Palacios",
+     "Jorge Mateo",
+     "Cedric Mullins"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-08-29T17:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 825039,
