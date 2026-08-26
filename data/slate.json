@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26T11:23:45.345733+00:00",
+ "generatedAt": "2026-08-26T16:13:15.807647+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 824234,
    "date": "2026-08-26",
    "startsAt": "2026-08-26T17:10:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Comerica Park",
    "home": {
     "id": 116,
@@ -217,10 +217,10 @@
     "eventTicker": "KXMLBGAME-26AUG261545CINSF",
     "title": "San Francisco wins",
     "subtitle": "San Francisco",
-    "yesBid": 51,
-    "yesAsk": 52,
-    "last": 52,
-    "mid": 0.515,
+    "yesBid": 50,
+    "yesAsk": 51,
+    "last": 51,
+    "mid": 0.505,
     "volume": null,
     "closeTime": "2026-08-29T19:45:00Z"
    },
@@ -291,10 +291,10 @@
     "eventTicker": "KXMLBGAME-26AUG261607CLELAA",
     "title": "Los Angeles A wins",
     "subtitle": "Los Angeles A",
-    "yesBid": 43,
-    "yesAsk": 44,
-    "last": 44,
-    "mid": 0.435,
+    "yesBid": 42,
+    "yesAsk": 43,
+    "last": 43,
+    "mid": 0.425,
     "volume": null,
     "closeTime": "2026-08-29T20:07:00Z"
    },
@@ -513,10 +513,10 @@
     "eventTicker": "KXMLBGAME-26AUG261840BOSMIA",
     "title": "Miami wins",
     "subtitle": "Miami",
-    "yesBid": 40,
-    "yesAsk": 41,
-    "last": 41,
-    "mid": 0.405,
+    "yesBid": 44,
+    "yesAsk": 45,
+    "last": 45,
+    "mid": 0.445,
     "volume": null,
     "closeTime": "2026-08-29T22:40:00Z"
    },
@@ -587,9 +587,9 @@
     "eventTicker": "KXMLBGAME-26AUG271305COLWSH",
     "title": "Washington wins",
     "subtitle": "Washington",
-    "yesBid": 49,
-    "yesAsk": 52,
-    "last": 52,
+    "yesBid": 50,
+    "yesAsk": 51,
+    "last": 51,
     "mid": 0.505,
     "volume": null,
     "closeTime": "2026-08-30T17:05:00Z"
@@ -610,12 +610,12 @@
     "nick": "Yankees",
     "wins": 74,
     "losses": 57,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Elmer Rodr\u00edguez",
+    "starterId": 695684,
+    "starterHand": "R",
+    "sp_rate": 5.143,
+    "sp_era": 4.76,
+    "sp_ip": 4.25,
     "bp_rate": 3.689,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
@@ -645,7 +645,7 @@
     "bp_rate": 4.441,
     "bp_is_proxy": false,
     "bp_ip3": 9.7,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3216,
     "woba_overall": 0.3187,
     "lineup_woba": 0.3187,
     "staff_fip": 4.62,
@@ -653,7 +653,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0547,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "home",
@@ -662,9 +662,9 @@
     "title": "New York Y wins",
     "subtitle": "New York Y",
     "yesBid": 54,
-    "yesAsk": 57,
-    "last": 56,
-    "mid": 0.555,
+    "yesAsk": 56,
+    "last": 55,
+    "mid": 0.55,
     "volume": null,
     "closeTime": "2026-08-30T23:05:00Z"
    },
@@ -809,10 +809,10 @@
     "eventTicker": "KXMLBGAME-26AUG271910MILNYM",
     "title": "New York M wins",
     "subtitle": "New York M",
-    "yesBid": 37,
-    "yesAsk": 38,
+    "yesBid": 33,
+    "yesAsk": 36,
     "last": 37,
-    "mid": 0.375,
+    "mid": 0.345,
     "volume": null,
     "closeTime": "2026-08-30T23:10:00Z"
    },
@@ -883,10 +883,10 @@
     "eventTicker": "KXMLBGAME-26AUG271915LADATL",
     "title": "Los Angeles D wins",
     "subtitle": "Los Angeles D",
-    "yesBid": 49,
-    "yesAsk": 52,
-    "last": 52,
-    "mid": 0.505,
+    "yesBid": 50,
+    "yesAsk": 53,
+    "last": 53,
+    "mid": 0.515,
     "volume": null,
     "closeTime": "2026-08-30T23:15:00Z"
    },
@@ -957,10 +957,10 @@
     "eventTicker": "KXMLBGAME-26AUG261940TEXCWS",
     "title": "Texas wins",
     "subtitle": "Texas",
-    "yesBid": 45,
-    "yesAsk": 46,
-    "last": 46,
-    "mid": 0.455,
+    "yesBid": 46,
+    "yesAsk": 47,
+    "last": 47,
+    "mid": 0.465,
     "volume": null,
     "closeTime": "2026-08-29T23:40:00Z"
    },
@@ -1032,9 +1032,9 @@
     "title": "St. Louis wins",
     "subtitle": "St. Louis",
     "yesBid": 50,
-    "yesAsk": 52,
-    "last": 55,
-    "mid": 0.51,
+    "yesAsk": 51,
+    "last": 51,
+    "mid": 0.505,
     "volume": null,
     "closeTime": "2026-08-30T18:15:00Z"
    },
@@ -1105,10 +1105,10 @@
     "eventTicker": "KXMLBGAME-26AUG262105MINATH",
     "title": "Minnesota wins",
     "subtitle": "Minnesota",
-    "yesBid": 56,
+    "yesBid": 55,
     "yesAsk": 57,
     "last": 57,
-    "mid": 0.565,
+    "mid": 0.56,
     "volume": null,
     "closeTime": "2026-08-30T01:05:00Z"
    },
@@ -1179,9 +1179,9 @@
     "eventTicker": "KXMLBGAME-26AUG271305COLWSH",
     "title": "Washington wins",
     "subtitle": "Washington",
-    "yesBid": 49,
-    "yesAsk": 52,
-    "last": 52,
+    "yesBid": 50,
+    "yesAsk": 51,
+    "last": 51,
     "mid": 0.505,
     "volume": null,
     "closeTime": "2026-08-30T17:05:00Z"
@@ -1254,9 +1254,9 @@
     "title": "St. Louis wins",
     "subtitle": "St. Louis",
     "yesBid": 50,
-    "yesAsk": 52,
-    "last": 55,
-    "mid": 0.51,
+    "yesAsk": 51,
+    "last": 51,
+    "mid": 0.505,
     "volume": null,
     "closeTime": "2026-08-30T18:15:00Z"
    },
@@ -1328,9 +1328,9 @@
     "title": "New York Y wins",
     "subtitle": "New York Y",
     "yesBid": 54,
-    "yesAsk": 57,
-    "last": 56,
-    "mid": 0.555,
+    "yesAsk": 56,
+    "last": 55,
+    "mid": 0.55,
     "volume": null,
     "closeTime": "2026-08-30T23:05:00Z"
    },
@@ -1475,10 +1475,10 @@
     "eventTicker": "KXMLBGAME-26AUG271910MILNYM",
     "title": "New York M wins",
     "subtitle": "New York M",
-    "yesBid": 37,
-    "yesAsk": 38,
+    "yesBid": 33,
+    "yesAsk": 36,
     "last": 37,
-    "mid": 0.375,
+    "mid": 0.345,
     "volume": null,
     "closeTime": "2026-08-30T23:10:00Z"
    },
@@ -1549,10 +1549,10 @@
     "eventTicker": "KXMLBGAME-26AUG271915LADATL",
     "title": "Los Angeles D wins",
     "subtitle": "Los Angeles D",
-    "yesBid": 49,
-    "yesAsk": 52,
-    "last": 52,
-    "mid": 0.505,
+    "yesBid": 50,
+    "yesAsk": 53,
+    "last": 53,
+    "mid": 0.515,
     "volume": null,
     "closeTime": "2026-08-30T23:15:00Z"
    },
@@ -1625,7 +1625,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "22 games, 4 starters still TBD"
+   "detail": "22 games, 3 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -1637,11 +1637,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 823 arms, 30 bullpens, 40/44 probables matched, FIP constant 3.08"
+   "detail": "bulk: 823 arms, 30 bullpens, 41/44 probables matched, FIP constant 3.08"
   },
   "handedness": {
    "ok": true,
-   "detail": "40/40 resolved"
+   "detail": "41/41 resolved"
   },
   "hitting": {
    "ok": true,
@@ -1666,7 +1666,7 @@
    "ticker": "KXMLBGAME-26AUG282215AZSF-SF",
    "title": "San Francisco wins",
    "subtitle": "San Francisco",
-   "yesBid": 46,
+   "yesBid": 48,
    "yesAsk": 52
   },
   {
@@ -1723,7 +1723,7 @@
    "title": "St. Louis wins",
    "subtitle": "St. Louis",
    "yesBid": 47,
-   "yesAsk": 52
+   "yesAsk": 55
   },
   {
    "ticker": "KXMLBGAME-26AUG282015PITSTL-PIT",
@@ -1737,14 +1737,14 @@
    "title": "Texas wins",
    "subtitle": "Texas",
    "yesBid": 38,
-   "yesAsk": 41
+   "yesAsk": 42
   },
   {
    "ticker": "KXMLBGAME-26AUG281940TEXMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
    "yesBid": 59,
-   "yesAsk": 63
+   "yesAsk": 62
   }
  ]
 }
