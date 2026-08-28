@@ -409,15 +409,26 @@
     "bp_rate": 4.44,
     "bp_is_proxy": false,
     "bp_ip3": 16.7,
-    "woba_vs_hand": 0.3203,
+    "woba_vs_hand": 0.3102,
     "woba_overall": 0.3117,
-    "lineup_woba": 0.3117,
+    "lineup_woba": 0.3045,
     "staff_fip": 4.175,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0238,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Drew Gilbert",
+     "Rafael Devers",
+     "Bryce Eldridge",
+     "Jonah Cox",
+     "Turner Hill",
+     "Shay Whitcomb",
+     "Drew Cavanaugh",
+     "Christian Koss",
+     "Nate Furman"
+    ]
    },
    "away": {
     "id": 109,
@@ -435,19 +446,30 @@
     "bp_rate": 3.829,
     "bp_is_proxy": false,
     "bp_ip3": 7.7,
-    "woba_vs_hand": 0.3022,
+    "woba_vs_hand": 0.3149,
     "woba_overall": 0.314,
-    "lineup_woba": 0.314,
+    "lineup_woba": 0.3181,
     "staff_fip": 4.474,
     "ptype_rv100": null,
     "travel_runs": 0.0315,
     "park_fit_runs": 0.0253,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Lars Nootbaar",
+     "Corbin Carroll",
+     "Gabriel Moreno",
+     "Geraldo Perdomo",
+     "Max Kepler",
+     "Tim Tawa",
+     "Jose Fernandez",
+     "Ildemaro Vargas",
+     "Ryan Waldschmidt"
+    ]
    },
    "kalshi": null,
    "kalshiWhy": "no market matched both team codes",
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824638,
