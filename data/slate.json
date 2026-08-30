@@ -1133,15 +1133,26 @@
     "bp_rate": 4.541,
     "bp_is_proxy": false,
     "bp_ip3": 8.0,
-    "woba_vs_hand": 0.3306,
+    "woba_vs_hand": 0.3404,
     "woba_overall": 0.3366,
-    "lineup_woba": 0.3366,
+    "lineup_woba": 0.3422,
     "staff_fip": 4.431,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Pete Crow-Armstrong",
+     "Seiya Suzuki",
+     "Michael Busch",
+     "Alex Bregman",
+     "Ian Happ",
+     "Nico Hoerner",
+     "Pedro Ram\u00edrez",
+     "Michael Conforto",
+     "Miguel Amaya"
+    ]
    },
    "away": {
     "id": 113,
@@ -1159,15 +1170,26 @@
     "bp_rate": 4.949,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3221,
+    "woba_vs_hand": 0.323,
     "woba_overall": 0.3091,
-    "lineup_woba": 0.3091,
+    "lineup_woba": 0.3194,
     "staff_fip": 4.745,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Dane Myers",
+     "Elly De La Cruz",
+     "Sal Stewart",
+     "Tyler Stephenson",
+     "Eugenio Su\u00e1rez",
+     "JJ Bleday",
+     "Matt McLain",
+     "H\u00e9ctor Rodr\u00edguez",
+     "Edwin Arroyo"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1183,7 +1205,7 @@
     "closeTime": "2026-09-02T23:20:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824911,
