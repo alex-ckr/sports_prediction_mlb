@@ -41,13 +41,24 @@
     "bp_ip3": 10.7,
     "woba_vs_hand": 0.3061,
     "woba_overall": 0.3039,
-    "lineup_woba": 0.3039,
+    "lineup_woba": 0.3011,
     "staff_fip": 3.915,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0061,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Steven Kwan",
+     "Chase DeLauter",
+     "Jos\u00e9 Ram\u00edrez",
+     "Jo Adell",
+     "Nathaniel Lowe",
+     "Angel Genao",
+     "Travis Bazzana",
+     "Patrick Bailey",
+     "Brayan Rocchio"
+    ]
    },
    "away": {
     "id": 116,
@@ -65,15 +76,26 @@
     "bp_rate": 4.481,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3036,
+    "woba_vs_hand": 0.3224,
     "woba_overall": 0.3133,
-    "lineup_woba": 0.3133,
+    "lineup_woba": 0.329,
     "staff_fip": 4.316,
     "ptype_rv100": null,
     "travel_runs": 0.0307,
     "park_fit_runs": -0.0036,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Gleyber Torres",
+     "Kevin McGonigle",
+     "Hao-Yu Lee",
+     "Dillon Dingler",
+     "Riley Greene",
+     "Ben Malgeri",
+     "Spencer Torkelson",
+     "Max Clark",
+     "Javier B\u00e1ez"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-09-09T17:40:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824387,
