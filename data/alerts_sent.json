@@ -2614,5 +2614,47 @@
   "modelHome": 0.44,
   "marketMid": 0.415,
   "runDelta": 0.0
+ },
+ "824471": {
+  "sentAt": "2026-09-04T21:03:18.710969+00:00",
+  "modelHome": 0.3944,
+  "marketMid": 0.565,
+  "runDelta": 0.0
+ },
+ "823418": {
+  "sentAt": "2026-09-04T21:03:18.710969+00:00",
+  "modelHome": 0.5742,
+  "marketMid": 0.59,
+  "runDelta": 0.0
+ },
+ "824797": {
+  "sentAt": "2026-09-04T21:03:18.710969+00:00",
+  "modelHome": 0.5114,
+  "marketMid": 0.51,
+  "runDelta": 0.0
+ },
+ "823579": {
+  "sentAt": "2026-09-04T21:03:18.710969+00:00",
+  "modelHome": 0.5476,
+  "marketMid": 0.445,
+  "runDelta": 0.0
+ },
+ "823824": {
+  "sentAt": "2026-09-04T21:03:18.710969+00:00",
+  "modelHome": 0.5412,
+  "marketMid": 0.44,
+  "runDelta": 0.0
+ },
+ "824554": {
+  "sentAt": "2026-09-04T21:03:18.710969+00:00",
+  "modelHome": 0.487,
+  "marketMid": 0.44,
+  "runDelta": 0.0
+ },
+ "824146": {
+  "sentAt": "2026-09-04T21:03:18.710969+00:00",
+  "modelHome": 0.5656,
+  "marketMid": null,
+  "runDelta": 0.0
  }
 }
