@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T13:38:39.785137+00:00",
+ "generatedAt": "2026-09-05T17:03:51.052198+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 823577,
    "date": "2026-09-05",
    "startsAt": "2026-09-05T20:10:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Citi Field",
    "home": {
     "id": 121,
@@ -83,7 +83,7 @@
     "subtitle": "San Francisco",
     "yesBid": 43,
     "yesAsk": 45,
-    "last": 46,
+    "last": 45,
     "mid": 0.44,
     "volume": null,
     "closeTime": "2026-09-09T17:40:00Z"
@@ -95,7 +95,7 @@
    "gamePk": 823823,
    "date": "2026-09-05",
    "startsAt": "2026-09-05T20:10:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "loanDepot park",
    "home": {
     "id": 146,
@@ -155,9 +155,9 @@
     "eventTicker": "KXMLBGAME-26SEP061340CHCMIA",
     "title": "Miami wins",
     "subtitle": "Miami",
-    "yesBid": 43,
-    "yesAsk": 46,
-    "last": 0,
+    "yesBid": 44,
+    "yesAsk": 45,
+    "last": 46,
     "mid": 0.445,
     "volume": null,
     "closeTime": "2026-09-09T17:40:00Z"
@@ -229,10 +229,10 @@
     "eventTicker": "KXMLBGAME-26SEP071305ATLPHI",
     "title": "Philadelphia wins",
     "subtitle": "Philadelphia",
-    "yesBid": 59,
+    "yesBid": 56,
     "yesAsk": 61,
-    "last": 61,
-    "mid": 0.6,
+    "last": 60,
+    "mid": 0.585,
     "volume": null,
     "closeTime": "2026-09-10T17:05:00Z"
    },
@@ -304,9 +304,9 @@
     "title": "Detroit wins",
     "subtitle": "Detroit",
     "yesBid": 41,
-    "yesAsk": 43,
-    "last": 44,
-    "mid": 0.42,
+    "yesAsk": 42,
+    "last": 42,
+    "mid": 0.415,
     "volume": null,
     "closeTime": "2026-09-09T17:40:00Z"
    },
@@ -377,10 +377,10 @@
     "eventTicker": "KXMLBGAME-26SEP061335LAAPIT",
     "title": "Pittsburgh wins",
     "subtitle": "Pittsburgh",
-    "yesBid": 64,
+    "yesBid": 62,
     "yesAsk": 65,
     "last": 65,
-    "mid": 0.645,
+    "mid": 0.635,
     "volume": null,
     "closeTime": "2026-09-09T17:35:00Z"
    },
@@ -599,10 +599,10 @@
     "eventTicker": "KXMLBGAME-26SEP061435TBTEX",
     "title": "Texas wins",
     "subtitle": "Texas",
-    "yesBid": 45,
-    "yesAsk": 46,
-    "last": 46,
-    "mid": 0.455,
+    "yesBid": 46,
+    "yesAsk": 49,
+    "last": 49,
+    "mid": 0.475,
     "volume": null,
     "closeTime": "2026-09-09T18:35:00Z"
    },
@@ -749,7 +749,7 @@
     "subtitle": "Minnesota",
     "yesBid": 43,
     "yesAsk": 46,
-    "last": 45,
+    "last": 46,
     "mid": 0.445,
     "volume": null,
     "closeTime": "2026-09-09T22:20:00Z"
@@ -884,9 +884,9 @@
     "title": "San Diego wins",
     "subtitle": "San Diego",
     "yesBid": 49,
-    "yesAsk": 52,
-    "last": 52,
-    "mid": 0.505,
+    "yesAsk": 51,
+    "last": 51,
+    "mid": 0.5,
     "volume": null,
     "closeTime": "2026-09-09T20:10:00Z"
    },
@@ -958,9 +958,9 @@
     "title": "St. Louis wins",
     "subtitle": "St. Louis",
     "yesBid": 51,
-    "yesAsk": 54,
-    "last": 54,
-    "mid": 0.525,
+    "yesAsk": 52,
+    "last": 51,
+    "mid": 0.515,
     "volume": null,
     "closeTime": "2026-09-09T19:10:00Z"
    },
@@ -1031,10 +1031,10 @@
     "eventTicker": "KXMLBGAME-26SEP062210WSHLAD",
     "title": "Washington wins",
     "subtitle": "Washington",
-    "yesBid": 32,
-    "yesAsk": 34,
-    "last": 33,
-    "mid": 0.33,
+    "yesBid": 33,
+    "yesAsk": 35,
+    "last": 34,
+    "mid": 0.34,
     "volume": null,
     "closeTime": "2026-09-10T02:10:00Z"
    },
@@ -1105,10 +1105,10 @@
     "eventTicker": "KXMLBGAME-26SEP061610ATHSEA",
     "title": "Seattle wins",
     "subtitle": "Seattle",
-    "yesBid": 66,
+    "yesBid": 64,
     "yesAsk": 67,
     "last": 67,
-    "mid": 0.665,
+    "mid": 0.655,
     "volume": null,
     "closeTime": "2026-09-09T20:10:00Z"
    },
@@ -1253,10 +1253,10 @@
     "eventTicker": "KXMLBGAME-26SEP071305ATLPHI",
     "title": "Philadelphia wins",
     "subtitle": "Philadelphia",
-    "yesBid": 59,
+    "yesBid": 56,
     "yesAsk": 61,
-    "last": 61,
-    "mid": 0.6,
+    "last": 60,
+    "mid": 0.585,
     "volume": null,
     "closeTime": "2026-09-10T17:05:00Z"
    },
@@ -1401,10 +1401,10 @@
     "eventTicker": "KXMLBGAME-26SEP061335LAAPIT",
     "title": "Pittsburgh wins",
     "subtitle": "Pittsburgh",
-    "yesBid": 64,
+    "yesBid": 62,
     "yesAsk": 65,
     "last": 65,
-    "mid": 0.645,
+    "mid": 0.635,
     "volume": null,
     "closeTime": "2026-09-09T17:35:00Z"
    },
@@ -1476,9 +1476,9 @@
     "title": "Detroit wins",
     "subtitle": "Detroit",
     "yesBid": 41,
-    "yesAsk": 43,
-    "last": 44,
-    "mid": 0.42,
+    "yesAsk": 42,
+    "last": 42,
+    "mid": 0.415,
     "volume": null,
     "closeTime": "2026-09-09T17:40:00Z"
    },
@@ -1551,7 +1551,7 @@
     "subtitle": "San Francisco",
     "yesBid": 43,
     "yesAsk": 45,
-    "last": 46,
+    "last": 45,
     "mid": 0.44,
     "volume": null,
     "closeTime": "2026-09-09T17:40:00Z"
@@ -1623,9 +1623,9 @@
     "eventTicker": "KXMLBGAME-26SEP061340CHCMIA",
     "title": "Miami wins",
     "subtitle": "Miami",
-    "yesBid": 43,
-    "yesAsk": 46,
-    "last": 0,
+    "yesBid": 44,
+    "yesAsk": 45,
+    "last": 46,
     "mid": 0.445,
     "volume": null,
     "closeTime": "2026-09-09T17:40:00Z"
@@ -1833,10 +1833,10 @@
     "eventTicker": "KXMLBGAME-26SEP061435TBTEX",
     "title": "Texas wins",
     "subtitle": "Texas",
-    "yesBid": 45,
-    "yesAsk": 46,
-    "last": 46,
-    "mid": 0.455,
+    "yesBid": 46,
+    "yesAsk": 49,
+    "last": 49,
+    "mid": 0.475,
     "volume": null,
     "closeTime": "2026-09-09T18:35:00Z"
    },
@@ -1908,9 +1908,9 @@
     "title": "St. Louis wins",
     "subtitle": "St. Louis",
     "yesBid": 51,
-    "yesAsk": 54,
-    "last": 54,
-    "mid": 0.525,
+    "yesAsk": 52,
+    "last": 51,
+    "mid": 0.515,
     "volume": null,
     "closeTime": "2026-09-09T19:10:00Z"
    },
@@ -1981,10 +1981,10 @@
     "eventTicker": "KXMLBGAME-26SEP061610ATHSEA",
     "title": "Seattle wins",
     "subtitle": "Seattle",
-    "yesBid": 66,
+    "yesBid": 64,
     "yesAsk": 67,
     "last": 67,
-    "mid": 0.665,
+    "mid": 0.655,
     "volume": null,
     "closeTime": "2026-09-09T20:10:00Z"
    },
@@ -2056,9 +2056,9 @@
     "title": "San Diego wins",
     "subtitle": "San Diego",
     "yesBid": 49,
-    "yesAsk": 52,
-    "last": 52,
-    "mid": 0.505,
+    "yesAsk": 51,
+    "last": 51,
+    "mid": 0.5,
     "volume": null,
     "closeTime": "2026-09-09T20:10:00Z"
    },
@@ -2131,7 +2131,7 @@
     "subtitle": "Minnesota",
     "yesBid": 43,
     "yesAsk": 46,
-    "last": 45,
+    "last": 46,
     "mid": 0.445,
     "volume": null,
     "closeTime": "2026-09-09T22:20:00Z"
@@ -2203,10 +2203,10 @@
     "eventTicker": "KXMLBGAME-26SEP062210WSHLAD",
     "title": "Washington wins",
     "subtitle": "Washington",
-    "yesBid": 32,
-    "yesAsk": 34,
-    "last": 33,
-    "mid": 0.33,
+    "yesBid": 33,
+    "yesAsk": 35,
+    "last": 34,
+    "mid": 0.34,
     "volume": null,
     "closeTime": "2026-09-10T02:10:00Z"
    },
@@ -2258,14 +2258,14 @@
    "ticker": "KXMLBGAME-26SEP072205TORATH-TOR",
    "title": "Toronto wins",
    "subtitle": "Toronto",
-   "yesBid": 62,
-   "yesAsk": 65
+   "yesBid": 63,
+   "yesAsk": 67
   },
   {
    "ticker": "KXMLBGAME-26SEP072205TORATH-ATH",
    "title": "A's wins",
    "subtitle": "A's",
-   "yesBid": 34,
+   "yesBid": 33,
    "yesAsk": 37
   },
   {
@@ -2273,14 +2273,14 @@
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
    "yesBid": 59,
-   "yesAsk": 63
+   "yesAsk": 62
   },
   {
    "ticker": "KXMLBGAME-26SEP072110CINLAD-CIN",
    "title": "Cincinnati wins",
    "subtitle": "Cincinnati",
-   "yesBid": 36,
-   "yesAsk": 40
+   "yesBid": 37,
+   "yesAsk": 41
   },
   {
    "ticker": "KXMLBGAME-26SEP072010STLSF-STL",
@@ -2308,14 +2308,14 @@
    "title": "San Diego wins",
    "subtitle": "San Diego",
    "yesBid": 59,
-   "yesAsk": 62
+   "yesAsk": 63
   },
   {
    "ticker": "KXMLBGAME-26SEP071510MINDET-MIN",
    "title": "Minnesota wins",
    "subtitle": "Minnesota",
    "yesBid": 43,
-   "yesAsk": 47
+   "yesAsk": 46
   },
   {
    "ticker": "KXMLBGAME-26SEP071510MINDET-DET",
@@ -2328,14 +2328,14 @@
    "ticker": "KXMLBGAME-26SEP071410AZKC-KC",
    "title": "Kansas City wins",
    "subtitle": "Kansas City",
-   "yesBid": 48,
-   "yesAsk": 55
+   "yesBid": 46,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26SEP071410AZKC-AZ",
    "title": "Arizona wins",
    "subtitle": "Arizona",
-   "yesBid": 45,
+   "yesBid": 46,
    "yesAsk": 53
   }
  ]
