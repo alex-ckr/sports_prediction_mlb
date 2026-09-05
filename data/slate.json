@@ -1069,15 +1069,26 @@
     "bp_rate": 4.522,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3094,
+    "woba_vs_hand": 0.3418,
     "woba_overall": 0.3242,
-    "lineup_woba": 0.3242,
+    "lineup_woba": 0.3416,
     "staff_fip": 4.789,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0077,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Jake McCarthy",
+     "Connor Norby",
+     "Hunter Goodman",
+     "TJ Rumfield",
+     "Cole Carrigg",
+     "Jordan Beck",
+     "Troy Johnston",
+     "Adael Amador",
+     "Ezequiel Tovar"
+    ]
    },
    "away": {
     "id": 138,
@@ -1095,15 +1106,26 @@
     "bp_rate": 4.316,
     "bp_is_proxy": false,
     "bp_ip3": 16.3,
-    "woba_vs_hand": 0.3061,
+    "woba_vs_hand": 0.3353,
     "woba_overall": 0.3091,
-    "lineup_woba": 0.3091,
+    "lineup_woba": 0.3341,
     "staff_fip": 4.161,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0077,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Bryan Torres",
+     "Iv\u00e1n Herrera",
+     "Alec Burleson",
+     "Jordan Walker",
+     "Leo Bernal",
+     "Joshua B\u00e1ez",
+     "Nolan Gorman",
+     "Thomas Saggese",
+     "Nathan Church"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1119,7 +1141,7 @@
     "closeTime": "2026-09-09T19:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823904,
@@ -1239,15 +1261,26 @@
     "bp_rate": 4.317,
     "bp_is_proxy": false,
     "bp_ip3": 12.7,
-    "woba_vs_hand": 0.2844,
+    "woba_vs_hand": 0.3052,
     "woba_overall": 0.305,
-    "lineup_woba": 0.305,
+    "lineup_woba": 0.3016,
     "staff_fip": 4.049,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0085,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Randy Arozarena",
+     "Dominic Canzone",
+     "Julio Rodr\u00edguez",
+     "Cal Raleigh",
+     "Josh Naylor",
+     "J.P. Crawford",
+     "Taylor Ward",
+     "Cole Young",
+     "Weston Wilson"
+    ]
    },
    "away": {
     "id": 133,
@@ -1265,15 +1298,26 @@
     "bp_rate": 4.895,
     "bp_is_proxy": false,
     "bp_ip3": 15.3,
-    "woba_vs_hand": 0.3202,
+    "woba_vs_hand": 0.3069,
     "woba_overall": 0.3198,
-    "lineup_woba": 0.3198,
+    "lineup_woba": 0.3112,
     "staff_fip": 4.874,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0058,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Henry Bolte",
+     "Jeff McNeil",
+     "Zack Gelof",
+     "Lawrence Butler",
+     "Jonah Heim",
+     "Max Muncy",
+     "Donovan Walton",
+     "Alika Williams",
+     "Denzel Clarke"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -1289,7 +1333,7 @@
     "closeTime": "2026-09-09T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824469,
