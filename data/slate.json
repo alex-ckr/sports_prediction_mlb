@@ -1061,7 +1061,7 @@
     "bp_rate": 4.332,
     "bp_is_proxy": false,
     "bp_ip3": 10.7,
-    "woba_vs_hand": 0.2822,
+    "woba_vs_hand": 0.3168,
     "woba_overall": 0.3045,
     "lineup_woba": 0.3045,
     "staff_fip": 4.056,
@@ -1069,7 +1069,18 @@
     "travel_runs": 0.0,
     "park_fit_runs": -0.0084,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Randy Arozarena",
+     "Dominic Canzone",
+     "Julio Rodr\u00edguez",
+     "Cal Raleigh",
+     "J.P. Crawford",
+     "Josh Naylor",
+     "Weston Wilson",
+     "Michael Arroyo",
+     "Jhonny Pereda"
+    ]
    },
    "away": {
     "id": 133,
@@ -1087,15 +1098,26 @@
     "bp_rate": 4.892,
     "bp_is_proxy": false,
     "bp_ip3": 14.3,
-    "woba_vs_hand": 0.3203,
+    "woba_vs_hand": 0.3262,
     "woba_overall": 0.3199,
-    "lineup_woba": 0.3199,
+    "lineup_woba": 0.3262,
     "staff_fip": 4.858,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.006,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Henry Bolte",
+     "Jeff McNeil",
+     "Zack Gelof",
+     "Lawrence Butler",
+     "Carlos Cortes",
+     "Max Muncy",
+     "Donovan Walton",
+     "Alika Williams",
+     "Brian Serven"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -1111,7 +1133,7 @@
     "closeTime": "2026-09-09T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823253,
@@ -1231,15 +1253,26 @@
     "bp_rate": 4.095,
     "bp_is_proxy": false,
     "bp_ip3": 12.7,
-    "woba_vs_hand": 0.3165,
+    "woba_vs_hand": 0.3275,
     "woba_overall": 0.3183,
-    "lineup_woba": 0.3183,
+    "lineup_woba": 0.3266,
     "staff_fip": 4.24,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0105,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Sam Antonacci",
+     "Miguel Vargas",
+     "Munetaka Murakami",
+     "Andrew Benintendi",
+     "Colson Montgomery",
+     "Braden Montgomery",
+     "Tristan Peters",
+     "Chase Meidroth",
+     "Kyle Teel"
+    ]
    },
    "away": {
     "id": 142,
@@ -1257,15 +1290,26 @@
     "bp_rate": 4.004,
     "bp_is_proxy": false,
     "bp_ip3": 7.0,
-    "woba_vs_hand": 0.3093,
+    "woba_vs_hand": 0.3277,
     "woba_overall": 0.3201,
-    "lineup_woba": 0.3201,
+    "lineup_woba": 0.3314,
     "staff_fip": 4.147,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0014,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Luke Keaschall",
+     "Brooks Lee",
+     "Ryan Jeffers",
+     "Josh Bell",
+     "Kody Clemens",
+     "Royce Lewis",
+     "Trevor Larnach",
+     "Kaelen Culpepper",
+     "Walker Jenkins"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1281,7 +1325,7 @@
     "closeTime": "2026-09-09T22:20:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823903,
