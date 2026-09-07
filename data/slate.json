@@ -113,15 +113,26 @@
     "bp_rate": 4.516,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3191,
+    "woba_vs_hand": 0.3123,
     "woba_overall": 0.3126,
-    "lineup_woba": 0.3126,
+    "lineup_woba": 0.3067,
     "staff_fip": 4.287,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0204,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Turner Hill",
+     "Rafael Devers",
+     "Bryce Eldridge",
+     "Jonah Cox",
+     "Jung Hoo Lee",
+     "Osleivis Basabe",
+     "Andrew Knizner",
+     "Shay Whitcomb",
+     "Christian Koss"
+    ]
    },
    "away": {
     "id": 138,
@@ -139,15 +150,26 @@
     "bp_rate": 4.293,
     "bp_is_proxy": false,
     "bp_ip3": 14.0,
-    "woba_vs_hand": 0.3085,
+    "woba_vs_hand": 0.3381,
     "woba_overall": 0.3106,
-    "lineup_woba": 0.3106,
+    "lineup_woba": 0.3363,
     "staff_fip": 4.148,
     "ptype_rv100": null,
     "travel_runs": 0.0345,
     "park_fit_runs": 0.0107,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Bryan Torres",
+     "Iv\u00e1n Herrera",
+     "Alec Burleson",
+     "Jordan Walker",
+     "Leo Bernal",
+     "Nolan Gorman",
+     "Joshua B\u00e1ez",
+     "Thomas Saggese",
+     "Nathan Church"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -163,7 +185,7 @@
     "closeTime": "2026-09-12T19:45:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823902,
