@@ -187,15 +187,26 @@
     "bp_rate": 4.359,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": 0.3142,
+    "woba_vs_hand": 0.3292,
     "woba_overall": 0.3036,
-    "lineup_woba": 0.3036,
+    "lineup_woba": 0.3261,
     "staff_fip": 4.059,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0077,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "J.P. Crawford",
+     "Randy Arozarena",
+     "Dominic Canzone",
+     "Cal Raleigh",
+     "Julio Rodr\u00edguez",
+     "Josh Naylor",
+     "Cole Young",
+     "Lazaro Montes",
+     "Brock Rodden"
+    ]
    },
    "away": {
     "id": 140,
@@ -213,15 +224,26 @@
     "bp_rate": 4.22,
     "bp_is_proxy": false,
     "bp_ip3": 7.0,
-    "woba_vs_hand": 0.3084,
+    "woba_vs_hand": 0.3165,
     "woba_overall": 0.3165,
-    "lineup_woba": 0.3165,
+    "lineup_woba": 0.3178,
     "staff_fip": 4.153,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0068,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Joc Pederson",
+     "Corey Seager",
+     "Ezequiel Duran",
+     "Brandon Nimmo",
+     "Wyatt Langford",
+     "Evan Carter",
+     "Jake Burger",
+     "Nicky Lopez",
+     "Danny Jansen"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -237,7 +259,7 @@
     "closeTime": "2026-09-13T20:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823499,
