@@ -1147,15 +1147,26 @@
     "bp_rate": 4.597,
     "bp_is_proxy": false,
     "bp_ip3": 14.0,
-    "woba_vs_hand": 0.3299,
+    "woba_vs_hand": 0.353,
     "woba_overall": 0.3241,
-    "lineup_woba": 0.3241,
+    "lineup_woba": 0.3504,
     "staff_fip": 4.86,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0077,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jake McCarthy",
+     "Adael Amador",
+     "Cole Carrigg",
+     "TJ Rumfield",
+     "Kyle Karros",
+     "Mickey Moniak",
+     "Troy Johnston",
+     "Brett Sullivan",
+     "Zac Veen"
+    ]
    },
    "away": {
     "id": 135,
@@ -1173,15 +1184,26 @@
     "bp_rate": 3.45,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
-    "woba_vs_hand": 0.3047,
+    "woba_vs_hand": 0.3225,
     "woba_overall": 0.3118,
-    "lineup_woba": 0.3118,
+    "lineup_woba": 0.3198,
     "staff_fip": 4.044,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0065,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Fernando Tatis Jr.",
+     "Austin Hays",
+     "Manny Machado",
+     "Ty France",
+     "Jackson Merrill",
+     "Xander Bogaerts",
+     "Luis Campusano",
+     "Samad Taylor",
+     "Jake Cronenworth"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1197,7 +1219,7 @@
     "closeTime": "2026-09-20T19:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823980,
