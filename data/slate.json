@@ -881,15 +881,26 @@
     "bp_rate": 4.355,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.3003,
+    "woba_vs_hand": 0.2989,
     "woba_overall": 0.3014,
-    "lineup_woba": 0.3014,
+    "lineup_woba": 0.3003,
     "staff_fip": 4.27,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0034,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Zach Neto",
+     "Mike Trout",
+     "Wade Meckler",
+     "Vaughn Grissom",
+     "Mois\u00e9s Ballesteros",
+     "Denzer Guzman",
+     "Josh Lowe",
+     "Christian Moore",
+     "Adam Frazier"
+    ]
    },
    "away": {
     "id": 136,
@@ -907,15 +918,26 @@
     "bp_rate": 4.363,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.2892,
+    "woba_vs_hand": 0.3078,
     "woba_overall": 0.3066,
-    "lineup_woba": 0.3066,
+    "lineup_woba": 0.3038,
     "staff_fip": 4.068,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0151,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "J.P. Crawford",
+     "Randy Arozarena",
+     "Dominic Canzone",
+     "Cal Raleigh",
+     "Julio Rodr\u00edguez",
+     "Josh Naylor",
+     "Taylor Ward",
+     "Cole Young",
+     "Weston Wilson"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -931,7 +953,7 @@
     "closeTime": "2026-09-20T01:38:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 825031,
@@ -955,15 +977,26 @@
     "bp_rate": 3.572,
     "bp_is_proxy": false,
     "bp_ip3": 14.0,
-    "woba_vs_hand": 0.303,
+    "woba_vs_hand": 0.3188,
     "woba_overall": 0.3127,
-    "lineup_woba": 0.3127,
+    "lineup_woba": 0.3178,
     "staff_fip": 4.371,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0049,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Lars Nootbaar",
+     "Ketel Marte",
+     "Gabriel Moreno",
+     "Geraldo Perdomo",
+     "Corbin Carroll",
+     "Nolan Arenado",
+     "Jes\u00fas S\u00e1nchez",
+     "Pavin Smith",
+     "Tim Tawa"
+    ]
    },
    "away": {
     "id": 146,
@@ -981,19 +1014,30 @@
     "bp_rate": 4.09,
     "bp_is_proxy": false,
     "bp_ip3": 15.3,
-    "woba_vs_hand": 0.3264,
+    "woba_vs_hand": 0.3339,
     "woba_overall": 0.3206,
-    "lineup_woba": 0.3206,
+    "lineup_woba": 0.3328,
     "staff_fip": 4.125,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0034,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Kyle Stowers",
+     "Heriberto Hern\u00e1ndez",
+     "Otto Lopez",
+     "Griffin Conine",
+     "Javier Sanoja",
+     "Jakob Marsee",
+     "Xavier Edwards",
+     "Joe Mack",
+     "Esteury Ruiz"
+    ]
    },
    "kalshi": null,
    "kalshiWhy": "no market matched both team codes",
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823334,
