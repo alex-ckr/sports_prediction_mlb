@@ -1349,15 +1349,26 @@
     "bp_rate": 3.774,
     "bp_is_proxy": false,
     "bp_ip3": 7.3,
-    "woba_vs_hand": 0.3149,
+    "woba_vs_hand": 0.3053,
     "woba_overall": 0.3132,
-    "lineup_woba": 0.3132,
+    "lineup_woba": 0.3042,
     "staff_fip": 4.02,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0036,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Dylan Beavers",
+     "Pete Alonso",
+     "Gunnar Henderson",
+     "Coby Mayo",
+     "Samuel Basallo",
+     "Jeremiah Jackson",
+     "Colton Cowser",
+     "Leody Taveras",
+     "Carlos Narv\u00e1ez"
+    ]
    },
    "away": {
     "id": 158,
@@ -1375,15 +1386,26 @@
     "bp_rate": 3.657,
     "bp_is_proxy": false,
     "bp_ip3": 16.0,
-    "woba_vs_hand": 0.3349,
+    "woba_vs_hand": 0.3381,
     "woba_overall": 0.3275,
-    "lineup_woba": 0.3275,
+    "lineup_woba": 0.3336,
     "staff_fip": 3.687,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0085,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jackson Chourio",
+     "Brice Turang",
+     "William Contreras",
+     "Jake Bauers",
+     "Joey Ortiz",
+     "Christian Yelich",
+     "Cooper Pratt",
+     "Garrett Mitchell",
+     "Sal Frelick"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -1399,7 +1421,7 @@
     "closeTime": "2026-09-23T23:20:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824787,
