@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-21T16:44:49.436508+00:00",
+ "generatedAt": "2026-09-21T22:23:45.042479+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 824787,
    "date": "2026-09-21",
    "startsAt": "2026-09-21T22:35:00Z",
-   "state": "Scheduled",
+   "state": "Delayed Start",
    "venue": "Oriole Park at Camden Yards",
    "home": {
     "id": 110,
@@ -39,7 +39,7 @@
     "bp_rate": 3.766,
     "bp_is_proxy": false,
     "bp_ip3": 10.3,
-    "woba_vs_hand": 0.3218,
+    "woba_vs_hand": 0.3142,
     "woba_overall": 0.3124,
     "lineup_woba": 0.3124,
     "staff_fip": 4.014,
@@ -47,18 +47,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0036,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Dylan Beavers",
-     "Pete Alonso",
-     "Gunnar Henderson",
-     "Coby Mayo",
-     "Christian Encarnacion-Strand",
-     "Samuel Basallo",
-     "Rece Hinds",
-     "Colton Cowser",
-     "Jos\u00e9 Barrero"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 141,
@@ -76,26 +65,15 @@
     "bp_rate": 3.785,
     "bp_is_proxy": false,
     "bp_ip3": 14.3,
-    "woba_vs_hand": 0.3214,
+    "woba_vs_hand": 0.3124,
     "woba_overall": 0.3053,
-    "lineup_woba": 0.3204,
+    "lineup_woba": 0.3053,
     "staff_fip": 4.329,
     "ptype_rv100": null,
     "travel_runs": 0.0673,
     "park_fit_runs": -0.0014,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Brett Bateman",
-     "Alejandro Kirk",
-     "Nathan Lukes",
-     "George Springer",
-     "Sean Keys",
-     "Kazuma Okamoto",
-     "Josh Smith",
-     "Andr\u00e9s Gim\u00e9nez",
-     "Ernie Clement"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "away",
@@ -105,19 +83,19 @@
     "subtitle": "Toronto",
     "yesBid": 46,
     "yesAsk": 49,
-    "last": 0,
+    "last": 49,
     "mid": 0.475,
     "volume": null,
     "closeTime": "2026-09-26T22:35:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 824221,
    "date": "2026-09-21",
    "startsAt": "2026-09-21T22:40:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Comerica Park",
    "home": {
     "id": 116,
@@ -135,26 +113,15 @@
     "bp_rate": 4.395,
     "bp_is_proxy": false,
     "bp_ip3": 14.7,
-    "woba_vs_hand": 0.325,
+    "woba_vs_hand": 0.3105,
     "woba_overall": 0.3159,
-    "lineup_woba": 0.3282,
+    "lineup_woba": 0.3159,
     "staff_fip": 4.294,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0006,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Gleyber Torres",
-     "Hao-Yu Lee",
-     "Riley Greene",
-     "Eduardo Valencia",
-     "Ben Malgeri",
-     "Dillon Dingler",
-     "Spencer Torkelson",
-     "Javier B\u00e1ez",
-     "John Peck"
-    ]
+    "oppHand": "L"
    },
    "away": {
     "id": 120,
@@ -172,26 +139,15 @@
     "bp_rate": 5.238,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": 0.3204,
+    "woba_vs_hand": 0.3218,
     "woba_overall": 0.327,
-    "lineup_woba": 0.3208,
+    "lineup_woba": 0.327,
     "staff_fip": 4.725,
     "ptype_rv100": null,
     "travel_runs": 0.0595,
     "park_fit_runs": -0.0034,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "James Wood",
-     "Daylen Lile",
-     "Abimelec Ortiz",
-     "CJ Abrams",
-     "Dylan Crews",
-     "Jorbit Vivas",
-     "Brady House",
-     "Keibert Ruiz",
-     "Jacob Young"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "away",
@@ -200,20 +156,20 @@
     "title": "Washington wins",
     "subtitle": "Washington",
     "yesBid": 44,
-    "yesAsk": 47,
+    "yesAsk": 45,
     "last": 47,
-    "mid": 0.455,
+    "mid": 0.445,
     "volume": null,
     "closeTime": "2026-09-26T17:10:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 823169,
    "date": "2026-09-21",
    "startsAt": "2026-09-22T01:45:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Oracle Park",
    "home": {
     "id": 137,
@@ -275,7 +231,7 @@
     "subtitle": "San Francisco",
     "yesBid": 44,
     "yesAsk": 46,
-    "last": 47,
+    "last": 44,
     "mid": 0.45,
     "volume": null,
     "closeTime": "2026-09-26T19:45:00Z"
@@ -497,7 +453,7 @@
     "subtitle": "Toronto",
     "yesBid": 46,
     "yesAsk": 49,
-    "last": 0,
+    "last": 49,
     "mid": 0.475,
     "volume": null,
     "closeTime": "2026-09-26T22:35:00Z"
@@ -570,9 +526,9 @@
     "title": "Washington wins",
     "subtitle": "Washington",
     "yesBid": 44,
-    "yesAsk": 47,
+    "yesAsk": 45,
     "last": 47,
-    "mid": 0.455,
+    "mid": 0.445,
     "volume": null,
     "closeTime": "2026-09-26T17:10:00Z"
    },
@@ -639,16 +595,16 @@
    },
    "kalshi": {
     "side": "away",
-    "ticker": "KXMLBGAME-26SEP231840STLPIT-STL",
-    "eventTicker": "KXMLBGAME-26SEP231840STLPIT",
+    "ticker": "KXMLBGAME-26SEP241235STLPIT-STL",
+    "eventTicker": "KXMLBGAME-26SEP241235STLPIT",
     "title": "St. Louis wins",
     "subtitle": "St. Louis",
-    "yesBid": 44,
-    "yesAsk": 47,
-    "last": 47,
-    "mid": 0.455,
+    "yesBid": 41,
+    "yesAsk": 43,
+    "last": 0,
+    "mid": 0.42,
     "volume": null,
-    "closeTime": "2026-09-26T22:40:00Z"
+    "closeTime": "2026-09-27T16:35:00Z"
    },
    "kalshiWhy": null,
    "lineupConfirmed": false
@@ -719,7 +675,7 @@
     "subtitle": "Philadelphia",
     "yesBid": 44,
     "yesAsk": 45,
-    "last": 45,
+    "last": 44,
     "mid": 0.445,
     "volume": null,
     "closeTime": "2026-09-26T22:40:00Z"
@@ -792,9 +748,9 @@
     "title": "Cleveland wins",
     "subtitle": "Cleveland",
     "yesBid": 45,
-    "yesAsk": 48,
-    "last": 48,
-    "mid": 0.465,
+    "yesAsk": 47,
+    "last": 45,
+    "mid": 0.46,
     "volume": null,
     "closeTime": "2026-09-26T23:10:00Z"
    },
@@ -935,16 +891,16 @@
    },
    "kalshi": {
     "side": "home",
-    "ticker": "KXMLBGAME-26SEP231940CWSKC-KC",
-    "eventTicker": "KXMLBGAME-26SEP231940CWSKC",
+    "ticker": "KXMLBGAME-26SEP241410CWSKC-KC",
+    "eventTicker": "KXMLBGAME-26SEP241410CWSKC",
     "title": "Kansas City wins",
     "subtitle": "Kansas City",
-    "yesBid": 49,
-    "yesAsk": 53,
-    "last": 54,
-    "mid": 0.51,
+    "yesBid": 46,
+    "yesAsk": 51,
+    "last": 0,
+    "mid": 0.485,
     "volume": null,
-    "closeTime": "2026-09-26T23:40:00Z"
+    "closeTime": "2026-09-27T18:10:00Z"
    },
    "kalshiWhy": null,
    "lineupConfirmed": false
@@ -1009,16 +965,16 @@
    },
    "kalshi": {
     "side": "away",
-    "ticker": "KXMLBGAME-26SEP231940MIACHC-MIA",
-    "eventTicker": "KXMLBGAME-26SEP231940MIACHC",
+    "ticker": "KXMLBGAME-26SEP241420MIACHC-MIA",
+    "eventTicker": "KXMLBGAME-26SEP241420MIACHC",
     "title": "Miami wins",
     "subtitle": "Miami",
-    "yesBid": 36,
-    "yesAsk": 39,
-    "last": 0,
-    "mid": 0.375,
+    "yesBid": 33,
+    "yesAsk": 37,
+    "last": 38,
+    "mid": 0.35,
     "volume": null,
-    "closeTime": "2026-09-26T23:40:00Z"
+    "closeTime": "2026-09-27T18:20:00Z"
    },
    "kalshiWhy": null,
    "lineupConfirmed": false
@@ -1036,12 +992,12 @@
     "nick": "Rangers",
     "wins": 78,
     "losses": 78,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "MacKenzie Gore",
+    "starterId": 669022,
+    "starterHand": "L",
+    "sp_rate": 3.888,
+    "sp_era": 4.67,
+    "sp_ip": 5.18,
     "bp_rate": 4.253,
     "bp_is_proxy": false,
     "bp_ip3": 17.0,
@@ -1071,7 +1027,7 @@
     "bp_rate": 4.592,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3017,
     "woba_overall": 0.3096,
     "lineup_woba": 0.3096,
     "staff_fip": 4.267,
@@ -1079,20 +1035,20 @@
     "travel_runs": 0.039,
     "park_fit_runs": 0.021,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "home",
-    "ticker": "KXMLBGAME-26SEP232005NYMTEX-TEX",
-    "eventTicker": "KXMLBGAME-26SEP232005NYMTEX",
+    "ticker": "KXMLBGAME-26SEP241435NYMTEX-TEX",
+    "eventTicker": "KXMLBGAME-26SEP241435NYMTEX",
     "title": "Texas wins",
     "subtitle": "Texas",
-    "yesBid": 50,
-    "yesAsk": 53,
-    "last": 53,
-    "mid": 0.515,
+    "yesBid": 52,
+    "yesAsk": 56,
+    "last": 0,
+    "mid": 0.54,
     "volume": null,
-    "closeTime": "2026-09-27T00:05:00Z"
+    "closeTime": "2026-09-27T18:35:00Z"
    },
    "kalshiWhy": null,
    "lineupConfirmed": false
@@ -1298,9 +1254,9 @@
     "title": "Seattle wins",
     "subtitle": "Seattle",
     "yesBid": 54,
-    "yesAsk": 57,
+    "yesAsk": 56,
     "last": 0,
-    "mid": 0.555,
+    "mid": 0.55,
     "volume": null,
     "closeTime": "2026-09-27T02:10:00Z"
    },
@@ -1373,7 +1329,7 @@
     "subtitle": "San Francisco",
     "yesBid": 44,
     "yesAsk": 46,
-    "last": 47,
+    "last": 44,
     "mid": 0.45,
     "volume": null,
     "closeTime": "2026-09-26T19:45:00Z"
@@ -1459,7 +1415,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "19 games, 3 starters still TBD"
+   "detail": "19 games, 2 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -1471,11 +1427,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 861 arms, 30 bullpens, 33/38 probables matched, FIP constant 3.10"
+   "detail": "bulk: 861 arms, 30 bullpens, 34/38 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "35/35 resolved"
+   "detail": "36/36 resolved"
   },
   "hitting": {
    "ok": true,
@@ -1487,7 +1443,7 @@
   },
   "kalshi": {
    "ok": true,
-   "detail": "68 open KXMLBGAME markets, 68 with usable prices"
+   "detail": "78 open KXMLBGAME markets, 78 with usable prices"
   },
   "kalshi.match": {
    "ok": true,
@@ -1496,6 +1452,76 @@
  },
  "warnings": [],
  "kalshiSample": [
+  {
+   "ticker": "KXMLBGAME-26SEP241510AZCOL-COL",
+   "title": "Colorado wins",
+   "subtitle": "Colorado",
+   "yesBid": 37,
+   "yesAsk": 44
+  },
+  {
+   "ticker": "KXMLBGAME-26SEP241510AZCOL-AZ",
+   "title": "Arizona wins",
+   "subtitle": "Arizona",
+   "yesBid": 60,
+   "yesAsk": 61
+  },
+  {
+   "ticker": "KXMLBGAME-26SEP241435NYMTEX-TEX",
+   "title": "Texas wins",
+   "subtitle": "Texas",
+   "yesBid": 52,
+   "yesAsk": 56
+  },
+  {
+   "ticker": "KXMLBGAME-26SEP241435NYMTEX-NYM",
+   "title": "New York M wins",
+   "subtitle": "New York M",
+   "yesBid": 44,
+   "yesAsk": 47
+  },
+  {
+   "ticker": "KXMLBGAME-26SEP241420MIACHC-MIA",
+   "title": "Miami wins",
+   "subtitle": "Miami",
+   "yesBid": 33,
+   "yesAsk": 37
+  },
+  {
+   "ticker": "KXMLBGAME-26SEP241420MIACHC-CHC",
+   "title": "Chicago C wins",
+   "subtitle": "Chicago C",
+   "yesBid": 63,
+   "yesAsk": 68
+  },
+  {
+   "ticker": "KXMLBGAME-26SEP241410CWSKC-KC",
+   "title": "Kansas City wins",
+   "subtitle": "Kansas City",
+   "yesBid": 46,
+   "yesAsk": 51
+  },
+  {
+   "ticker": "KXMLBGAME-26SEP241410CWSKC-CWS",
+   "title": "Chicago WS wins",
+   "subtitle": "Chicago WS",
+   "yesBid": 51,
+   "yesAsk": 53
+  },
+  {
+   "ticker": "KXMLBGAME-26SEP241235STLPIT-STL",
+   "title": "St. Louis wins",
+   "subtitle": "St. Louis",
+   "yesBid": 41,
+   "yesAsk": 43
+  },
+  {
+   "ticker": "KXMLBGAME-26SEP241235STLPIT-PIT",
+   "title": "Pittsburgh wins",
+   "subtitle": "Pittsburgh",
+   "yesBid": 56,
+   "yesAsk": 59
+  },
   {
    "ticker": "KXMLBGAME-26SEP232210SDLAD-SD",
    "title": "San Diego wins",
@@ -1509,76 +1535,6 @@
    "subtitle": "Los Angeles D",
    "yesBid": 62,
    "yesAsk": 63
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP232210HOUSEA-SEA",
-   "title": "Seattle wins",
-   "subtitle": "Seattle",
-   "yesBid": 54,
-   "yesAsk": 57
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP232210HOUSEA-HOU",
-   "title": "Houston wins",
-   "subtitle": "Houston",
-   "yesBid": 44,
-   "yesAsk": 45
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP232140LAAATH-LAA",
-   "title": "Los Angeles A wins",
-   "subtitle": "Los Angeles A",
-   "yesBid": 51,
-   "yesAsk": 55
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP232140LAAATH-ATH",
-   "title": "A's wins",
-   "subtitle": "A's",
-   "yesBid": 45,
-   "yesAsk": 49
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP232040AZCOL-COL",
-   "title": "Colorado wins",
-   "subtitle": "Colorado",
-   "yesBid": 38,
-   "yesAsk": 42
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP232040AZCOL-AZ",
-   "title": "Arizona wins",
-   "subtitle": "Arizona",
-   "yesBid": 60,
-   "yesAsk": 61
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP232005NYMTEX-TEX",
-   "title": "Texas wins",
-   "subtitle": "Texas",
-   "yesBid": 50,
-   "yesAsk": 53
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP232005NYMTEX-NYM",
-   "title": "New York M wins",
-   "subtitle": "New York M",
-   "yesBid": 46,
-   "yesAsk": 49
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP231940CWSKC-KC",
-   "title": "Kansas City wins",
-   "subtitle": "Kansas City",
-   "yesBid": 49,
-   "yesAsk": 53
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP231940CWSKC-CWS",
-   "title": "Chicago WS wins",
-   "subtitle": "Chicago WS",
-   "yesBid": 49,
-   "yesAsk": 50
   }
  ]
 }
