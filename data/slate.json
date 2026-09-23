@@ -261,15 +261,26 @@
     "bp_rate": 4.723,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": 0.2947,
+    "woba_vs_hand": 0.2933,
     "woba_overall": 0.3117,
-    "lineup_woba": 0.3117,
+    "lineup_woba": 0.2582,
     "staff_fip": 4.343,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0175,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Jonah Cox",
+     "Turner Hill",
+     "Victor Bericoto",
+     "Bo Davidson",
+     "Andrew Knizner",
+     "Brett Harris",
+     "Marcelo Mayer",
+     "Shay Whitcomb",
+     "Christian Koss"
+    ]
    },
    "away": {
     "id": 142,
@@ -287,15 +298,26 @@
     "bp_rate": 4.049,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3015,
+    "woba_vs_hand": 0.3046,
     "woba_overall": 0.3159,
-    "lineup_woba": 0.3159,
+    "lineup_woba": 0.2733,
     "staff_fip": 4.132,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0068,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Luke Keaschall",
+     "Brooks Lee",
+     "Josh Bell",
+     "Ryan Jeffers",
+     "Alan Roden",
+     "Royce Lewis",
+     "Emmanuel Rodriguez",
+     "Aaron Sabato",
+     "Ben Ross"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -311,7 +333,7 @@
     "closeTime": "2026-09-26T19:45:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 823327,
@@ -631,15 +653,26 @@
     "bp_rate": 3.576,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.3052,
+    "woba_vs_hand": 0.302,
     "woba_overall": 0.3157,
-    "lineup_woba": 0.3157,
+    "lineup_woba": 0.3071,
     "staff_fip": 4.007,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0075,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Drake Baldwin",
+     "Mauricio Dub\u00f3n",
+     "Matt Olson",
+     "Ozzie Albies",
+     "Michael Harris II",
+     "Austin Riley",
+     "Sean Murphy",
+     "Brewer Hicklen",
+     "Ha-Seong Kim"
+    ]
    },
    "away": {
     "id": 113,
@@ -657,15 +690,26 @@
     "bp_rate": 4.896,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
-    "woba_vs_hand": 0.3208,
+    "woba_vs_hand": 0.2987,
     "woba_overall": 0.3086,
-    "lineup_woba": 0.3086,
+    "lineup_woba": 0.257,
     "staff_fip": 4.839,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0203,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Juan Brito",
+     "Elly De La Cruz",
+     "Sal Stewart",
+     "Dane Myers",
+     "Eugenio Su\u00e1rez",
+     "Matt McLain",
+     "Oswaldo Cabrera",
+     "Will Banfield",
+     "Ke'Bryan Hayes"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -681,7 +725,7 @@
     "closeTime": "2026-09-27T23:15:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 824060,
