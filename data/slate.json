@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-28T18:20:44.085827+00:00",
+ "generatedAt": "2026-09-28T23:36:51.854910+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26SEP301400PHIATL",
     "title": "Philadelphia wins",
     "subtitle": "Philadelphia",
-    "yesBid": 50,
-    "yesAsk": 53,
-    "last": 53,
-    "mid": 0.515,
+    "yesBid": 49,
+    "yesAsk": 50,
+    "last": 50,
+    "mid": 0.495,
     "volume": null,
     "closeTime": "2026-10-03T18:00:00Z"
    },
@@ -104,16 +104,16 @@
     "nick": "Astros",
     "wins": 81,
     "losses": 81,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
+    "starter": "AJ Blubaugh",
+    "starterId": 805123,
+    "starterHand": "R",
+    "sp_rate": 4.309,
+    "sp_era": 3.66,
     "sp_ip": null,
     "bp_rate": 4.399,
     "bp_is_proxy": false,
     "bp_ip3": 11.7,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3118,
     "woba_overall": 0.3195,
     "lineup_woba": 0.3195,
     "staff_fip": 4.434,
@@ -121,7 +121,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0125,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "away": {
     "id": 145,
@@ -130,16 +130,16 @@
     "nick": "White Sox",
     "wins": 84,
     "losses": 78,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Hagen Smith",
+    "starterId": 696146,
+    "starterHand": "L",
+    "sp_rate": 2.351,
+    "sp_era": 1.29,
+    "sp_ip": 28.0,
     "bp_rate": 4.041,
     "bp_is_proxy": false,
     "bp_ip3": 16.0,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3158,
     "woba_overall": 0.3197,
     "lineup_woba": 0.3197,
     "staff_fip": 4.193,
@@ -147,7 +147,7 @@
     "travel_runs": 0.0094,
     "park_fit_runs": 0.0051,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "home",
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26SEP301700CWSHOU",
     "title": "Houston wins",
     "subtitle": "Houston",
-    "yesBid": 53,
-    "yesAsk": 56,
-    "last": 56,
-    "mid": 0.545,
+    "yesBid": 58,
+    "yesAsk": 59,
+    "last": 58,
+    "mid": 0.585,
     "volume": null,
     "closeTime": "2026-10-03T21:00:00Z"
    },
@@ -229,10 +229,10 @@
     "eventTicker": "KXMLBGAME-26SEP302000BOSNYY",
     "title": "New York Y wins",
     "subtitle": "New York Y",
-    "yesBid": 57,
-    "yesAsk": 60,
-    "last": 60,
-    "mid": 0.585,
+    "yesBid": 52,
+    "yesAsk": 53,
+    "last": 53,
+    "mid": 0.525,
     "volume": null,
     "closeTime": "2026-10-04T00:00:00Z"
    },
@@ -261,7 +261,7 @@
     "bp_rate": 3.469,
     "bp_is_proxy": false,
     "bp_ip3": 13.3,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3093,
     "woba_overall": 0.3157,
     "lineup_woba": 0.3157,
     "staff_fip": 4.067,
@@ -269,7 +269,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": -0.0009,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "away": {
     "id": 112,
@@ -278,12 +278,12 @@
     "nick": "Cubs",
     "wins": 89,
     "losses": 73,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Matthew Boyd",
+    "starterId": 571510,
+    "starterHand": "L",
+    "sp_rate": 4.214,
+    "sp_era": 3.91,
+    "sp_ip": 5.76,
     "bp_rate": 4.588,
     "bp_is_proxy": false,
     "bp_ip3": 14.7,
@@ -303,10 +303,10 @@
     "eventTicker": "KXMLBGAME-26SEP302200CHCSD",
     "title": "San Diego wins",
     "subtitle": "San Diego",
-    "yesBid": 53,
-    "yesAsk": 55,
-    "last": 55,
-    "mid": 0.54,
+    "yesBid": 51,
+    "yesAsk": 53,
+    "last": 53,
+    "mid": 0.52,
     "volume": null,
     "closeTime": "2026-10-04T02:00:00Z"
    },
@@ -317,7 +317,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "4 games, 3 starters still TBD"
+   "detail": "4 games, 0 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -329,11 +329,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 5/8 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 8/8 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "5/5 resolved"
+   "detail": "8/8 resolved"
   },
   "hitting": {
    "ok": true,
@@ -358,15 +358,15 @@
    "ticker": "KXMLBGAME-26SEP302200CHCSD-SD",
    "title": "San Diego wins",
    "subtitle": "San Diego",
-   "yesBid": 53,
-   "yesAsk": 55
+   "yesBid": 51,
+   "yesAsk": 53
   },
   {
    "ticker": "KXMLBGAME-26SEP302200CHCSD-CHC",
    "title": "Chicago C wins",
    "subtitle": "Chicago C",
-   "yesBid": 45,
-   "yesAsk": 48
+   "yesBid": 48,
+   "yesAsk": 49
   },
   {
    "ticker": "KXMLBGAME-26SEP292200CHCSD-SD",
@@ -379,64 +379,64 @@
    "ticker": "KXMLBGAME-26SEP292200CHCSD-CHC",
    "title": "Chicago C wins",
    "subtitle": "Chicago C",
-   "yesBid": 45,
+   "yesBid": 46,
    "yesAsk": 47
   },
   {
    "ticker": "KXMLBGAME-26SEP302000BOSNYY-NYY",
    "title": "New York Y wins",
    "subtitle": "New York Y",
-   "yesBid": 57,
-   "yesAsk": 60
+   "yesBid": 52,
+   "yesAsk": 53
   },
   {
    "ticker": "KXMLBGAME-26SEP302000BOSNYY-BOS",
    "title": "Boston wins",
    "subtitle": "Boston",
-   "yesBid": 42,
-   "yesAsk": 43
+   "yesBid": 47,
+   "yesAsk": 48
   },
   {
    "ticker": "KXMLBGAME-26SEP292000BOSNYY-NYY",
    "title": "New York Y wins",
    "subtitle": "New York Y",
-   "yesBid": 59,
-   "yesAsk": 60
+   "yesBid": 55,
+   "yesAsk": 56
   },
   {
    "ticker": "KXMLBGAME-26SEP292000BOSNYY-BOS",
    "title": "Boston wins",
    "subtitle": "Boston",
-   "yesBid": 40,
-   "yesAsk": 41
+   "yesBid": 44,
+   "yesAsk": 45
   },
   {
    "ticker": "KXMLBGAME-26SEP301700CWSHOU-HOU",
    "title": "Houston wins",
    "subtitle": "Houston",
-   "yesBid": 53,
-   "yesAsk": 56
+   "yesBid": 58,
+   "yesAsk": 59
   },
   {
    "ticker": "KXMLBGAME-26SEP301700CWSHOU-CWS",
    "title": "Chicago WS wins",
    "subtitle": "Chicago WS",
-   "yesBid": 46,
-   "yesAsk": 48
+   "yesBid": 42,
+   "yesAsk": 43
   },
   {
    "ticker": "KXMLBGAME-26SEP291700CWSHOU-HOU",
    "title": "Houston wins",
    "subtitle": "Houston",
-   "yesBid": 54,
-   "yesAsk": 55
+   "yesBid": 53,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26SEP291700CWSHOU-CWS",
    "title": "Chicago WS wins",
    "subtitle": "Chicago WS",
-   "yesBid": 45,
-   "yesAsk": 46
+   "yesBid": 46,
+   "yesAsk": 47
   }
  ]
 }
