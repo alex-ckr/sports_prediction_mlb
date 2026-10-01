@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T01:44:37.410545+00:00",
+ "generatedAt": "2026-10-01T17:13:31.013723+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -20,7 +20,7 @@
   {
    "gamePk": 849844,
    "date": "2026-10-01",
-   "startsAt": "2026-10-01T18:00:00Z",
+   "startsAt": "2026-10-02T00:00:00Z",
    "state": "Scheduled",
    "venue": "Truist Park",
    "home": {
@@ -30,16 +30,16 @@
     "nick": "Braves",
     "wins": 94,
     "losses": 68,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Ray Kerr",
+    "starterId": 678061,
+    "starterHand": "L",
+    "sp_rate": 3.972,
+    "sp_era": 1.47,
+    "sp_ip": 18.33,
     "bp_rate": 3.576,
     "bp_is_proxy": false,
     "bp_ip3": 5.7,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3191,
     "woba_overall": 0.3145,
     "lineup_woba": 0.3145,
     "staff_fip": 4.039,
@@ -47,7 +47,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0076,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "away": {
     "id": 143,
@@ -56,24 +56,24 @@
     "nick": "Phillies",
     "wins": 88,
     "losses": 74,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
-    "bp_rate": 3.848,
+    "starter": "Aaron Nola",
+    "starterId": 605400,
+    "starterHand": "R",
+    "sp_rate": 4.868,
+    "sp_era": 4.67,
+    "sp_ip": 5.31,
+    "bp_rate": 3.847,
     "bp_is_proxy": false,
     "bp_ip3": 6.3,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3118,
     "woba_overall": 0.3106,
     "lineup_woba": 0.3106,
-    "staff_fip": 3.771,
+    "staff_fip": 3.77,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0023,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "away",
@@ -81,160 +81,12 @@
     "eventTicker": "KXMLBGAME-26OCT011400PHIATL",
     "title": "Philadelphia wins",
     "subtitle": "Philadelphia",
-    "yesBid": 50,
-    "yesAsk": 51,
-    "last": 51,
-    "mid": 0.505,
+    "yesBid": 49,
+    "yesAsk": 50,
+    "last": 50,
+    "mid": 0.495,
     "volume": null,
     "closeTime": "2026-10-04T18:00:00Z"
-   },
-   "kalshiWhy": null,
-   "lineupConfirmed": false
-  },
-  {
-   "gamePk": 849847,
-   "date": "2026-10-01",
-   "startsAt": "2026-10-02T00:00:00Z",
-   "state": "Scheduled",
-   "venue": "Yankee Stadium",
-   "home": {
-    "id": 147,
-    "name": "New York Yankees",
-    "abbr": "NYY",
-    "nick": "Yankees",
-    "wins": 93,
-    "losses": 68,
-    "starter": "Gerrit Cole",
-    "starterId": 543037,
-    "starterHand": "R",
-    "sp_rate": 3.927,
-    "sp_era": 3.61,
-    "sp_ip": 5.77,
-    "bp_rate": 4.17,
-    "bp_is_proxy": false,
-    "bp_ip3": 2.7,
-    "woba_vs_hand": 0.3203,
-    "woba_overall": 0.3158,
-    "lineup_woba": 0.3158,
-    "staff_fip": 3.748,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": 0.0678,
-    "history_runs": 0.0,
-    "oppHand": "L"
-   },
-   "away": {
-    "id": 111,
-    "name": "Boston Red Sox",
-    "abbr": "BOS",
-    "nick": "Red Sox",
-    "wins": 87,
-    "losses": 75,
-    "starter": "Ranger Suarez",
-    "starterId": 624133,
-    "starterHand": "L",
-    "sp_rate": 3.161,
-    "sp_era": 3.22,
-    "sp_ip": 5.3,
-    "bp_rate": 3.713,
-    "bp_is_proxy": false,
-    "bp_ip3": 3.3,
-    "woba_vs_hand": 0.3128,
-    "woba_overall": 0.3157,
-    "lineup_woba": 0.3157,
-    "staff_fip": 3.564,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": -0.0131,
-    "history_runs": 0.0,
-    "oppHand": "R"
-   },
-   "kalshi": {
-    "side": "home",
-    "ticker": "KXMLBGAME-26SEP302000BOSNYY-NYY",
-    "eventTicker": "KXMLBGAME-26SEP302000BOSNYY",
-    "title": "New York Y wins",
-    "subtitle": "New York Y",
-    "yesBid": 75,
-    "yesAsk": 76,
-    "last": 77,
-    "mid": 0.755,
-    "volume": null,
-    "closeTime": "2026-10-04T00:00:00Z"
-   },
-   "kalshiWhy": null,
-   "lineupConfirmed": false
-  },
-  {
-   "gamePk": 849840,
-   "date": "2026-10-01",
-   "startsAt": "2026-10-02T02:00:00Z",
-   "state": "Scheduled",
-   "venue": "Petco Park",
-   "home": {
-    "id": 135,
-    "name": "San Diego Padres",
-    "abbr": "SD",
-    "nick": "Padres",
-    "wins": 91,
-    "losses": 71,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
-    "bp_rate": 3.469,
-    "bp_is_proxy": false,
-    "bp_ip3": 2.0,
-    "woba_vs_hand": null,
-    "woba_overall": 0.3157,
-    "lineup_woba": 0.3157,
-    "staff_fip": 4.067,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": -0.0009,
-    "history_runs": 0.0,
-    "oppHand": null
-   },
-   "away": {
-    "id": 112,
-    "name": "Chicago Cubs",
-    "abbr": "CHC",
-    "nick": "Cubs",
-    "wins": 89,
-    "losses": 73,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
-    "bp_rate": 4.588,
-    "bp_is_proxy": false,
-    "bp_ip3": 4.0,
-    "woba_vs_hand": null,
-    "woba_overall": 0.3365,
-    "lineup_woba": 0.3365,
-    "staff_fip": 4.405,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": -0.0016,
-    "history_runs": 0.0,
-    "oppHand": null
-   },
-   "kalshi": {
-    "side": "home",
-    "ticker": "KXMLBGAME-26SEP302200CHCSD-SD",
-    "eventTicker": "KXMLBGAME-26SEP302200CHCSD",
-    "title": "San Diego wins",
-    "subtitle": "San Diego",
-    "yesBid": 56,
-    "yesAsk": 57,
-    "last": 57,
-    "mid": 0.565,
-    "volume": null,
-    "closeTime": "2026-10-04T02:00:00Z"
    },
    "kalshiWhy": null,
    "lineupConfirmed": false
@@ -243,7 +95,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "3 games, 4 starters still TBD"
+   "detail": "1 games, 0 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -255,7 +107,7 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 2/6 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 2/2 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
@@ -263,64 +115,106 @@
   },
   "hitting": {
    "ok": true,
-   "detail": "6/6 teams with wOBA, 6 with platoon splits"
+   "detail": "2/2 teams with wOBA, 2 with platoon splits"
   },
   "fatigue": {
    "ok": true,
-   "detail": "21 finished games scanned, 8 bullpens"
+   "detail": "23 finished games scanned, 8 bullpens"
   },
   "kalshi": {
    "ok": true,
-   "detail": "6 open KXMLBGAME markets, 6 with usable prices"
+   "detail": "14 open KXMLBGAME markets, 14 with usable prices"
   },
   "kalshi.match": {
    "ok": true,
-   "detail": "3/3 games matched to a market"
+   "detail": "1/1 games matched to a market"
   }
  },
  "warnings": [],
  "kalshiSample": [
   {
-   "ticker": "KXMLBGAME-26OCT011400PHIATL-PHI",
-   "title": "Philadelphia wins",
-   "subtitle": "Philadelphia",
-   "yesBid": 50,
-   "yesAsk": 51
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT011400PHIATL-ATL",
-   "title": "Atlanta wins",
-   "subtitle": "Atlanta",
-   "yesBid": 49,
-   "yesAsk": 51
-  },
-  {
-   "ticker": "KXMLBGAME-26SEP302200CHCSD-SD",
+   "ticker": "KXMLBGAME-26OCT041600SDMIL-SD",
    "title": "San Diego wins",
    "subtitle": "San Diego",
-   "yesBid": 56,
-   "yesAsk": 57
+   "yesBid": 42,
+   "yesAsk": 48
   },
   {
-   "ticker": "KXMLBGAME-26SEP302200CHCSD-CHC",
-   "title": "Chicago C wins",
-   "subtitle": "Chicago C",
-   "yesBid": 43,
-   "yesAsk": 44
+   "ticker": "KXMLBGAME-26OCT041600SDMIL-MIL",
+   "title": "Milwaukee wins",
+   "subtitle": "Milwaukee",
+   "yesBid": 51,
+   "yesAsk": 59
   },
   {
-   "ticker": "KXMLBGAME-26SEP302000BOSNYY-NYY",
+   "ticker": "KXMLBGAME-26OCT032030SDMIL-SD",
+   "title": "San Diego wins",
+   "subtitle": "San Diego",
+   "yesBid": 34,
+   "yesAsk": 35
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT032030SDMIL-MIL",
+   "title": "Milwaukee wins",
+   "subtitle": "Milwaukee",
+   "yesBid": 66,
+   "yesAsk": 67
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT052000NYYTB-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 47,
+   "yesAsk": 52
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT052000NYYTB-NYY",
    "title": "New York Y wins",
    "subtitle": "New York Y",
-   "yesBid": 75,
-   "yesAsk": 76
+   "yesBid": 50,
+   "yesAsk": 54
   },
   {
-   "ticker": "KXMLBGAME-26SEP302000BOSNYY-BOS",
-   "title": "Boston wins",
-   "subtitle": "Boston",
-   "yesBid": 24,
-   "yesAsk": 26
+   "ticker": "KXMLBGAME-26OCT031830NYYTB-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 55,
+   "yesAsk": 56
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT031830NYYTB-NYY",
+   "title": "New York Y wins",
+   "subtitle": "New York Y",
+   "yesBid": 44,
+   "yesAsk": 46
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT051700CWSCLE-CWS",
+   "title": "Chicago WS wins",
+   "subtitle": "Chicago WS",
+   "yesBid": 43,
+   "yesAsk": 45
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT051700CWSCLE-CLE",
+   "title": "Cleveland wins",
+   "subtitle": "Cleveland",
+   "yesBid": 55,
+   "yesAsk": 59
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT031300CWSCLE-CWS",
+   "title": "Chicago WS wins",
+   "subtitle": "Chicago WS",
+   "yesBid": 40,
+   "yesAsk": 42
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT031300CWSCLE-CLE",
+   "title": "Cleveland wins",
+   "subtitle": "Cleveland",
+   "yesBid": 59,
+   "yesAsk": 60
   }
  ]
 }
