@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T17:13:31.013723+00:00",
+ "generatedAt": "2026-10-01T22:58:09.651737+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 849844,
    "date": "2026-10-01",
    "startsAt": "2026-10-02T00:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Truist Park",
    "home": {
     "id": 144,
@@ -136,21 +136,21 @@
    "ticker": "KXMLBGAME-26OCT041600SDMIL-SD",
    "title": "San Diego wins",
    "subtitle": "San Diego",
-   "yesBid": 42,
-   "yesAsk": 48
+   "yesBid": 43,
+   "yesAsk": 47
   },
   {
    "ticker": "KXMLBGAME-26OCT041600SDMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 51,
-   "yesAsk": 59
+   "yesBid": 56,
+   "yesAsk": 57
   },
   {
    "ticker": "KXMLBGAME-26OCT032030SDMIL-SD",
    "title": "San Diego wins",
    "subtitle": "San Diego",
-   "yesBid": 34,
+   "yesBid": 33,
    "yesAsk": 35
   },
   {
@@ -165,27 +165,27 @@
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
    "yesBid": 47,
-   "yesAsk": 52
+   "yesAsk": 51
   },
   {
    "ticker": "KXMLBGAME-26OCT052000NYYTB-NYY",
    "title": "New York Y wins",
    "subtitle": "New York Y",
    "yesBid": 50,
-   "yesAsk": 54
+   "yesAsk": 55
   },
   {
    "ticker": "KXMLBGAME-26OCT031830NYYTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 55,
+   "yesBid": 54,
    "yesAsk": 56
   },
   {
    "ticker": "KXMLBGAME-26OCT031830NYYTB-NYY",
    "title": "New York Y wins",
    "subtitle": "New York Y",
-   "yesBid": 44,
+   "yesBid": 45,
    "yesAsk": 46
   },
   {
@@ -199,22 +199,22 @@
    "ticker": "KXMLBGAME-26OCT051700CWSCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 55,
-   "yesAsk": 59
+   "yesBid": 54,
+   "yesAsk": 57
   },
   {
    "ticker": "KXMLBGAME-26OCT031300CWSCLE-CWS",
    "title": "Chicago WS wins",
    "subtitle": "Chicago WS",
-   "yesBid": 40,
+   "yesBid": 41,
    "yesAsk": 42
   },
   {
    "ticker": "KXMLBGAME-26OCT031300CWSCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 59,
-   "yesAsk": 60
+   "yesBid": 58,
+   "yesAsk": 59
   }
  ]
 }
