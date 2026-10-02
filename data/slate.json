@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T16:27:21.885246+00:00",
+ "generatedAt": "2026-10-02T22:45:38.857361+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -39,7 +39,7 @@
     "bp_rate": 3.787,
     "bp_is_proxy": false,
     "bp_ip3": null,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.2999,
     "woba_overall": 0.3081,
     "lineup_woba": 0.3081,
     "staff_fip": 3.849,
@@ -47,7 +47,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0028,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "away": {
     "id": 145,
@@ -56,12 +56,12 @@
     "nick": "White Sox",
     "wins": 84,
     "losses": 78,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Hagen Smith",
+    "starterId": 696146,
+    "starterHand": "L",
+    "sp_rate": 2.35,
+    "sp_era": 1.29,
+    "sp_ip": 28.0,
     "bp_rate": 4.041,
     "bp_is_proxy": false,
     "bp_ip3": 11.0,
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT071600CLECWS",
     "title": "Chicago WS wins",
     "subtitle": "Chicago WS",
-    "yesBid": 44,
+    "yesBid": 45,
     "yesAsk": 54,
     "last": 54,
-    "mid": 0.49,
+    "mid": 0.495,
     "volume": null,
     "closeTime": "2026-10-10T20:00:00Z"
    },
@@ -104,12 +104,12 @@
     "nick": "Dodgers",
     "wins": 100,
     "losses": 62,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Tarik Skubal",
+    "starterId": 669373,
+    "starterHand": "L",
+    "sp_rate": 2.507,
+    "sp_era": 2.72,
+    "sp_ip": 6.1,
     "bp_rate": 3.774,
     "bp_is_proxy": false,
     "bp_ip3": null,
@@ -139,7 +139,7 @@
     "bp_rate": 3.576,
     "bp_is_proxy": false,
     "bp_ip3": 11.3,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3055,
     "woba_overall": 0.3145,
     "lineup_woba": 0.3145,
     "staff_fip": 4.039,
@@ -147,7 +147,7 @@
     "travel_runs": 0.0943,
     "park_fit_runs": 0.0228,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "home",
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT061800LADATL",
     "title": "Los Angeles D wins",
     "subtitle": "Los Angeles D",
-    "yesBid": 53,
-    "yesAsk": 60,
-    "last": 63,
-    "mid": 0.565,
+    "yesBid": 57,
+    "yesAsk": 58,
+    "last": 58,
+    "mid": 0.575,
     "volume": null,
     "closeTime": "2026-10-09T22:00:00Z"
    },
@@ -229,10 +229,10 @@
     "eventTicker": "KXMLBGAME-26OCT072000TBNYY",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 38,
-    "yesAsk": 42,
-    "last": 42,
-    "mid": 0.4,
+    "yesBid": 37,
+    "yesAsk": 41,
+    "last": 37,
+    "mid": 0.39,
     "volume": null,
     "closeTime": "2026-10-11T00:00:00Z"
    },
@@ -261,7 +261,7 @@
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": null,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3117,
     "woba_overall": 0.3272,
     "lineup_woba": 0.3272,
     "staff_fip": 3.722,
@@ -269,7 +269,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": -0.0383,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "away": {
     "id": 135,
@@ -278,12 +278,12 @@
     "nick": "Padres",
     "wins": 91,
     "losses": 71,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Robbie Ray",
+    "starterId": 592662,
+    "starterHand": "L",
+    "sp_rate": 4.693,
+    "sp_era": 3.59,
+    "sp_ip": 5.52,
     "bp_rate": 3.469,
     "bp_is_proxy": false,
     "bp_ip3": 7.7,
@@ -303,10 +303,10 @@
     "eventTicker": "KXMLBGAME-26OCT062130MILSD",
     "title": "San Diego wins",
     "subtitle": "San Diego",
-    "yesBid": 48,
+    "yesBid": 51,
     "yesAsk": 56,
-    "last": 55,
-    "mid": 0.52,
+    "last": 56,
+    "mid": 0.535,
     "volume": null,
     "closeTime": "2026-10-10T01:30:00Z"
    },
@@ -317,7 +317,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "4 games, 4 starters still TBD"
+   "detail": "4 games, 1 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -329,11 +329,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 4/8 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 7/8 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "4/4 resolved"
+   "detail": "7/7 resolved"
   },
   "hitting": {
    "ok": true,
@@ -358,57 +358,57 @@
    "ticker": "KXMLBGAME-26OCT062130MILSD-SD",
    "title": "San Diego wins",
    "subtitle": "San Diego",
-   "yesBid": 48,
+   "yesBid": 51,
    "yesAsk": 56
   },
   {
    "ticker": "KXMLBGAME-26OCT062130MILSD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 44,
-   "yesAsk": 52
+   "yesBid": 47,
+   "yesAsk": 49
   },
   {
    "ticker": "KXMLBGAME-26OCT072000TBNYY-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 38,
-   "yesAsk": 42
+   "yesBid": 37,
+   "yesAsk": 41
   },
   {
    "ticker": "KXMLBGAME-26OCT072000TBNYY-NYY",
    "title": "New York Y wins",
    "subtitle": "New York Y",
-   "yesBid": 58,
-   "yesAsk": 62
+   "yesBid": 57,
+   "yesAsk": 63
   },
   {
    "ticker": "KXMLBGAME-26OCT061800LADATL-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 53,
-   "yesAsk": 60
+   "yesBid": 57,
+   "yesAsk": 58
   },
   {
    "ticker": "KXMLBGAME-26OCT061800LADATL-ATL",
    "title": "Atlanta wins",
    "subtitle": "Atlanta",
-   "yesBid": 40,
-   "yesAsk": 47
+   "yesBid": 41,
+   "yesAsk": 45
   },
   {
    "ticker": "KXMLBGAME-26OCT042000ATLLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 64,
-   "yesAsk": 65
+   "yesBid": 58,
+   "yesAsk": 62
   },
   {
    "ticker": "KXMLBGAME-26OCT042000ATLLAD-ATL",
    "title": "Atlanta wins",
    "subtitle": "Atlanta",
-   "yesBid": 37,
-   "yesAsk": 39
+   "yesBid": 39,
+   "yesAsk": 42
   },
   {
    "ticker": "KXMLBGAME-26OCT031600ATLLAD-LAD",
@@ -421,14 +421,14 @@
    "ticker": "KXMLBGAME-26OCT031600ATLLAD-ATL",
    "title": "Atlanta wins",
    "subtitle": "Atlanta",
-   "yesBid": 34,
-   "yesAsk": 35
+   "yesBid": 33,
+   "yesAsk": 34
   },
   {
    "ticker": "KXMLBGAME-26OCT071600CLECWS-CWS",
    "title": "Chicago WS wins",
    "subtitle": "Chicago WS",
-   "yesBid": 44,
+   "yesBid": 45,
    "yesAsk": 54
   },
   {
