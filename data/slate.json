@@ -39,15 +39,26 @@
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": 5.0,
-    "woba_vs_hand": 0.334,
+    "woba_vs_hand": 0.3339,
     "woba_overall": 0.3272,
-    "lineup_woba": 0.3272,
+    "lineup_woba": 0.3301,
     "staff_fip": 3.722,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0383,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jackson Chourio",
+     "Brice Turang",
+     "Jake Bauers",
+     "William Contreras",
+     "Garrett Mitchell",
+     "Christian Yelich",
+     "Sal Frelick",
+     "Cooper Pratt",
+     "David Hamilton"
+    ]
    },
    "away": {
     "id": 135,
@@ -65,15 +76,26 @@
     "bp_rate": 3.469,
     "bp_is_proxy": false,
     "bp_ip3": 5.3,
-    "woba_vs_hand": 0.3178,
+    "woba_vs_hand": 0.331,
     "woba_overall": 0.3157,
-    "lineup_woba": 0.3157,
+    "lineup_woba": 0.3325,
     "staff_fip": 4.066,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.004,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Fernando Tatis Jr.",
+     "Dustin Harris",
+     "Manny Machado",
+     "Ty France",
+     "Jackson Merrill",
+     "Ethan Salas",
+     "Xander Bogaerts",
+     "Luis Campusano",
+     "Jake Cronenworth"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-10-10T01:30:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 849823,
