@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04T15:36:10.700569+00:00",
+ "generatedAt": "2026-10-04T22:09:18.067953+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 849825,
    "date": "2026-10-04",
    "startsAt": "2026-10-04T20:00:00Z",
-   "state": "Scheduled",
+   "state": "In Progress",
    "venue": "American Family Field",
    "home": {
     "id": 158,
@@ -39,26 +39,15 @@
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": 5.0,
-    "woba_vs_hand": 0.3339,
+    "woba_vs_hand": 0.334,
     "woba_overall": 0.3272,
-    "lineup_woba": 0.3301,
+    "lineup_woba": 0.3272,
     "staff_fip": 3.722,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0383,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Jackson Chourio",
-     "Brice Turang",
-     "Jake Bauers",
-     "William Contreras",
-     "Garrett Mitchell",
-     "Christian Yelich",
-     "Sal Frelick",
-     "Cooper Pratt",
-     "David Hamilton"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 135,
@@ -76,26 +65,15 @@
     "bp_rate": 3.469,
     "bp_is_proxy": false,
     "bp_ip3": 5.3,
-    "woba_vs_hand": 0.331,
+    "woba_vs_hand": 0.3178,
     "woba_overall": 0.3157,
-    "lineup_woba": 0.3325,
+    "lineup_woba": 0.3157,
     "staff_fip": 4.066,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.004,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Fernando Tatis Jr.",
-     "Dustin Harris",
-     "Manny Machado",
-     "Ty France",
-     "Jackson Merrill",
-     "Ethan Salas",
-     "Xander Bogaerts",
-     "Luis Campusano",
-     "Jake Cronenworth"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "away",
@@ -104,20 +82,20 @@
     "title": "San Diego wins",
     "subtitle": "San Diego",
     "yesBid": 54,
-    "yesAsk": 56,
-    "last": 56,
-    "mid": 0.55,
+    "yesAsk": 55,
+    "last": 55,
+    "mid": 0.545,
     "volume": null,
     "closeTime": "2026-10-10T01:30:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 849823,
    "date": "2026-10-04",
    "startsAt": "2026-10-05T00:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "UNIQLO Field at Dodger Stadium",
    "home": {
     "id": 119,
@@ -135,26 +113,15 @@
     "bp_rate": 3.774,
     "bp_is_proxy": false,
     "bp_ip3": 3.0,
-    "woba_vs_hand": 0.3401,
+    "woba_vs_hand": 0.3309,
     "woba_overall": 0.3339,
-    "lineup_woba": 0.3379,
+    "lineup_woba": 0.3339,
     "staff_fip": 3.715,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0063,
     "history_runs": 0.0,
-    "oppHand": null,
-    "lineup": [
-     "Mookie Betts",
-     "Shohei Ohtani",
-     "Will Smith",
-     "Freddie Freeman",
-     "Teoscar Hern\u00e1ndez",
-     "Kyle Tucker",
-     "Andy Pages",
-     "Miguel Rojas",
-     "Tommy Edman"
-    ]
+    "oppHand": "L"
    },
    "away": {
     "id": 144,
@@ -163,35 +130,24 @@
     "nick": "Braves",
     "wins": 94,
     "losses": 68,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Ray Kerr",
+    "starterId": 678061,
+    "starterHand": "L",
+    "sp_rate": 3.972,
+    "sp_era": 1.47,
+    "sp_ip": 18.33,
     "bp_rate": 3.576,
     "bp_is_proxy": false,
     "bp_ip3": 10.7,
-    "woba_vs_hand": 0.3147,
+    "woba_vs_hand": 0.3055,
     "woba_overall": 0.3145,
-    "lineup_woba": 0.3157,
+    "lineup_woba": 0.3145,
     "staff_fip": 4.039,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0228,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Drake Baldwin",
-     "Ronald Acu\u00f1a Jr.",
-     "Matt Olson",
-     "Ozzie Albies",
-     "Michael Harris II",
-     "Mauricio Dub\u00f3n",
-     "Sean Murphy",
-     "Austin Riley",
-     "Lane Thomas"
-    ]
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "home",
@@ -199,15 +155,15 @@
     "eventTicker": "KXMLBGAME-26OCT061800LADATL",
     "title": "Los Angeles D wins",
     "subtitle": "Los Angeles D",
-    "yesBid": 55,
-    "yesAsk": 56,
-    "last": 56,
-    "mid": 0.555,
+    "yesBid": 53,
+    "yesAsk": 54,
+    "last": 54,
+    "mid": 0.535,
     "volume": null,
     "closeTime": "2026-10-09T22:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 849834,
@@ -231,7 +187,7 @@
     "bp_rate": 3.787,
     "bp_is_proxy": false,
     "bp_ip3": 4.7,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.2999,
     "woba_overall": 0.3081,
     "lineup_woba": 0.3081,
     "staff_fip": 3.849,
@@ -239,7 +195,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0028,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "away": {
     "id": 145,
@@ -248,12 +204,12 @@
     "nick": "White Sox",
     "wins": 84,
     "losses": 78,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Anthony Kay",
+    "starterId": 641743,
+    "starterHand": "L",
+    "sp_rate": 4.752,
+    "sp_era": 4.44,
+    "sp_ip": 5.1,
     "bp_rate": 4.041,
     "bp_is_proxy": false,
     "bp_ip3": 6.3,
@@ -274,9 +230,9 @@
     "title": "Chicago WS wins",
     "subtitle": "Chicago WS",
     "yesBid": 49,
-    "yesAsk": 51,
-    "last": 51,
-    "mid": 0.5,
+    "yesAsk": 52,
+    "last": 49,
+    "mid": 0.505,
     "volume": null,
     "closeTime": "2026-10-10T20:00:00Z"
    },
@@ -349,7 +305,7 @@
     "subtitle": "Tampa Bay",
     "yesBid": 43,
     "yesAsk": 47,
-    "last": 47,
+    "last": 46,
     "mid": 0.45,
     "volume": null,
     "closeTime": "2026-10-11T00:00:00Z"
@@ -361,7 +317,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "4 games, 2 starters still TBD"
+   "detail": "4 games, 0 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -373,11 +329,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 6/8 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 8/8 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "6/6 resolved"
+   "detail": "8/8 resolved"
   },
   "hitting": {
    "ok": true,
@@ -403,14 +359,14 @@
    "title": "San Diego wins",
    "subtitle": "San Diego",
    "yesBid": 54,
-   "yesAsk": 56
+   "yesAsk": 55
   },
   {
    "ticker": "KXMLBGAME-26OCT062130MILSD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 43,
-   "yesAsk": 46
+   "yesBid": 46,
+   "yesAsk": 47
   },
   {
    "ticker": "KXMLBGAME-26OCT072000TBNYY-TB",
@@ -423,64 +379,64 @@
    "ticker": "KXMLBGAME-26OCT072000TBNYY-NYY",
    "title": "New York Y wins",
    "subtitle": "New York Y",
-   "yesBid": 53,
-   "yesAsk": 57
+   "yesBid": 54,
+   "yesAsk": 56
   },
   {
    "ticker": "KXMLBGAME-26OCT061800LADATL-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 55,
-   "yesAsk": 56
+   "yesBid": 53,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26OCT061800LADATL-ATL",
    "title": "Atlanta wins",
    "subtitle": "Atlanta",
-   "yesBid": 44,
-   "yesAsk": 46
+   "yesBid": 46,
+   "yesAsk": 48
   },
   {
    "ticker": "KXMLBGAME-26OCT042000ATLLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 58,
-   "yesAsk": 59
+   "yesBid": 68,
+   "yesAsk": 69
   },
   {
    "ticker": "KXMLBGAME-26OCT042000ATLLAD-ATL",
    "title": "Atlanta wins",
    "subtitle": "Atlanta",
-   "yesBid": 41,
-   "yesAsk": 42
+   "yesBid": 31,
+   "yesAsk": 32
   },
   {
    "ticker": "KXMLBGAME-26OCT071600CLECWS-CWS",
    "title": "Chicago WS wins",
    "subtitle": "Chicago WS",
    "yesBid": 49,
-   "yesAsk": 51
+   "yesAsk": 52
   },
   {
    "ticker": "KXMLBGAME-26OCT071600CLECWS-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 48,
-   "yesAsk": 53
+   "yesBid": 49,
+   "yesAsk": 50
   },
   {
    "ticker": "KXMLBGAME-26OCT041600SDMIL-SD",
    "title": "San Diego wins",
    "subtitle": "San Diego",
-   "yesBid": 44,
-   "yesAsk": 45
+   "yesBid": 72,
+   "yesAsk": 73
   },
   {
    "ticker": "KXMLBGAME-26OCT041600SDMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 55,
-   "yesAsk": 56
+   "yesBid": 27,
+   "yesAsk": 28
   }
  ]
 }
