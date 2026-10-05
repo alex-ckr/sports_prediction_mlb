@@ -113,15 +113,26 @@
     "bp_rate": 4.2,
     "bp_is_proxy": false,
     "bp_ip3": 1.0,
-    "woba_vs_hand": 0.3293,
+    "woba_vs_hand": 0.3402,
     "woba_overall": 0.3195,
-    "lineup_woba": 0.3195,
+    "lineup_woba": 0.3335,
     "staff_fip": 3.932,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0049,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Yandy D\u00edaz",
+     "Jonathan Aranda",
+     "Junior Caminero",
+     "Liam Hicks",
+     "Chandler Simpson",
+     "Victor Mesa Jr.",
+     "Jonny DeLuca",
+     "Richie Palacios",
+     "Taylor Walls"
+    ]
    },
    "away": {
     "id": 147,
@@ -139,15 +150,26 @@
     "bp_rate": 4.17,
     "bp_is_proxy": false,
     "bp_ip3": 3.0,
-    "woba_vs_hand": 0.3136,
+    "woba_vs_hand": 0.3245,
     "woba_overall": 0.3158,
-    "lineup_woba": 0.3158,
+    "lineup_woba": 0.3188,
     "staff_fip": 3.748,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0151,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Ben Rice",
+     "Cody Bellinger",
+     "Luis Garc\u00eda Jr.",
+     "Spencer Jones",
+     "George Lombard Jr.",
+     "Jazz Chisholm Jr.",
+     "Trent Grisham",
+     "Austin Wells",
+     "Ryan McMahon"
+    ]
    },
    "kalshi": {
     "side": "home",
@@ -163,7 +185,7 @@
     "closeTime": "2026-10-11T00:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 849819,
