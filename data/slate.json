@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07T17:37:53.166498+00:00",
+ "generatedAt": "2026-10-07T23:25:30.608313+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 849833,
    "date": "2026-10-07",
    "startsAt": "2026-10-07T20:00:00Z",
-   "state": "Pre-Game",
+   "state": "In Progress",
    "venue": "Rate Field",
    "home": {
     "id": 145,
@@ -39,26 +39,15 @@
     "bp_rate": 4.041,
     "bp_is_proxy": false,
     "bp_ip3": 8.7,
-    "woba_vs_hand": 0.3235,
+    "woba_vs_hand": 0.3158,
     "woba_overall": 0.3197,
-    "lineup_woba": 0.3222,
+    "lineup_woba": 0.3197,
     "staff_fip": 4.192,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0085,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Sam Antonacci",
-     "Miguel Vargas",
-     "Munetaka Murakami",
-     "Kyle Teel",
-     "Chase Meidroth",
-     "Tristan Peters",
-     "Braden Montgomery",
-     "Randal Grichuk",
-     "Colson Montgomery"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 114,
@@ -76,26 +65,15 @@
     "bp_rate": 3.787,
     "bp_is_proxy": false,
     "bp_ip3": 4.0,
-    "woba_vs_hand": 0.3054,
+    "woba_vs_hand": 0.2999,
     "woba_overall": 0.3081,
-    "lineup_woba": 0.3063,
+    "lineup_woba": 0.3081,
     "staff_fip": 3.849,
     "ptype_rv100": null,
     "travel_runs": 0.014,
     "park_fit_runs": -0.0028,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Steven Kwan",
-     "Jos\u00e9 Ram\u00edrez",
-     "Chase DeLauter",
-     "Jo Adell",
-     "Nathaniel Lowe",
-     "Angel Mart\u00ednez",
-     "Travis Bazzana",
-     "Patrick Bailey",
-     "Brayan Rocchio"
-    ]
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "home",
@@ -103,21 +81,21 @@
     "eventTicker": "KXMLBGAME-26OCT071600CLECWS",
     "title": "Chicago WS wins",
     "subtitle": "Chicago WS",
-    "yesBid": 53,
-    "yesAsk": 54,
-    "last": 54,
-    "mid": 0.535,
+    "yesBid": 0,
+    "yesAsk": 1,
+    "last": 1,
+    "mid": 0.005,
     "volume": null,
     "closeTime": "2026-10-10T20:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 849822,
    "date": "2026-10-07",
    "startsAt": "2026-10-07T22:00:00Z",
-   "state": "Scheduled",
+   "state": "In Progress",
    "venue": "Truist Park",
    "home": {
     "id": 144,
@@ -135,26 +113,15 @@
     "bp_rate": 3.576,
     "bp_is_proxy": false,
     "bp_ip3": 10.3,
-    "woba_vs_hand": 0.3238,
+    "woba_vs_hand": 0.3191,
     "woba_overall": 0.3145,
-    "lineup_woba": 0.3205,
+    "lineup_woba": 0.3145,
     "staff_fip": 4.039,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0076,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Michael Harris II",
-     "Ronald Acu\u00f1a Jr.",
-     "Matt Olson",
-     "Ozzie Albies",
-     "Drake Baldwin",
-     "Mike Yastrzemski",
-     "Mauricio Dub\u00f3n",
-     "Austin Riley",
-     "Sean Murphy"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 119,
@@ -172,26 +139,15 @@
     "bp_rate": 3.774,
     "bp_is_proxy": false,
     "bp_ip3": 7.3,
-    "woba_vs_hand": 0.3417,
+    "woba_vs_hand": 0.3352,
     "woba_overall": 0.3339,
-    "lineup_woba": 0.3409,
+    "lineup_woba": 0.3339,
     "staff_fip": 3.715,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0021,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Mookie Betts",
-     "Freddie Freeman",
-     "Will Smith",
-     "Shohei Ohtani",
-     "Teoscar Hern\u00e1ndez",
-     "Max Muncy",
-     "Enrique Hern\u00e1ndez",
-     "Kyle Tucker",
-     "Andy Pages"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "away",
@@ -199,21 +155,21 @@
     "eventTicker": "KXMLBGAME-26OCT071800LADATL",
     "title": "Los Angeles D wins",
     "subtitle": "Los Angeles D",
-    "yesBid": 57,
-    "yesAsk": 58,
-    "last": 58,
-    "mid": 0.575,
+    "yesBid": 48,
+    "yesAsk": 49,
+    "last": 49,
+    "mid": 0.485,
     "volume": null,
     "closeTime": "2026-10-10T22:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 849838,
    "date": "2026-10-07",
    "startsAt": "2026-10-08T00:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Yankee Stadium",
    "home": {
     "id": 147,
@@ -231,26 +187,15 @@
     "bp_rate": 4.17,
     "bp_is_proxy": false,
     "bp_ip3": 3.7,
-    "woba_vs_hand": 0.322,
+    "woba_vs_hand": 0.3136,
     "woba_overall": 0.3158,
-    "lineup_woba": 0.3172,
+    "lineup_woba": 0.3158,
     "staff_fip": 3.748,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0678,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Trent Grisham",
-     "Ben Rice",
-     "Luis Garc\u00eda Jr.",
-     "Cody Bellinger",
-     "George Lombard Jr.",
-     "Austin Wells",
-     "Anthony Volpe",
-     "Spencer Jones",
-     "Jos\u00e9 Caballero"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 139,
@@ -268,26 +213,15 @@
     "bp_rate": 4.2,
     "bp_is_proxy": false,
     "bp_ip3": 4.3,
-    "woba_vs_hand": 0.3286,
+    "woba_vs_hand": 0.2987,
     "woba_overall": 0.3195,
-    "lineup_woba": 0.3363,
+    "lineup_woba": 0.3195,
     "staff_fip": 3.932,
     "ptype_rv100": null,
     "travel_runs": 0.0051,
     "park_fit_runs": -0.0219,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Yandy D\u00edaz",
-     "Jonathan Aranda",
-     "Junior Caminero",
-     "Victor Mesa Jr.",
-     "Ryan Vilade",
-     "Liam Hicks",
-     "Jonny DeLuca",
-     "Richie Palacios",
-     "Taylor Walls"
-    ]
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "away",
@@ -303,13 +237,13 @@
     "closeTime": "2026-10-11T00:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   },
   {
    "gamePk": 849827,
    "date": "2026-10-07",
    "startsAt": "2026-10-08T02:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Petco Park",
    "home": {
     "id": 135,
@@ -327,7 +261,7 @@
     "bp_rate": 3.469,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3093,
     "woba_overall": 0.3157,
     "lineup_woba": 0.3157,
     "staff_fip": 4.066,
@@ -335,7 +269,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": -0.0009,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "away": {
     "id": 158,
@@ -344,12 +278,12 @@
     "nick": "Brewers",
     "wins": 103,
     "losses": 59,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Robert Gasser",
+    "starterId": 688107,
+    "starterHand": "L",
+    "sp_rate": 4.234,
+    "sp_era": 3.87,
+    "sp_ip": 5.47,
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
@@ -443,10 +377,10 @@
     "eventTicker": "KXMLBGAME-26OCT071600CLECWS",
     "title": "Chicago WS wins",
     "subtitle": "Chicago WS",
-    "yesBid": 53,
-    "yesAsk": 54,
-    "last": 54,
-    "mid": 0.535,
+    "yesBid": 0,
+    "yesAsk": 1,
+    "last": 1,
+    "mid": 0.005,
     "volume": null,
     "closeTime": "2026-10-10T20:00:00Z"
    },
@@ -475,7 +409,7 @@
     "bp_rate": 4.17,
     "bp_is_proxy": false,
     "bp_ip3": 3.7,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3136,
     "woba_overall": 0.3158,
     "lineup_woba": 0.3158,
     "staff_fip": 3.748,
@@ -483,7 +417,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0678,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "away": {
     "id": 139,
@@ -492,12 +426,12 @@
     "nick": "Rays",
     "wins": 98,
     "losses": 64,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Drew Rasmussen",
+    "starterId": 656876,
+    "starterHand": "R",
+    "sp_rate": 2.815,
+    "sp_era": 2.67,
+    "sp_ip": 5.73,
     "bp_rate": 4.2,
     "bp_is_proxy": false,
     "bp_ip3": 4.3,
@@ -531,7 +465,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "6 games, 3 starters still TBD"
+   "detail": "6 games, 1 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -543,11 +477,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 9/12 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 11/12 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "9/9 resolved"
+   "detail": "11/11 resolved"
   },
   "hitting": {
    "ok": true,
@@ -586,15 +520,15 @@
    "ticker": "KXMLBGAME-26OCT071800LADATL-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 57,
-   "yesAsk": 58
+   "yesBid": 48,
+   "yesAsk": 49
   },
   {
    "ticker": "KXMLBGAME-26OCT071800LADATL-ATL",
    "title": "Atlanta wins",
    "subtitle": "Atlanta",
-   "yesBid": 42,
-   "yesAsk": 43
+   "yesBid": 51,
+   "yesAsk": 52
   },
   {
    "ticker": "KXMLBGAME-26OCT072000TBNYY-TB",
@@ -614,15 +548,15 @@
    "ticker": "KXMLBGAME-26OCT071600CLECWS-CWS",
    "title": "Chicago WS wins",
    "subtitle": "Chicago WS",
-   "yesBid": 53,
-   "yesAsk": 54
+   "yesBid": 0,
+   "yesAsk": 1
   },
   {
    "ticker": "KXMLBGAME-26OCT071600CLECWS-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 46,
-   "yesAsk": 47
+   "yesBid": 99,
+   "yesAsk": 100
   }
  ]
 }
