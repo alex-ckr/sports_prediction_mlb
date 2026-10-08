@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T17:40:51.309820+00:00",
+ "generatedAt": "2026-10-08T23:36:56.951102+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 849832,
    "date": "2026-10-08",
    "startsAt": "2026-10-09T00:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Rate Field",
    "home": {
     "id": 145,
@@ -39,26 +39,15 @@
     "bp_rate": 4.041,
     "bp_is_proxy": false,
     "bp_ip3": 15.7,
-    "woba_vs_hand": 0.3266,
+    "woba_vs_hand": 0.3292,
     "woba_overall": 0.3197,
-    "lineup_woba": 0.3142,
+    "lineup_woba": 0.3197,
     "staff_fip": 4.192,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0085,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Chase Meidroth",
-     "Randal Grichuk",
-     "Miguel Vargas",
-     "Munetaka Murakami",
-     "Tommy Pham",
-     "Brenton Doyle",
-     "Kyle Teel",
-     "Braden Montgomery",
-     "Colson Montgomery"
-    ]
+    "oppHand": "L"
    },
    "away": {
     "id": 114,
@@ -76,26 +65,15 @@
     "bp_rate": 3.787,
     "bp_is_proxy": false,
     "bp_ip3": 12.3,
-    "woba_vs_hand": 0.3185,
+    "woba_vs_hand": 0.2999,
     "woba_overall": 0.3081,
-    "lineup_woba": 0.3193,
+    "lineup_woba": 0.3081,
     "staff_fip": 3.849,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0028,
     "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Steven Kwan",
-     "Jos\u00e9 Ram\u00edrez",
-     "Chase DeLauter",
-     "Jo Adell",
-     "Nathaniel Lowe",
-     "Angel Mart\u00ednez",
-     "Travis Bazzana",
-     "Austin Hedges",
-     "Brayan Rocchio"
-    ]
+    "oppHand": "L"
    },
    "kalshi": {
     "side": "home",
@@ -111,7 +89,7 @@
     "closeTime": "2026-10-11T21:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   }
  ],
  "diagnostics": {
@@ -158,57 +136,57 @@
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 26,
-   "yesAsk": 42
+   "yesBid": 36,
+   "yesAsk": 40
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 43,
-   "yesAsk": 67
+   "yesBid": 61,
+   "yesAsk": 66
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 26,
-   "yesAsk": 43
+   "yesBid": 36,
+   "yesAsk": 39
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 42,
+   "yesBid": 60,
    "yesAsk": 66
   },
   {
    "ticker": "KXMLBGAME-26OCT122000LADMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 40,
-   "yesAsk": 53
+   "yesBid": 47,
+   "yesAsk": 48
   },
   {
    "ticker": "KXMLBGAME-26OCT122000LADMIL-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 35,
+   "yesBid": 51,
    "yesAsk": 53
   },
   {
    "ticker": "KXMLBGAME-26OCT112000LADMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 49,
+   "yesBid": 50,
    "yesAsk": 52
   },
   {
    "ticker": "KXMLBGAME-26OCT112000LADMIL-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 48,
-   "yesAsk": 51
+   "yesBid": 49,
+   "yesAsk": 50
   },
   {
    "ticker": "KXMLBGAME-26OCT081700CLECWS-CWS",
