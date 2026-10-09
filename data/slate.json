@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T23:36:56.951102+00:00",
+ "generatedAt": "2026-10-09T17:16:18.868543+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -18,75 +18,75 @@
  },
  "games": [
   {
-   "gamePk": 849832,
-   "date": "2026-10-08",
-   "startsAt": "2026-10-09T00:00:00Z",
-   "state": "Pre-Game",
-   "venue": "Rate Field",
+   "gamePk": 849831,
+   "date": "2026-10-10",
+   "startsAt": "2026-10-11T00:00:00Z",
+   "state": "Scheduled",
+   "venue": "Progressive Field",
    "home": {
-    "id": 145,
-    "name": "Chicago White Sox",
-    "abbr": "CWS",
-    "nick": "White Sox",
-    "wins": 84,
-    "losses": 78,
-    "starter": "Hagen Smith",
-    "starterId": 696146,
-    "starterHand": "L",
-    "sp_rate": 2.35,
-    "sp_era": 1.29,
-    "sp_ip": 28.0,
-    "bp_rate": 4.041,
-    "bp_is_proxy": false,
-    "bp_ip3": 15.7,
-    "woba_vs_hand": 0.3292,
-    "woba_overall": 0.3197,
-    "lineup_woba": 0.3197,
-    "staff_fip": 4.192,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": 0.0085,
-    "history_runs": 0.0,
-    "oppHand": "L"
-   },
-   "away": {
     "id": 114,
     "name": "Cleveland Guardians",
     "abbr": "CLE",
     "nick": "Guardians",
     "wins": 85,
     "losses": 77,
-    "starter": "Parker Messick",
-    "starterId": 800048,
-    "starterHand": "L",
-    "sp_rate": 3.067,
-    "sp_era": 2.56,
-    "sp_ip": 5.82,
+    "starter": null,
+    "starterId": null,
+    "starterHand": null,
+    "sp_rate": null,
+    "sp_era": null,
+    "sp_ip": null,
     "bp_rate": 3.787,
     "bp_is_proxy": false,
-    "bp_ip3": 12.3,
-    "woba_vs_hand": 0.2999,
+    "bp_ip3": 15.0,
+    "woba_vs_hand": null,
     "woba_overall": 0.3081,
     "lineup_woba": 0.3081,
     "staff_fip": 3.849,
     "ptype_rv100": null,
     "travel_runs": 0.0,
-    "park_fit_runs": -0.0028,
+    "park_fit_runs": 0.0028,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": null
+   },
+   "away": {
+    "id": 145,
+    "name": "Chicago White Sox",
+    "abbr": "CWS",
+    "nick": "White Sox",
+    "wins": 84,
+    "losses": 78,
+    "starter": null,
+    "starterId": null,
+    "starterHand": null,
+    "sp_rate": null,
+    "sp_era": null,
+    "sp_ip": null,
+    "bp_rate": 4.041,
+    "bp_is_proxy": false,
+    "bp_ip3": 15.3,
+    "woba_vs_hand": null,
+    "woba_overall": 0.3197,
+    "lineup_woba": 0.3197,
+    "staff_fip": 4.192,
+    "ptype_rv100": null,
+    "travel_runs": 0.0581,
+    "park_fit_runs": -0.0085,
+    "history_runs": 0.0,
+    "oppHand": null
    },
    "kalshi": {
-    "side": "home",
-    "ticker": "KXMLBGAME-26OCT081700CLECWS-CWS",
-    "eventTicker": "KXMLBGAME-26OCT081700CLECWS",
+    "side": "away",
+    "ticker": "KXMLBGAME-26OCT102000CWSCLE-CWS",
+    "eventTicker": "KXMLBGAME-26OCT102000CWSCLE",
     "title": "Chicago WS wins",
     "subtitle": "Chicago WS",
-    "yesBid": 48,
-    "yesAsk": 49,
-    "last": 49,
-    "mid": 0.485,
+    "yesBid": 43,
+    "yesAsk": 44,
+    "last": 44,
+    "mid": 0.435,
     "volume": null,
-    "closeTime": "2026-10-11T21:00:00Z"
+    "closeTime": "2026-10-14T00:00:00Z"
    },
    "kalshiWhy": null,
    "lineupConfirmed": false
@@ -95,7 +95,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "1 games, 0 starters still TBD"
+   "detail": "1 games, 2 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -106,12 +106,12 @@
    "detail": "30 teams"
   },
   "pitching": {
-   "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 2/2 probables matched, FIP constant 3.10"
+   "ok": false,
+   "detail": "bulk: 868 arms, 30 bullpens, 0/2 probables matched, FIP constant 3.10"
   },
   "handedness": {
-   "ok": true,
-   "detail": "2/2 resolved"
+   "ok": false,
+   "detail": "no probable starters to look up"
   },
   "hitting": {
    "ok": true,
@@ -119,7 +119,7 @@
   },
   "fatigue": {
    "ok": true,
-   "detail": "10 finished games scanned, 8 bullpens"
+   "detail": "9 finished games scanned, 8 bullpens"
   },
   "kalshi": {
    "ok": true,
@@ -130,13 +130,30 @@
    "detail": "1/1 games matched to a market"
   }
  },
- "warnings": [],
+ "warnings": [
+  "pitching: bulk: 868 arms, 30 bullpens, 0/2 probables matched, FIP constant 3.10",
+  "handedness: no probable starters to look up"
+ ],
  "kalshiSample": [
+  {
+   "ticker": "KXMLBGAME-26OCT102000CWSCLE-CWS",
+   "title": "Chicago WS wins",
+   "subtitle": "Chicago WS",
+   "yesBid": 43,
+   "yesAsk": 44
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT102000CWSCLE-CLE",
+   "title": "Cleveland wins",
+   "subtitle": "Cleveland",
+   "yesBid": 56,
+   "yesAsk": 57
+  },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 36,
+   "yesBid": 39,
    "yesAsk": 40
   },
   {
@@ -144,28 +161,28 @@
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
    "yesBid": 61,
-   "yesAsk": 66
+   "yesAsk": 63
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 36,
-   "yesAsk": 39
+   "yesBid": 39,
+   "yesAsk": 42
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 60,
-   "yesAsk": 66
+   "yesBid": 58,
+   "yesAsk": 60
   },
   {
    "ticker": "KXMLBGAME-26OCT122000LADMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
    "yesBid": 47,
-   "yesAsk": 48
+   "yesAsk": 49
   },
   {
    "ticker": "KXMLBGAME-26OCT122000LADMIL-LAD",
@@ -179,28 +196,14 @@
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
    "yesBid": 50,
-   "yesAsk": 52
+   "yesAsk": 51
   },
   {
    "ticker": "KXMLBGAME-26OCT112000LADMIL-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
    "yesBid": 49,
-   "yesAsk": 50
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT081700CLECWS-CWS",
-   "title": "Chicago WS wins",
-   "subtitle": "Chicago WS",
-   "yesBid": 48,
-   "yesAsk": 49
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT081700CLECWS-CLE",
-   "title": "Cleveland wins",
-   "subtitle": "Cleveland",
-   "yesBid": 51,
-   "yesAsk": 52
+   "yesAsk": 51
   }
  ]
 }
