@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T16:04:44.961196+00:00",
+ "generatedAt": "2026-10-10T22:09:21.618509+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 849831,
    "date": "2026-10-10",
    "startsAt": "2026-10-11T00:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Progressive Field",
    "home": {
     "id": 114,
@@ -104,12 +104,12 @@
     "nick": "Brewers",
     "wins": 103,
     "losses": 59,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Jacob Misiorowski",
+    "starterId": 694819,
+    "starterHand": "R",
+    "sp_rate": 2.166,
+    "sp_era": 1.8,
+    "sp_ip": 5.82,
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": 5.0,
@@ -139,7 +139,7 @@
     "bp_rate": 3.774,
     "bp_is_proxy": false,
     "bp_ip3": 4.3,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3352,
     "woba_overall": 0.3339,
     "lineup_woba": 0.3339,
     "staff_fip": 3.715,
@@ -147,7 +147,7 @@
     "travel_runs": 0.0079,
     "park_fit_runs": 0.0047,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "home",
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
     "title": "Milwaukee wins",
     "subtitle": "Milwaukee",
-    "yesBid": 34,
+    "yesBid": 36,
     "yesAsk": 39,
     "last": 40,
-    "mid": 0.365,
+    "mid": 0.375,
     "volume": null,
     "closeTime": "2026-10-19T00:00:00Z"
    },
@@ -169,7 +169,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "2 games, 1 starters still TBD"
+   "detail": "2 games, 0 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -181,11 +181,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 3/4 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 4/4 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "3/3 resolved"
+   "detail": "4/4 resolved"
   },
   "hitting": {
    "ok": true,
@@ -224,29 +224,29 @@
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 34,
+   "yesBid": 36,
    "yesAsk": 39
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 62,
-   "yesAsk": 65
+   "yesBid": 61,
+   "yesAsk": 63
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 39,
-   "yesAsk": 42
+   "yesBid": 37,
+   "yesAsk": 40
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 58,
-   "yesAsk": 61
+   "yesBid": 59,
+   "yesAsk": 62
   },
   {
    "ticker": "KXMLBGAME-26OCT122000LADMIL-MIL",
