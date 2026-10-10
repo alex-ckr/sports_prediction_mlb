@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T22:59:39.922957+00:00",
+ "generatedAt": "2026-10-10T02:13:07.896068+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -70,7 +70,7 @@
     "lineup_woba": 0.3197,
     "staff_fip": 4.192,
     "ptype_rv100": null,
-    "travel_runs": 0.0581,
+    "travel_runs": 0.029,
     "park_fit_runs": -0.0085,
     "history_runs": 0.0,
     "oppHand": "R"
@@ -81,12 +81,86 @@
     "eventTicker": "KXMLBGAME-26OCT102000CWSCLE",
     "title": "Chicago WS wins",
     "subtitle": "Chicago WS",
-    "yesBid": 43,
-    "yesAsk": 44,
-    "last": 44,
-    "mid": 0.435,
+    "yesBid": 44,
+    "yesAsk": 45,
+    "last": 45,
+    "mid": 0.445,
     "volume": null,
     "closeTime": "2026-10-14T00:00:00Z"
+   },
+   "kalshiWhy": null,
+   "lineupConfirmed": false
+  },
+  {
+   "gamePk": 849809,
+   "date": "2026-10-11",
+   "startsAt": "2026-10-12T00:00:00Z",
+   "state": "Scheduled",
+   "venue": "American Family Field",
+   "home": {
+    "id": 158,
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL",
+    "nick": "Brewers",
+    "wins": 103,
+    "losses": 59,
+    "starter": null,
+    "starterId": null,
+    "starterHand": null,
+    "sp_rate": null,
+    "sp_era": null,
+    "sp_ip": null,
+    "bp_rate": 3.764,
+    "bp_is_proxy": false,
+    "bp_ip3": 5.0,
+    "woba_vs_hand": 0.3117,
+    "woba_overall": 0.3272,
+    "lineup_woba": 0.3272,
+    "staff_fip": 3.722,
+    "ptype_rv100": null,
+    "travel_runs": 0.0,
+    "park_fit_runs": -0.0383,
+    "history_runs": 0.0,
+    "oppHand": "L"
+   },
+   "away": {
+    "id": 119,
+    "name": "Los Angeles Dodgers",
+    "abbr": "LAD",
+    "nick": "Dodgers",
+    "wins": 100,
+    "losses": 62,
+    "starter": "Tarik Skubal",
+    "starterId": 669373,
+    "starterHand": "L",
+    "sp_rate": 2.507,
+    "sp_era": 2.72,
+    "sp_ip": 6.1,
+    "bp_rate": 3.774,
+    "bp_is_proxy": false,
+    "bp_ip3": 4.3,
+    "woba_vs_hand": null,
+    "woba_overall": 0.3339,
+    "lineup_woba": 0.3339,
+    "staff_fip": 3.715,
+    "ptype_rv100": null,
+    "travel_runs": 0.0079,
+    "park_fit_runs": 0.0047,
+    "history_runs": 0.0,
+    "oppHand": null
+   },
+   "kalshi": {
+    "side": "home",
+    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
+    "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
+    "title": "Milwaukee wins",
+    "subtitle": "Milwaukee",
+    "yesBid": 36,
+    "yesAsk": 40,
+    "last": 40,
+    "mid": 0.38,
+    "volume": null,
+    "closeTime": "2026-10-19T00:00:00Z"
    },
    "kalshiWhy": null,
    "lineupConfirmed": false
@@ -95,7 +169,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "1 games, 0 starters still TBD"
+   "detail": "2 games, 1 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -107,19 +181,19 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 2/2 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 3/4 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "2/2 resolved"
+   "detail": "3/3 resolved"
   },
   "hitting": {
    "ok": true,
-   "detail": "2/2 teams with wOBA, 2 with platoon splits"
+   "detail": "4/4 teams with wOBA, 4 with platoon splits"
   },
   "fatigue": {
    "ok": true,
-   "detail": "9 finished games scanned, 8 bullpens"
+   "detail": "7 finished games scanned, 8 bullpens"
   },
   "kalshi": {
    "ok": true,
@@ -127,7 +201,7 @@
   },
   "kalshi.match": {
    "ok": true,
-   "detail": "1/1 games matched to a market"
+   "detail": "2/2 games matched to a market"
   }
  },
  "warnings": [],
@@ -136,8 +210,8 @@
    "ticker": "KXMLBGAME-26OCT102000CWSCLE-CWS",
    "title": "Chicago WS wins",
    "subtitle": "Chicago WS",
-   "yesBid": 43,
-   "yesAsk": 44
+   "yesBid": 44,
+   "yesAsk": 45
   },
   {
    "ticker": "KXMLBGAME-26OCT102000CWSCLE-CLE",
@@ -158,7 +232,7 @@
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
    "yesBid": 60,
-   "yesAsk": 63
+   "yesAsk": 64
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
@@ -171,8 +245,8 @@
    "ticker": "KXMLBGAME-26OCT142000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 58,
-   "yesAsk": 62
+   "yesBid": 60,
+   "yesAsk": 61
   },
   {
    "ticker": "KXMLBGAME-26OCT122000LADMIL-MIL",
@@ -185,8 +259,8 @@
    "ticker": "KXMLBGAME-26OCT122000LADMIL-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 52,
-   "yesAsk": 53
+   "yesBid": 53,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26OCT112000LADMIL-MIL",
