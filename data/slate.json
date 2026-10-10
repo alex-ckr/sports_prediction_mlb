@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T02:13:07.896068+00:00",
+ "generatedAt": "2026-10-10T16:04:44.961196+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT102000CWSCLE",
     "title": "Chicago WS wins",
     "subtitle": "Chicago WS",
-    "yesBid": 44,
-    "yesAsk": 45,
-    "last": 45,
-    "mid": 0.445,
+    "yesBid": 43,
+    "yesAsk": 44,
+    "last": 44,
+    "mid": 0.435,
     "volume": null,
     "closeTime": "2026-10-14T00:00:00Z"
    },
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
     "title": "Milwaukee wins",
     "subtitle": "Milwaukee",
-    "yesBid": 36,
-    "yesAsk": 40,
+    "yesBid": 34,
+    "yesAsk": 39,
     "last": 40,
-    "mid": 0.38,
+    "mid": 0.365,
     "volume": null,
     "closeTime": "2026-10-19T00:00:00Z"
    },
@@ -210,8 +210,8 @@
    "ticker": "KXMLBGAME-26OCT102000CWSCLE-CWS",
    "title": "Chicago WS wins",
    "subtitle": "Chicago WS",
-   "yesBid": 44,
-   "yesAsk": 45
+   "yesBid": 43,
+   "yesAsk": 44
   },
   {
    "ticker": "KXMLBGAME-26OCT102000CWSCLE-CLE",
@@ -224,15 +224,15 @@
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 36,
-   "yesAsk": 40
+   "yesBid": 34,
+   "yesAsk": 39
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 60,
-   "yesAsk": 64
+   "yesBid": 62,
+   "yesAsk": 65
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
@@ -245,7 +245,7 @@
    "ticker": "KXMLBGAME-26OCT142000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 60,
+   "yesBid": 58,
    "yesAsk": 61
   },
   {
@@ -253,14 +253,14 @@
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
    "yesBid": 47,
-   "yesAsk": 49
+   "yesAsk": 48
   },
   {
    "ticker": "KXMLBGAME-26OCT122000LADMIL-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 53,
-   "yesAsk": 54
+   "yesBid": 52,
+   "yesAsk": 53
   },
   {
    "ticker": "KXMLBGAME-26OCT112000LADMIL-MIL",
