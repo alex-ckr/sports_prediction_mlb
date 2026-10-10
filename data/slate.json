@@ -39,15 +39,26 @@
     "bp_rate": 3.787,
     "bp_is_proxy": false,
     "bp_ip3": 15.0,
-    "woba_vs_hand": 0.3119,
+    "woba_vs_hand": 0.309,
     "woba_overall": 0.3081,
-    "lineup_woba": 0.3081,
+    "lineup_woba": 0.2994,
     "staff_fip": 3.849,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0028,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Steven Kwan",
+     "Jos\u00e9 Ram\u00edrez",
+     "Chase DeLauter",
+     "Jo Adell",
+     "Nathaniel Lowe",
+     "Travis Bazzana",
+     "Patrick Bailey",
+     "Petey Halpin",
+     "Brayan Rocchio"
+    ]
    },
    "away": {
     "id": 145,
@@ -65,15 +76,26 @@
     "bp_rate": 4.041,
     "bp_is_proxy": false,
     "bp_ip3": 15.3,
-    "woba_vs_hand": 0.3158,
+    "woba_vs_hand": 0.3285,
     "woba_overall": 0.3197,
-    "lineup_woba": 0.3197,
+    "lineup_woba": 0.3317,
     "staff_fip": 4.192,
     "ptype_rv100": null,
     "travel_runs": 0.029,
     "park_fit_runs": -0.0085,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Sam Antonacci",
+     "Kyle Teel",
+     "Miguel Vargas",
+     "Munetaka Murakami",
+     "Andrew Benintendi",
+     "Tristan Peters",
+     "Chase Meidroth",
+     "Colson Montgomery",
+     "Brenton Doyle"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-10-14T00:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 849809,
