@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-11T01:29:00.392312+00:00",
+ "generatedAt": "2026-10-11T16:29:03.768185+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
     "title": "Milwaukee wins",
     "subtitle": "Milwaukee",
-    "yesBid": 37,
-    "yesAsk": 40,
-    "last": 40,
-    "mid": 0.385,
+    "yesBid": 38,
+    "yesAsk": 42,
+    "last": 42,
+    "mid": 0.4,
     "volume": null,
     "closeTime": "2026-10-19T00:00:00Z"
    },
@@ -104,12 +104,12 @@
     "nick": "Brewers",
     "wins": 103,
     "losses": 59,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Logan Henderson",
+    "starterId": 701656,
+    "starterHand": "R",
+    "sp_rate": 3.323,
+    "sp_era": 2.47,
+    "sp_ip": 5.46,
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": null,
@@ -139,7 +139,7 @@
     "bp_rate": 3.774,
     "bp_is_proxy": false,
     "bp_ip3": null,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3352,
     "woba_overall": 0.3339,
     "lineup_woba": 0.3339,
     "staff_fip": 3.715,
@@ -147,7 +147,7 @@
     "travel_runs": 0.0039,
     "park_fit_runs": 0.0047,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "home",
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
     "title": "Milwaukee wins",
     "subtitle": "Milwaukee",
-    "yesBid": 37,
-    "yesAsk": 40,
-    "last": 40,
-    "mid": 0.385,
+    "yesBid": 38,
+    "yesAsk": 42,
+    "last": 42,
+    "mid": 0.4,
     "volume": null,
     "closeTime": "2026-10-19T00:00:00Z"
    },
@@ -198,40 +198,52 @@
     "oppHand": null
    },
    "away": {
-    "id": 5521,
-    "name": "CLE/CWS",
-    "abbr": null,
-    "nick": null,
-    "wins": null,
-    "losses": null,
+    "id": 114,
+    "name": "Cleveland Guardians",
+    "abbr": "CLE",
+    "nick": "Guardians",
+    "wins": 85,
+    "losses": 77,
     "starter": null,
     "starterId": null,
     "starterHand": null,
     "sp_rate": null,
     "sp_era": null,
     "sp_ip": null,
-    "bp_rate": null,
+    "bp_rate": 3.787,
     "bp_is_proxy": false,
-    "bp_ip3": null,
+    "bp_ip3": 10.0,
     "woba_vs_hand": null,
-    "woba_overall": null,
-    "lineup_woba": null,
-    "staff_fip": null,
+    "woba_overall": 0.3081,
+    "lineup_woba": 0.3081,
+    "staff_fip": 3.849,
     "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": null,
+    "travel_runs": 0.0095,
+    "park_fit_runs": 0.0023,
     "history_runs": 0.0,
     "oppHand": null
    },
-   "kalshi": null,
-   "kalshiWhy": "unknown team abbreviation",
+   "kalshi": {
+    "side": "home",
+    "ticker": "KXMLBGAME-26OCT161800TBCLE-TB",
+    "eventTicker": "KXMLBGAME-26OCT161800TBCLE",
+    "title": "Tampa Bay wins",
+    "subtitle": "Tampa Bay",
+    "yesBid": 41,
+    "yesAsk": 65,
+    "last": 67,
+    "mid": 0.53,
+    "volume": null,
+    "closeTime": "2026-10-19T22:00:00Z"
+   },
+   "kalshiWhy": null,
    "lineupConfirmed": false
   }
  ],
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "3 games, 3 starters still TBD"
+   "detail": "3 games, 2 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -243,103 +255,114 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 3/6 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 4/6 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "3/3 resolved"
+   "detail": "4/4 resolved"
   },
   "hitting": {
-   "ok": false,
-   "detail": "3/4 teams with wOBA, 3 with platoon splits"
+   "ok": true,
+   "detail": "4/4 teams with wOBA, 4 with platoon splits"
   },
   "fatigue": {
    "ok": true,
-   "detail": "5 finished games scanned, 2 bullpens"
+   "detail": "6 finished games scanned, 2 bullpens"
   },
   "kalshi": {
    "ok": true,
-   "detail": "10 open KXMLBGAME markets, 10 with usable prices"
+   "detail": "16 open KXMLBGAME markets, 16 with usable prices"
   },
   "kalshi.match": {
    "ok": true,
-   "detail": "2/3 games matched to a market"
+   "detail": "3/3 games matched to a market"
   }
  },
- "warnings": [
-  "team 5521 season hitting: 404 Client Error: Not Found for url: https://statsapi.mlb.com/api/v1/teams/5521/stats?stats=season&group=hitting&season=2026&gameType=R",
-  "hitting: 3/4 teams with wOBA, 3 with platoon splits"
- ],
+ "warnings": [],
  "kalshiSample": [
   {
-   "ticker": "KXMLBGAME-26OCT102000CWSCLE-CWS",
-   "title": "Chicago WS wins",
-   "subtitle": "Chicago WS",
-   "yesBid": 16,
-   "yesAsk": 17
+   "ticker": "KXMLBGAME-26OCT161800TBCLE-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 41,
+   "yesAsk": 65
   },
   {
-   "ticker": "KXMLBGAME-26OCT102000CWSCLE-CLE",
+   "ticker": "KXMLBGAME-26OCT161800TBCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 83,
-   "yesAsk": 84
+   "yesBid": 38,
+   "yesAsk": 60
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT151800TBCLE-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 41,
+   "yesAsk": 60
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT151800TBCLE-CLE",
+   "title": "Cleveland wins",
+   "subtitle": "Cleveland",
+   "yesBid": 40,
+   "yesAsk": 59
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT132000CLETB-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 56,
+   "yesAsk": 58
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT132000CLETB-CLE",
+   "title": "Cleveland wins",
+   "subtitle": "Cleveland",
+   "yesBid": 43,
+   "yesAsk": 46
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT122000CLETB-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 60,
+   "yesAsk": 61
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT122000CLETB-CLE",
+   "title": "Cleveland wins",
+   "subtitle": "Cleveland",
+   "yesBid": 39,
+   "yesAsk": 40
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 37,
-   "yesAsk": 40
+   "yesBid": 38,
+   "yesAsk": 42
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
    "yesBid": 61,
-   "yesAsk": 64
+   "yesAsk": 62
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 37,
-   "yesAsk": 40
+   "yesBid": 38,
+   "yesAsk": 41
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
    "yesBid": 60,
-   "yesAsk": 63
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT122000LADMIL-MIL",
-   "title": "Milwaukee wins",
-   "subtitle": "Milwaukee",
-   "yesBid": 47,
-   "yesAsk": 48
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT122000LADMIL-LAD",
-   "title": "Los Angeles D wins",
-   "subtitle": "Los Angeles D",
-   "yesBid": 52,
-   "yesAsk": 53
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT112000LADMIL-MIL",
-   "title": "Milwaukee wins",
-   "subtitle": "Milwaukee",
-   "yesBid": 50,
-   "yesAsk": 51
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT112000LADMIL-LAD",
-   "title": "Los Angeles D wins",
-   "subtitle": "Los Angeles D",
-   "yesBid": 49,
-   "yesAsk": 50
+   "yesAsk": 62
   }
  ]
 }
