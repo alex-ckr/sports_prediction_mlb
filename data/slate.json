@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T22:09:21.618509+00:00",
+ "generatedAt": "2026-10-11T01:29:00.392312+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -17,102 +17,6 @@
   "hr": 2.101
  },
  "games": [
-  {
-   "gamePk": 849831,
-   "date": "2026-10-10",
-   "startsAt": "2026-10-11T00:00:00Z",
-   "state": "Pre-Game",
-   "venue": "Progressive Field",
-   "home": {
-    "id": 114,
-    "name": "Cleveland Guardians",
-    "abbr": "CLE",
-    "nick": "Guardians",
-    "wins": 85,
-    "losses": 77,
-    "starter": "Gavin Williams",
-    "starterId": 668909,
-    "starterHand": "R",
-    "sp_rate": 3.474,
-    "sp_era": 3.76,
-    "sp_ip": 5.76,
-    "bp_rate": 3.787,
-    "bp_is_proxy": false,
-    "bp_ip3": 15.0,
-    "woba_vs_hand": 0.309,
-    "woba_overall": 0.3081,
-    "lineup_woba": 0.2994,
-    "staff_fip": 3.849,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": 0.0028,
-    "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Steven Kwan",
-     "Jos\u00e9 Ram\u00edrez",
-     "Chase DeLauter",
-     "Jo Adell",
-     "Nathaniel Lowe",
-     "Travis Bazzana",
-     "Patrick Bailey",
-     "Petey Halpin",
-     "Brayan Rocchio"
-    ]
-   },
-   "away": {
-    "id": 145,
-    "name": "Chicago White Sox",
-    "abbr": "CWS",
-    "nick": "White Sox",
-    "wins": 84,
-    "losses": 78,
-    "starter": "Sean Burke",
-    "starterId": 680732,
-    "starterHand": "R",
-    "sp_rate": 3.622,
-    "sp_era": 3.34,
-    "sp_ip": 6.38,
-    "bp_rate": 4.041,
-    "bp_is_proxy": false,
-    "bp_ip3": 15.3,
-    "woba_vs_hand": 0.3285,
-    "woba_overall": 0.3197,
-    "lineup_woba": 0.3317,
-    "staff_fip": 4.192,
-    "ptype_rv100": null,
-    "travel_runs": 0.029,
-    "park_fit_runs": -0.0085,
-    "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Sam Antonacci",
-     "Kyle Teel",
-     "Miguel Vargas",
-     "Munetaka Murakami",
-     "Andrew Benintendi",
-     "Tristan Peters",
-     "Chase Meidroth",
-     "Colson Montgomery",
-     "Brenton Doyle"
-    ]
-   },
-   "kalshi": {
-    "side": "away",
-    "ticker": "KXMLBGAME-26OCT102000CWSCLE-CWS",
-    "eventTicker": "KXMLBGAME-26OCT102000CWSCLE",
-    "title": "Chicago WS wins",
-    "subtitle": "Chicago WS",
-    "yesBid": 43,
-    "yesAsk": 44,
-    "last": 44,
-    "mid": 0.435,
-    "volume": null,
-    "closeTime": "2026-10-14T00:00:00Z"
-   },
-   "kalshiWhy": null,
-   "lineupConfirmed": true
-  },
   {
    "gamePk": 849809,
    "date": "2026-10-11",
@@ -134,7 +38,7 @@
     "sp_ip": 5.82,
     "bp_rate": 3.764,
     "bp_is_proxy": false,
-    "bp_ip3": 5.0,
+    "bp_ip3": null,
     "woba_vs_hand": 0.3117,
     "woba_overall": 0.3272,
     "lineup_woba": 0.3272,
@@ -160,13 +64,13 @@
     "sp_ip": 6.1,
     "bp_rate": 3.774,
     "bp_is_proxy": false,
-    "bp_ip3": 4.3,
+    "bp_ip3": null,
     "woba_vs_hand": 0.3352,
     "woba_overall": 0.3339,
     "lineup_woba": 0.3339,
     "staff_fip": 3.715,
     "ptype_rv100": null,
-    "travel_runs": 0.0079,
+    "travel_runs": 0.0039,
     "park_fit_runs": 0.0047,
     "history_runs": 0.0,
     "oppHand": "R"
@@ -177,21 +81,157 @@
     "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
     "title": "Milwaukee wins",
     "subtitle": "Milwaukee",
-    "yesBid": 36,
-    "yesAsk": 39,
+    "yesBid": 37,
+    "yesAsk": 40,
     "last": 40,
-    "mid": 0.375,
+    "mid": 0.385,
     "volume": null,
     "closeTime": "2026-10-19T00:00:00Z"
    },
    "kalshiWhy": null,
+   "lineupConfirmed": false
+  },
+  {
+   "gamePk": 849812,
+   "date": "2026-10-12",
+   "startsAt": "2026-10-12T21:00:00Z",
+   "state": "Scheduled",
+   "venue": "American Family Field",
+   "home": {
+    "id": 158,
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL",
+    "nick": "Brewers",
+    "wins": 103,
+    "losses": 59,
+    "starter": null,
+    "starterId": null,
+    "starterHand": null,
+    "sp_rate": null,
+    "sp_era": null,
+    "sp_ip": null,
+    "bp_rate": 3.764,
+    "bp_is_proxy": false,
+    "bp_ip3": null,
+    "woba_vs_hand": 0.334,
+    "woba_overall": 0.3272,
+    "lineup_woba": 0.3272,
+    "staff_fip": 3.722,
+    "ptype_rv100": null,
+    "travel_runs": 0.0,
+    "park_fit_runs": -0.0383,
+    "history_runs": 0.0,
+    "oppHand": "R"
+   },
+   "away": {
+    "id": 119,
+    "name": "Los Angeles Dodgers",
+    "abbr": "LAD",
+    "nick": "Dodgers",
+    "wins": 100,
+    "losses": 62,
+    "starter": "Yoshinobu Yamamoto",
+    "starterId": 808967,
+    "starterHand": "R",
+    "sp_rate": 3.332,
+    "sp_era": 2.53,
+    "sp_ip": 6.61,
+    "bp_rate": 3.774,
+    "bp_is_proxy": false,
+    "bp_ip3": null,
+    "woba_vs_hand": null,
+    "woba_overall": 0.3339,
+    "lineup_woba": 0.3339,
+    "staff_fip": 3.715,
+    "ptype_rv100": null,
+    "travel_runs": 0.0039,
+    "park_fit_runs": 0.0047,
+    "history_runs": 0.0,
+    "oppHand": null
+   },
+   "kalshi": {
+    "side": "home",
+    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
+    "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
+    "title": "Milwaukee wins",
+    "subtitle": "Milwaukee",
+    "yesBid": 37,
+    "yesAsk": 40,
+    "last": 40,
+    "mid": 0.385,
+    "volume": null,
+    "closeTime": "2026-10-19T00:00:00Z"
+   },
+   "kalshiWhy": null,
+   "lineupConfirmed": false
+  },
+  {
+   "gamePk": 849820,
+   "date": "2026-10-12",
+   "startsAt": "2026-10-13T00:00:00Z",
+   "state": "Scheduled",
+   "venue": "Tropicana Field",
+   "home": {
+    "id": 139,
+    "name": "Tampa Bay Rays",
+    "abbr": "TB",
+    "nick": "Rays",
+    "wins": 98,
+    "losses": 64,
+    "starter": null,
+    "starterId": null,
+    "starterHand": null,
+    "sp_rate": null,
+    "sp_era": null,
+    "sp_ip": null,
+    "bp_rate": 4.2,
+    "bp_is_proxy": false,
+    "bp_ip3": null,
+    "woba_vs_hand": null,
+    "woba_overall": 0.3195,
+    "lineup_woba": 0.3195,
+    "staff_fip": 3.932,
+    "ptype_rv100": null,
+    "travel_runs": 0.0,
+    "park_fit_runs": 0.0049,
+    "history_runs": 0.0,
+    "oppHand": null
+   },
+   "away": {
+    "id": 5521,
+    "name": "CLE/CWS",
+    "abbr": null,
+    "nick": null,
+    "wins": null,
+    "losses": null,
+    "starter": null,
+    "starterId": null,
+    "starterHand": null,
+    "sp_rate": null,
+    "sp_era": null,
+    "sp_ip": null,
+    "bp_rate": null,
+    "bp_is_proxy": false,
+    "bp_ip3": null,
+    "woba_vs_hand": null,
+    "woba_overall": null,
+    "lineup_woba": null,
+    "staff_fip": null,
+    "ptype_rv100": null,
+    "travel_runs": 0.0,
+    "park_fit_runs": null,
+    "history_runs": 0.0,
+    "oppHand": null
+   },
+   "kalshi": null,
+   "kalshiWhy": "unknown team abbreviation",
    "lineupConfirmed": false
   }
  ],
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "2 games, 0 starters still TBD"
+   "detail": "3 games, 3 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -203,19 +243,19 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 4/4 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 3/6 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "4/4 resolved"
+   "detail": "3/3 resolved"
   },
   "hitting": {
-   "ok": true,
-   "detail": "4/4 teams with wOBA, 4 with platoon splits"
+   "ok": false,
+   "detail": "3/4 teams with wOBA, 3 with platoon splits"
   },
   "fatigue": {
    "ok": true,
-   "detail": "7 finished games scanned, 8 bullpens"
+   "detail": "5 finished games scanned, 2 bullpens"
   },
   "kalshi": {
    "ok": true,
@@ -223,38 +263,41 @@
   },
   "kalshi.match": {
    "ok": true,
-   "detail": "2/2 games matched to a market"
+   "detail": "2/3 games matched to a market"
   }
  },
- "warnings": [],
+ "warnings": [
+  "team 5521 season hitting: 404 Client Error: Not Found for url: https://statsapi.mlb.com/api/v1/teams/5521/stats?stats=season&group=hitting&season=2026&gameType=R",
+  "hitting: 3/4 teams with wOBA, 3 with platoon splits"
+ ],
  "kalshiSample": [
   {
    "ticker": "KXMLBGAME-26OCT102000CWSCLE-CWS",
    "title": "Chicago WS wins",
    "subtitle": "Chicago WS",
-   "yesBid": 43,
-   "yesAsk": 44
+   "yesBid": 16,
+   "yesAsk": 17
   },
   {
    "ticker": "KXMLBGAME-26OCT102000CWSCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 56,
-   "yesAsk": 57
+   "yesBid": 83,
+   "yesAsk": 84
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 36,
-   "yesAsk": 39
+   "yesBid": 37,
+   "yesAsk": 40
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
    "yesBid": 61,
-   "yesAsk": 63
+   "yesAsk": 64
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
@@ -267,8 +310,8 @@
    "ticker": "KXMLBGAME-26OCT142000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 59,
-   "yesAsk": 62
+   "yesBid": 60,
+   "yesAsk": 63
   },
   {
    "ticker": "KXMLBGAME-26OCT122000LADMIL-MIL",
