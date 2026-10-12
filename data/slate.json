@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-11T22:38:08.673063+00:00",
+ "generatedAt": "2026-10-12T01:59:38.125966+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -17,102 +17,6 @@
   "hr": 2.101
  },
  "games": [
-  {
-   "gamePk": 849809,
-   "date": "2026-10-11",
-   "startsAt": "2026-10-12T00:00:00Z",
-   "state": "Pre-Game",
-   "venue": "American Family Field",
-   "home": {
-    "id": 158,
-    "name": "Milwaukee Brewers",
-    "abbr": "MIL",
-    "nick": "Brewers",
-    "wins": 103,
-    "losses": 59,
-    "starter": "Jacob Misiorowski",
-    "starterId": 694819,
-    "starterHand": "R",
-    "sp_rate": 2.166,
-    "sp_era": 1.8,
-    "sp_ip": 5.82,
-    "bp_rate": 3.764,
-    "bp_is_proxy": false,
-    "bp_ip3": null,
-    "woba_vs_hand": 0.3375,
-    "woba_overall": 0.3272,
-    "lineup_woba": 0.3409,
-    "staff_fip": 3.722,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": -0.0383,
-    "history_runs": 0.0,
-    "oppHand": "L",
-    "lineup": [
-     "Jackson Chourio",
-     "Brice Turang",
-     "William Contreras",
-     "Jake Bauers",
-     "Andrew Vaughn",
-     "Garrett Mitchell",
-     "Cooper Pratt",
-     "Luis Lara",
-     "Joey Ortiz"
-    ]
-   },
-   "away": {
-    "id": 119,
-    "name": "Los Angeles Dodgers",
-    "abbr": "LAD",
-    "nick": "Dodgers",
-    "wins": 100,
-    "losses": 62,
-    "starter": "Tarik Skubal",
-    "starterId": 669373,
-    "starterHand": "L",
-    "sp_rate": 2.507,
-    "sp_era": 2.72,
-    "sp_ip": 6.1,
-    "bp_rate": 3.774,
-    "bp_is_proxy": false,
-    "bp_ip3": null,
-    "woba_vs_hand": 0.342,
-    "woba_overall": 0.3339,
-    "lineup_woba": 0.3412,
-    "staff_fip": 3.715,
-    "ptype_rv100": null,
-    "travel_runs": 0.0039,
-    "park_fit_runs": 0.0047,
-    "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Mookie Betts",
-     "Freddie Freeman",
-     "Will Smith",
-     "Shohei Ohtani",
-     "Teoscar Hern\u00e1ndez",
-     "Max Muncy",
-     "Andy Pages",
-     "Kyle Tucker",
-     "Enrique Hern\u00e1ndez"
-    ]
-   },
-   "kalshi": {
-    "side": "home",
-    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
-    "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
-    "title": "Milwaukee wins",
-    "subtitle": "Milwaukee",
-    "yesBid": 39,
-    "yesAsk": 42,
-    "last": 43,
-    "mid": 0.405,
-    "volume": null,
-    "closeTime": "2026-10-19T00:00:00Z"
-   },
-   "kalshiWhy": null,
-   "lineupConfirmed": true
-  },
   {
    "gamePk": 849812,
    "date": "2026-10-12",
@@ -166,7 +70,7 @@
     "lineup_woba": 0.3339,
     "staff_fip": 3.715,
     "ptype_rv100": null,
-    "travel_runs": 0.0039,
+    "travel_runs": 0.0,
     "park_fit_runs": 0.0047,
     "history_runs": 0.0,
     "oppHand": "R"
@@ -177,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
     "title": "Milwaukee wins",
     "subtitle": "Milwaukee",
-    "yesBid": 39,
-    "yesAsk": 42,
-    "last": 43,
-    "mid": 0.405,
+    "yesBid": 37,
+    "yesAsk": 41,
+    "last": 42,
+    "mid": 0.39,
     "volume": null,
     "closeTime": "2026-10-19T00:00:00Z"
    },
@@ -234,13 +138,13 @@
     "sp_ip": 5.57,
     "bp_rate": 3.787,
     "bp_is_proxy": false,
-    "bp_ip3": 10.0,
+    "bp_ip3": 3.3,
     "woba_vs_hand": 0.3119,
     "woba_overall": 0.3081,
     "lineup_woba": 0.3081,
     "staff_fip": 3.849,
     "ptype_rv100": null,
-    "travel_runs": 0.0095,
+    "travel_runs": 0.0048,
     "park_fit_runs": 0.0023,
     "history_runs": 0.0,
     "oppHand": "R"
@@ -251,10 +155,84 @@
     "eventTicker": "KXMLBGAME-26OCT161800TBCLE",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 49,
+    "yesBid": 51,
     "yesAsk": 56,
     "last": 56,
-    "mid": 0.525,
+    "mid": 0.535,
+    "volume": null,
+    "closeTime": "2026-10-19T22:00:00Z"
+   },
+   "kalshiWhy": null,
+   "lineupConfirmed": false
+  },
+  {
+   "gamePk": 849813,
+   "date": "2026-10-13",
+   "startsAt": "2026-10-14T00:00:00Z",
+   "state": "Scheduled",
+   "venue": "Tropicana Field",
+   "home": {
+    "id": 139,
+    "name": "Tampa Bay Rays",
+    "abbr": "TB",
+    "nick": "Rays",
+    "wins": 98,
+    "losses": 64,
+    "starter": null,
+    "starterId": null,
+    "starterHand": null,
+    "sp_rate": null,
+    "sp_era": null,
+    "sp_ip": null,
+    "bp_rate": 4.2,
+    "bp_is_proxy": false,
+    "bp_ip3": null,
+    "woba_vs_hand": null,
+    "woba_overall": 0.3195,
+    "lineup_woba": 0.3195,
+    "staff_fip": 3.932,
+    "ptype_rv100": null,
+    "travel_runs": 0.0,
+    "park_fit_runs": 0.0049,
+    "history_runs": 0.0,
+    "oppHand": null
+   },
+   "away": {
+    "id": 114,
+    "name": "Cleveland Guardians",
+    "abbr": "CLE",
+    "nick": "Guardians",
+    "wins": 85,
+    "losses": 77,
+    "starter": null,
+    "starterId": null,
+    "starterHand": null,
+    "sp_rate": null,
+    "sp_era": null,
+    "sp_ip": null,
+    "bp_rate": 3.787,
+    "bp_is_proxy": false,
+    "bp_ip3": 3.3,
+    "woba_vs_hand": null,
+    "woba_overall": 0.3081,
+    "lineup_woba": 0.3081,
+    "staff_fip": 3.849,
+    "ptype_rv100": null,
+    "travel_runs": 0.0048,
+    "park_fit_runs": 0.0023,
+    "history_runs": 0.0,
+    "oppHand": null
+   },
+   "kalshi": {
+    "side": "home",
+    "ticker": "KXMLBGAME-26OCT161800TBCLE-TB",
+    "eventTicker": "KXMLBGAME-26OCT161800TBCLE",
+    "title": "Tampa Bay wins",
+    "subtitle": "Tampa Bay",
+    "yesBid": 51,
+    "yesAsk": 56,
+    "last": 56,
+    "mid": 0.535,
     "volume": null,
     "closeTime": "2026-10-19T22:00:00Z"
    },
@@ -265,7 +243,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "3 games, 0 starters still TBD"
+   "detail": "3 games, 2 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -277,11 +255,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 6/6 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 4/6 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "6/6 resolved"
+   "detail": "4/4 resolved"
   },
   "hitting": {
    "ok": true,
@@ -289,7 +267,7 @@
   },
   "fatigue": {
    "ok": true,
-   "detail": "6 finished games scanned, 2 bullpens"
+   "detail": "2 finished games scanned, 2 bullpens"
   },
   "kalshi": {
    "ok": true,
@@ -306,15 +284,15 @@
    "ticker": "KXMLBGAME-26OCT161800TBCLE-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 49,
+   "yesBid": 51,
    "yesAsk": 56
   },
   {
    "ticker": "KXMLBGAME-26OCT161800TBCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 42,
-   "yesAsk": 51
+   "yesBid": 45,
+   "yesAsk": 50
   },
   {
    "ticker": "KXMLBGAME-26OCT151800TBCLE-TB",
@@ -327,22 +305,22 @@
    "ticker": "KXMLBGAME-26OCT151800TBCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 52,
-   "yesAsk": 58
+   "yesBid": 53,
+   "yesAsk": 56
   },
   {
    "ticker": "KXMLBGAME-26OCT132000CLETB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 58,
-   "yesAsk": 59
+   "yesBid": 56,
+   "yesAsk": 57
   },
   {
    "ticker": "KXMLBGAME-26OCT132000CLETB-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 43,
-   "yesAsk": 44
+   "yesBid": 42,
+   "yesAsk": 43
   },
   {
    "ticker": "KXMLBGAME-26OCT122000CLETB-TB",
@@ -355,29 +333,29 @@
    "ticker": "KXMLBGAME-26OCT122000CLETB-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 39,
-   "yesAsk": 40
+   "yesBid": 40,
+   "yesAsk": 41
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 39,
-   "yesAsk": 42
+   "yesBid": 37,
+   "yesAsk": 41
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-LAD",
    "title": "Los Angeles D wins",
    "subtitle": "Los Angeles D",
-   "yesBid": 58,
-   "yesAsk": 61
+   "yesBid": 60,
+   "yesAsk": 63
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 39,
-   "yesAsk": 41
+   "yesBid": 37,
+   "yesAsk": 39
   },
   {
    "ticker": "KXMLBGAME-26OCT142000MILLAD-LAD",
