@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13T03:18:55.745297+00:00",
+ "generatedAt": "2026-10-13T17:53:42.226192+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT161800TBCLE",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 52,
-    "yesAsk": 55,
-    "last": 51,
-    "mid": 0.535,
+    "yesBid": 51,
+    "yesAsk": 53,
+    "last": 52,
+    "mid": 0.52,
     "volume": null,
     "closeTime": "2026-10-19T22:00:00Z"
    },
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
     "title": "Milwaukee wins",
     "subtitle": "Milwaukee",
-    "yesBid": 44,
-    "yesAsk": 45,
-    "last": 45,
-    "mid": 0.445,
+    "yesBid": 42,
+    "yesAsk": 44,
+    "last": 44,
+    "mid": 0.43,
     "volume": null,
     "closeTime": "2026-10-19T00:00:00Z"
    },
@@ -210,8 +210,8 @@
    "ticker": "KXMLBGAME-26OCT161800TBCLE-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 52,
-   "yesAsk": 55
+   "yesBid": 51,
+   "yesAsk": 53
   },
   {
    "ticker": "KXMLBGAME-26OCT161800TBCLE-CLE",
@@ -225,35 +225,35 @@
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
    "yesBid": 46,
-   "yesAsk": 49
+   "yesAsk": 48
   },
   {
    "ticker": "KXMLBGAME-26OCT151800TBCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 51,
-   "yesAsk": 53
+   "yesBid": 53,
+   "yesAsk": 55
   },
   {
    "ticker": "KXMLBGAME-26OCT132000CLETB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 56,
-   "yesAsk": 57
+   "yesBid": 55,
+   "yesAsk": 56
   },
   {
    "ticker": "KXMLBGAME-26OCT132000CLETB-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 43,
-   "yesAsk": 44
+   "yesBid": 44,
+   "yesAsk": 45
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 44,
-   "yesAsk": 45
+   "yesBid": 42,
+   "yesAsk": 44
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-LAD",
