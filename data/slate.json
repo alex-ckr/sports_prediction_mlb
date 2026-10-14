@@ -39,15 +39,26 @@
     "bp_rate": 3.774,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": 0.3309,
+    "woba_vs_hand": 0.3398,
     "woba_overall": 0.3339,
-    "lineup_woba": 0.3339,
+    "lineup_woba": 0.3374,
     "staff_fip": 3.715,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": 0.0063,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Mookie Betts",
+     "Freddie Freeman",
+     "Teoscar Hern\u00e1ndez",
+     "Kyle Tucker",
+     "Andy Pages",
+     "Shohei Ohtani",
+     "Will Smith",
+     "Miguel Rojas",
+     "Tommy Edman"
+    ]
    },
    "away": {
     "id": 158,
@@ -65,15 +76,26 @@
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": 9.7,
-    "woba_vs_hand": 0.3117,
+    "woba_vs_hand": 0.3375,
     "woba_overall": 0.3272,
-    "lineup_woba": 0.3272,
+    "lineup_woba": 0.3409,
     "staff_fip": 3.722,
     "ptype_rv100": null,
     "travel_runs": 0.0337,
     "park_fit_runs": -0.051,
     "history_runs": 0.0,
-    "oppHand": "L"
+    "oppHand": "L",
+    "lineup": [
+     "Jackson Chourio",
+     "Brice Turang",
+     "William Contreras",
+     "Andrew Vaughn",
+     "Jake Bauers",
+     "Garrett Mitchell",
+     "Cooper Pratt",
+     "Luis Lara",
+     "Joey Ortiz"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-10-19T00:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   },
   {
    "gamePk": 849818,
