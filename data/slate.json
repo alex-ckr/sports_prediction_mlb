@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T01:10:12.882499+00:00",
+ "generatedAt": "2026-10-15T15:27:28.134367+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 849818,
    "date": "2026-10-15",
    "startsAt": "2026-10-15T17:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Progressive Field",
    "home": {
     "id": 114,
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT172000TBCLE",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 53,
+    "yesBid": 54,
     "yesAsk": 57,
     "last": 57,
-    "mid": 0.55,
+    "mid": 0.555,
     "volume": null,
     "closeTime": "2026-10-21T00:00:00Z"
    },
@@ -112,7 +112,7 @@
     "sp_ip": 5.69,
     "bp_rate": 3.774,
     "bp_is_proxy": false,
-    "bp_ip3": 5.3,
+    "bp_ip3": 8.3,
     "woba_vs_hand": null,
     "woba_overall": 0.3339,
     "lineup_woba": 0.3339,
@@ -138,13 +138,13 @@
     "sp_ip": null,
     "bp_rate": 3.764,
     "bp_is_proxy": false,
-    "bp_ip3": 5.0,
+    "bp_ip3": 9.0,
     "woba_vs_hand": 0.334,
     "woba_overall": 0.3272,
     "lineup_woba": 0.3272,
     "staff_fip": 3.722,
     "ptype_rv100": null,
-    "travel_runs": 0.0168,
+    "travel_runs": 0.0,
     "park_fit_runs": -0.051,
     "history_runs": 0.0,
     "oppHand": "R"
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
     "title": "Milwaukee wins",
     "subtitle": "Milwaukee",
-    "yesBid": 41,
-    "yesAsk": 42,
-    "last": 42,
-    "mid": 0.415,
+    "yesBid": 42,
+    "yesAsk": 43,
+    "last": 43,
+    "mid": 0.425,
     "volume": null,
     "closeTime": "2026-10-19T00:00:00Z"
    },
@@ -229,10 +229,10 @@
     "eventTicker": "KXMLBGAME-26OCT172000TBCLE",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 53,
+    "yesBid": 54,
     "yesAsk": 57,
     "last": 57,
-    "mid": 0.55,
+    "mid": 0.555,
     "volume": null,
     "closeTime": "2026-10-21T00:00:00Z"
    },
@@ -260,7 +260,7 @@
     "sp_ip": null,
     "bp_rate": 3.774,
     "bp_is_proxy": false,
-    "bp_ip3": 5.3,
+    "bp_ip3": 8.3,
     "woba_vs_hand": null,
     "woba_overall": 0.3339,
     "lineup_woba": 0.3339,
@@ -286,13 +286,13 @@
     "sp_ip": null,
     "bp_rate": 3.764,
     "bp_is_proxy": false,
-    "bp_ip3": 5.0,
+    "bp_ip3": 9.0,
     "woba_vs_hand": null,
     "woba_overall": 0.3272,
     "lineup_woba": 0.3272,
     "staff_fip": 3.722,
     "ptype_rv100": null,
-    "travel_runs": 0.0168,
+    "travel_runs": 0.0,
     "park_fit_runs": -0.051,
     "history_runs": 0.0,
     "oppHand": null
@@ -303,10 +303,10 @@
     "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
     "title": "Milwaukee wins",
     "subtitle": "Milwaukee",
-    "yesBid": 41,
-    "yesAsk": 42,
-    "last": 42,
-    "mid": 0.415,
+    "yesBid": 42,
+    "yesAsk": 43,
+    "last": 43,
+    "mid": 0.425,
     "volume": null,
     "closeTime": "2026-10-19T00:00:00Z"
    },
@@ -341,11 +341,11 @@
   },
   "fatigue": {
    "ok": true,
-   "detail": "4 finished games scanned, 4 bullpens"
+   "detail": "5 finished games scanned, 4 bullpens"
   },
   "kalshi": {
    "ok": true,
-   "detail": "10 open KXMLBGAME markets, 10 with usable prices"
+   "detail": "8 open KXMLBGAME markets, 8 with usable prices"
   },
   "kalshi.match": {
    "ok": true,
@@ -358,7 +358,7 @@
    "ticker": "KXMLBGAME-26OCT172000TBCLE-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 53,
+   "yesBid": 54,
    "yesAsk": 57
   },
   {
@@ -366,21 +366,21 @@
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
    "yesBid": 44,
-   "yesAsk": 47
+   "yesAsk": 46
   },
   {
    "ticker": "KXMLBGAME-26OCT161800TBCLE-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 50,
-   "yesAsk": 52
+   "yesBid": 51,
+   "yesAsk": 53
   },
   {
    "ticker": "KXMLBGAME-26OCT161800TBCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
    "yesBid": 48,
-   "yesAsk": 49
+   "yesAsk": 50
   },
   {
    "ticker": "KXMLBGAME-26OCT151800TBCLE-TB",
@@ -400,8 +400,8 @@
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 41,
-   "yesAsk": 42
+   "yesBid": 42,
+   "yesAsk": 43
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-LAD",
@@ -409,20 +409,6 @@
    "subtitle": "Los Angeles D",
    "yesBid": 58,
    "yesAsk": 59
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
-   "title": "Milwaukee wins",
-   "subtitle": "Milwaukee",
-   "yesBid": 54,
-   "yesAsk": 55
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT142000MILLAD-LAD",
-   "title": "Los Angeles D wins",
-   "subtitle": "Los Angeles D",
-   "yesBid": 45,
-   "yesAsk": 46
   }
  ]
 }
