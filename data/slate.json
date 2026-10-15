@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T15:27:28.134367+00:00",
+ "generatedAt": "2026-10-15T21:54:11.986411+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -18,84 +18,10 @@
  },
  "games": [
   {
-   "gamePk": 849818,
-   "date": "2026-10-15",
-   "startsAt": "2026-10-15T17:00:00Z",
-   "state": "Pre-Game",
-   "venue": "Progressive Field",
-   "home": {
-    "id": 114,
-    "name": "Cleveland Guardians",
-    "abbr": "CLE",
-    "nick": "Guardians",
-    "wins": 85,
-    "losses": 77,
-    "starter": "Gavin Williams",
-    "starterId": 668909,
-    "starterHand": "R",
-    "sp_rate": 3.474,
-    "sp_era": 3.76,
-    "sp_ip": 5.76,
-    "bp_rate": 3.787,
-    "bp_is_proxy": false,
-    "bp_ip3": 8.0,
-    "woba_vs_hand": 0.3119,
-    "woba_overall": 0.3081,
-    "lineup_woba": 0.3081,
-    "staff_fip": 3.849,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": 0.0028,
-    "history_runs": 0.0,
-    "oppHand": "R"
-   },
-   "away": {
-    "id": 139,
-    "name": "Tampa Bay Rays",
-    "abbr": "TB",
-    "nick": "Rays",
-    "wins": 98,
-    "losses": 64,
-    "starter": "Griffin Jax",
-    "starterId": 643377,
-    "starterHand": "R",
-    "sp_rate": 3.758,
-    "sp_era": 3.53,
-    "sp_ip": 4.88,
-    "bp_rate": 4.2,
-    "bp_is_proxy": false,
-    "bp_ip3": 6.0,
-    "woba_vs_hand": 0.3293,
-    "woba_overall": 0.3195,
-    "lineup_woba": 0.3195,
-    "staff_fip": 3.932,
-    "ptype_rv100": null,
-    "travel_runs": 0.0048,
-    "park_fit_runs": 0.0061,
-    "history_runs": 0.0,
-    "oppHand": "R"
-   },
-   "kalshi": {
-    "side": "away",
-    "ticker": "KXMLBGAME-26OCT172000TBCLE-TB",
-    "eventTicker": "KXMLBGAME-26OCT172000TBCLE",
-    "title": "Tampa Bay wins",
-    "subtitle": "Tampa Bay",
-    "yesBid": 54,
-    "yesAsk": 57,
-    "last": 57,
-    "mid": 0.555,
-    "volume": null,
-    "closeTime": "2026-10-21T00:00:00Z"
-   },
-   "kalshiWhy": null,
-   "lineupConfirmed": false
-  },
-  {
    "gamePk": 849810,
    "date": "2026-10-15",
    "startsAt": "2026-10-16T00:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "UNIQLO Field at Dodger Stadium",
    "home": {
     "id": 119,
@@ -113,7 +39,7 @@
     "bp_rate": 3.774,
     "bp_is_proxy": false,
     "bp_ip3": 8.3,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3309,
     "woba_overall": 0.3339,
     "lineup_woba": 0.3339,
     "staff_fip": 3.715,
@@ -121,7 +47,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0063,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "L"
    },
    "away": {
     "id": 158,
@@ -130,12 +56,12 @@
     "nick": "Brewers",
     "wins": 103,
     "losses": 59,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Shane Drohan",
+    "starterId": 675660,
+    "starterHand": "L",
+    "sp_rate": 3.733,
+    "sp_era": 4.19,
+    "sp_ip": 6.56,
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": 9.0,
@@ -186,8 +112,8 @@
     "sp_ip": null,
     "bp_rate": 3.787,
     "bp_is_proxy": false,
-    "bp_ip3": 8.0,
-    "woba_vs_hand": null,
+    "bp_ip3": 12.0,
+    "woba_vs_hand": 0.3119,
     "woba_overall": 0.3081,
     "lineup_woba": 0.3081,
     "staff_fip": 3.849,
@@ -195,7 +121,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0028,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "away": {
     "id": 139,
@@ -204,21 +130,21 @@
     "nick": "Rays",
     "wins": 98,
     "losses": 64,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Nick Martinez",
+    "starterId": 607259,
+    "starterHand": "R",
+    "sp_rate": 3.961,
+    "sp_era": 3.1,
+    "sp_ip": 5.81,
     "bp_rate": 4.2,
     "bp_is_proxy": false,
-    "bp_ip3": 6.0,
+    "bp_ip3": 10.0,
     "woba_vs_hand": null,
     "woba_overall": 0.3195,
     "lineup_woba": 0.3195,
     "staff_fip": 3.932,
     "ptype_rv100": null,
-    "travel_runs": 0.0048,
+    "travel_runs": 0.0,
     "park_fit_runs": 0.0061,
     "history_runs": 0.0,
     "oppHand": null
@@ -229,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT172000TBCLE",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 54,
-    "yesAsk": 57,
-    "last": 57,
-    "mid": 0.555,
+    "yesBid": 53,
+    "yesAsk": 55,
+    "last": 55,
+    "mid": 0.54,
     "volume": null,
     "closeTime": "2026-10-21T00:00:00Z"
    },
@@ -317,7 +243,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "4 games, 5 starters still TBD"
+   "detail": "3 games, 3 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -329,7 +255,7 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 3/8 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 3/6 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
@@ -341,15 +267,15 @@
   },
   "fatigue": {
    "ok": true,
-   "detail": "5 finished games scanned, 4 bullpens"
+   "detail": "6 finished games scanned, 4 bullpens"
   },
   "kalshi": {
    "ok": true,
-   "detail": "8 open KXMLBGAME markets, 8 with usable prices"
+   "detail": "6 open KXMLBGAME markets, 6 with usable prices"
   },
   "kalshi.match": {
    "ok": true,
-   "detail": "4/4 games matched to a market"
+   "detail": "3/3 games matched to a market"
   }
  },
  "warnings": [],
@@ -358,43 +284,29 @@
    "ticker": "KXMLBGAME-26OCT172000TBCLE-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 54,
-   "yesAsk": 57
+   "yesBid": 53,
+   "yesAsk": 55
   },
   {
    "ticker": "KXMLBGAME-26OCT172000TBCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 44,
-   "yesAsk": 46
+   "yesBid": 46,
+   "yesAsk": 48
   },
   {
    "ticker": "KXMLBGAME-26OCT161800TBCLE-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 51,
-   "yesAsk": 53
+   "yesBid": 50,
+   "yesAsk": 51
   },
   {
    "ticker": "KXMLBGAME-26OCT161800TBCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 48,
+   "yesBid": 49,
    "yesAsk": 50
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT151800TBCLE-TB",
-   "title": "Tampa Bay wins",
-   "subtitle": "Tampa Bay",
-   "yesBid": 45,
-   "yesAsk": 46
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT151800TBCLE-CLE",
-   "title": "Cleveland wins",
-   "subtitle": "Cleveland",
-   "yesBid": 54,
-   "yesAsk": 55
   },
   {
    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
