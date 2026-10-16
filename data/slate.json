@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T15:07:02.569559+00:00",
+ "generatedAt": "2026-10-16T21:52:26.822384+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 849817,
    "date": "2026-10-16",
    "startsAt": "2026-10-17T00:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "Progressive Field",
    "home": {
     "id": 114,
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT172000TBCLE",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 54,
-    "yesAsk": 55,
-    "last": 55,
-    "mid": 0.545,
+    "yesBid": 53,
+    "yesAsk": 54,
+    "last": 54,
+    "mid": 0.535,
     "volume": null,
     "closeTime": "2026-10-21T00:00:00Z"
    },
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT172000TBCLE",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 54,
-    "yesAsk": 55,
-    "last": 55,
-    "mid": 0.545,
+    "yesBid": 53,
+    "yesAsk": 54,
+    "last": 54,
+    "mid": 0.535,
     "volume": null,
     "closeTime": "2026-10-21T00:00:00Z"
    },
@@ -210,8 +210,8 @@
    "ticker": "KXMLBGAME-26OCT172000TBCLE-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 54,
-   "yesAsk": 55
+   "yesBid": 53,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26OCT172000TBCLE-CLE",
