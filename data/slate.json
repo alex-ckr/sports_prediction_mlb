@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T00:57:10.189156+00:00",
+ "generatedAt": "2026-10-16T15:07:02.569559+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -20,7 +20,7 @@
   {
    "gamePk": 849817,
    "date": "2026-10-16",
-   "startsAt": "2026-10-16T22:00:00Z",
+   "startsAt": "2026-10-17T00:00:00Z",
    "state": "Scheduled",
    "venue": "Progressive Field",
    "home": {
@@ -30,11 +30,11 @@
     "nick": "Guardians",
     "wins": 85,
     "losses": 77,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
+    "starter": "Shawn Armstrong",
+    "starterId": 542888,
+    "starterHand": "R",
+    "sp_rate": 4.43,
+    "sp_era": 4.58,
     "sp_ip": null,
     "bp_rate": 3.787,
     "bp_is_proxy": false,
@@ -65,7 +65,7 @@
     "bp_rate": 4.2,
     "bp_is_proxy": false,
     "bp_ip3": 7.0,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3293,
     "woba_overall": 0.3195,
     "lineup_woba": 0.3195,
     "staff_fip": 3.932,
@@ -73,7 +73,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0061,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "away",
@@ -82,85 +82,11 @@
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
     "yesBid": 54,
-    "yesAsk": 56,
+    "yesAsk": 55,
     "last": 55,
-    "mid": 0.55,
+    "mid": 0.545,
     "volume": null,
     "closeTime": "2026-10-21T00:00:00Z"
-   },
-   "kalshiWhy": null,
-   "lineupConfirmed": false
-  },
-  {
-   "gamePk": 849808,
-   "date": "2026-10-16",
-   "startsAt": "2026-10-17T01:00:00Z",
-   "state": "Scheduled",
-   "venue": "UNIQLO Field at Dodger Stadium",
-   "home": {
-    "id": 119,
-    "name": "Los Angeles Dodgers",
-    "abbr": "LAD",
-    "nick": "Dodgers",
-    "wins": 100,
-    "losses": 62,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
-    "bp_rate": 3.774,
-    "bp_is_proxy": false,
-    "bp_ip3": 3.0,
-    "woba_vs_hand": null,
-    "woba_overall": 0.3339,
-    "lineup_woba": 0.3339,
-    "staff_fip": 3.715,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": 0.0063,
-    "history_runs": 0.0,
-    "oppHand": null
-   },
-   "away": {
-    "id": 158,
-    "name": "Milwaukee Brewers",
-    "abbr": "MIL",
-    "nick": "Brewers",
-    "wins": 103,
-    "losses": 59,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
-    "bp_rate": 3.764,
-    "bp_is_proxy": false,
-    "bp_ip3": 4.0,
-    "woba_vs_hand": null,
-    "woba_overall": 0.3272,
-    "lineup_woba": 0.3272,
-    "staff_fip": 3.722,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": -0.051,
-    "history_runs": 0.0,
-    "oppHand": null
-   },
-   "kalshi": {
-    "side": "away",
-    "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
-    "eventTicker": "KXMLBGAME-26OCT152000MILLAD",
-    "title": "Milwaukee wins",
-    "subtitle": "Milwaukee",
-    "yesBid": 10,
-    "yesAsk": 11,
-    "last": 11,
-    "mid": 0.105,
-    "volume": null,
-    "closeTime": "2026-10-19T00:00:00Z"
    },
    "kalshiWhy": null,
    "lineupConfirmed": false
@@ -230,9 +156,9 @@
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
     "yesBid": 54,
-    "yesAsk": 56,
+    "yesAsk": 55,
     "last": 55,
-    "mid": 0.55,
+    "mid": 0.545,
     "volume": null,
     "closeTime": "2026-10-21T00:00:00Z"
    },
@@ -243,7 +169,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "3 games, 5 starters still TBD"
+   "detail": "2 games, 2 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -255,27 +181,27 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 1/6 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 2/4 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "1/1 resolved"
+   "detail": "2/2 resolved"
   },
   "hitting": {
    "ok": true,
-   "detail": "4/4 teams with wOBA, 4 with platoon splits"
+   "detail": "2/2 teams with wOBA, 2 with platoon splits"
   },
   "fatigue": {
    "ok": true,
-   "detail": "5 finished games scanned, 4 bullpens"
+   "detail": "6 finished games scanned, 4 bullpens"
   },
   "kalshi": {
    "ok": true,
-   "detail": "6 open KXMLBGAME markets, 6 with usable prices"
+   "detail": "4 open KXMLBGAME markets, 4 with usable prices"
   },
   "kalshi.match": {
    "ok": true,
-   "detail": "3/3 games matched to a market"
+   "detail": "2/2 games matched to a market"
   }
  },
  "warnings": [],
@@ -285,14 +211,14 @@
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
    "yesBid": 54,
-   "yesAsk": 56
+   "yesAsk": 55
   },
   {
    "ticker": "KXMLBGAME-26OCT172000TBCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 46,
-   "yesAsk": 47
+   "yesBid": 45,
+   "yesAsk": 46
   },
   {
    "ticker": "KXMLBGAME-26OCT161800TBCLE-TB",
@@ -307,20 +233,6 @@
    "subtitle": "Cleveland",
    "yesBid": 49,
    "yesAsk": 50
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT152000MILLAD-MIL",
-   "title": "Milwaukee wins",
-   "subtitle": "Milwaukee",
-   "yesBid": 10,
-   "yesAsk": 11
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT152000MILLAD-LAD",
-   "title": "Los Angeles D wins",
-   "subtitle": "Los Angeles D",
-   "yesBid": 89,
-   "yesAsk": 90
   }
  ]
 }
