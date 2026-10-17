@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T21:52:26.822384+00:00",
+ "generatedAt": "2026-10-17T00:57:55.398506+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -17,102 +17,6 @@
   "hr": 2.101
  },
  "games": [
-  {
-   "gamePk": 849817,
-   "date": "2026-10-16",
-   "startsAt": "2026-10-17T00:00:00Z",
-   "state": "Pre-Game",
-   "venue": "Progressive Field",
-   "home": {
-    "id": 114,
-    "name": "Cleveland Guardians",
-    "abbr": "CLE",
-    "nick": "Guardians",
-    "wins": 85,
-    "losses": 77,
-    "starter": "Shawn Armstrong",
-    "starterId": 542888,
-    "starterHand": "R",
-    "sp_rate": 4.43,
-    "sp_era": 4.58,
-    "sp_ip": null,
-    "bp_rate": 3.787,
-    "bp_is_proxy": false,
-    "bp_ip3": 7.0,
-    "woba_vs_hand": 0.309,
-    "woba_overall": 0.3081,
-    "lineup_woba": 0.2994,
-    "staff_fip": 3.849,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": 0.0028,
-    "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Steven Kwan",
-     "Jos\u00e9 Ram\u00edrez",
-     "Chase DeLauter",
-     "Jo Adell",
-     "Nathaniel Lowe",
-     "Travis Bazzana",
-     "Patrick Bailey",
-     "Petey Halpin",
-     "Brayan Rocchio"
-    ]
-   },
-   "away": {
-    "id": 139,
-    "name": "Tampa Bay Rays",
-    "abbr": "TB",
-    "nick": "Rays",
-    "wins": 98,
-    "losses": 64,
-    "starter": "Nick Martinez",
-    "starterId": 607259,
-    "starterHand": "R",
-    "sp_rate": 3.961,
-    "sp_era": 3.1,
-    "sp_ip": 5.81,
-    "bp_rate": 4.2,
-    "bp_is_proxy": false,
-    "bp_ip3": 7.0,
-    "woba_vs_hand": 0.3399,
-    "woba_overall": 0.3195,
-    "lineup_woba": 0.3332,
-    "staff_fip": 3.932,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": 0.0061,
-    "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Yandy D\u00edaz",
-     "Jonathan Aranda",
-     "Chandler Simpson",
-     "Junior Caminero",
-     "Liam Hicks",
-     "Victor Mesa Jr.",
-     "Jonny DeLuca",
-     "Richie Palacios",
-     "Taylor Walls"
-    ]
-   },
-   "kalshi": {
-    "side": "away",
-    "ticker": "KXMLBGAME-26OCT172000TBCLE-TB",
-    "eventTicker": "KXMLBGAME-26OCT172000TBCLE",
-    "title": "Tampa Bay wins",
-    "subtitle": "Tampa Bay",
-    "yesBid": 53,
-    "yesAsk": 54,
-    "last": 54,
-    "mid": 0.535,
-    "volume": null,
-    "closeTime": "2026-10-21T00:00:00Z"
-   },
-   "kalshiWhy": null,
-   "lineupConfirmed": true
-  },
   {
    "gamePk": 849816,
    "date": "2026-10-17",
@@ -134,7 +38,7 @@
     "sp_ip": null,
     "bp_rate": 3.787,
     "bp_is_proxy": false,
-    "bp_ip3": 7.0,
+    "bp_ip3": 4.0,
     "woba_vs_hand": null,
     "woba_overall": 0.3081,
     "lineup_woba": 0.3081,
@@ -160,7 +64,7 @@
     "sp_ip": null,
     "bp_rate": 4.2,
     "bp_is_proxy": false,
-    "bp_ip3": 7.0,
+    "bp_ip3": 4.0,
     "woba_vs_hand": null,
     "woba_overall": 0.3195,
     "lineup_woba": 0.3195,
@@ -191,7 +95,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "2 games, 2 starters still TBD"
+   "detail": "1 games, 2 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -202,12 +106,12 @@
    "detail": "30 teams"
   },
   "pitching": {
-   "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 2/4 probables matched, FIP constant 3.10"
+   "ok": false,
+   "detail": "bulk: 868 arms, 30 bullpens, 0/2 probables matched, FIP constant 3.10"
   },
   "handedness": {
-   "ok": true,
-   "detail": "2/2 resolved"
+   "ok": false,
+   "detail": "no probable starters to look up"
   },
   "hitting": {
    "ok": true,
@@ -215,7 +119,7 @@
   },
   "fatigue": {
    "ok": true,
-   "detail": "6 finished games scanned, 4 bullpens"
+   "detail": "4 finished games scanned, 4 bullpens"
   },
   "kalshi": {
    "ok": true,
@@ -223,10 +127,13 @@
   },
   "kalshi.match": {
    "ok": true,
-   "detail": "2/2 games matched to a market"
+   "detail": "1/1 games matched to a market"
   }
  },
- "warnings": [],
+ "warnings": [
+  "pitching: bulk: 868 arms, 30 bullpens, 0/2 probables matched, FIP constant 3.10",
+  "handedness: no probable starters to look up"
+ ],
  "kalshiSample": [
   {
    "ticker": "KXMLBGAME-26OCT172000TBCLE-TB",
@@ -246,15 +153,15 @@
    "ticker": "KXMLBGAME-26OCT161800TBCLE-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 50,
-   "yesAsk": 51
+   "yesBid": 51,
+   "yesAsk": 52
   },
   {
    "ticker": "KXMLBGAME-26OCT161800TBCLE-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 49,
-   "yesAsk": 50
+   "yesBid": 48,
+   "yesAsk": 49
   }
  ]
 }
