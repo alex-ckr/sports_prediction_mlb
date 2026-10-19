@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T00:42:03.676424+00:00",
+ "generatedAt": "2026-10-19T17:17:50.286100+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -39,7 +39,7 @@
     "bp_rate": 4.2,
     "bp_is_proxy": false,
     "bp_ip3": 7.7,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.3293,
     "woba_overall": 0.3195,
     "lineup_woba": 0.3195,
     "staff_fip": 3.932,
@@ -47,7 +47,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": 0.0049,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "away": {
     "id": 114,
@@ -56,11 +56,11 @@
     "nick": "Guardians",
     "wins": 85,
     "losses": 77,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
+    "starter": "Shawn Armstrong",
+    "starterId": 542888,
+    "starterHand": "R",
+    "sp_rate": 4.43,
+    "sp_era": 4.58,
     "sp_ip": null,
     "bp_rate": 3.787,
     "bp_is_proxy": false,
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT192008CLETB",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 57,
-    "yesAsk": 58,
-    "last": 58,
-    "mid": 0.575,
+    "yesBid": 58,
+    "yesAsk": 59,
+    "last": 59,
+    "mid": 0.585,
     "volume": null,
     "closeTime": "2026-10-23T00:08:00Z"
    },
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT192008CLETB",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 57,
-    "yesAsk": 58,
-    "last": 58,
-    "mid": 0.575,
+    "yesBid": 58,
+    "yesAsk": 59,
+    "last": 59,
+    "mid": 0.585,
     "volume": null,
     "closeTime": "2026-10-23T00:08:00Z"
    },
@@ -169,7 +169,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "2 games, 3 starters still TBD"
+   "detail": "2 games, 2 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -181,11 +181,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 1/4 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 2/4 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "1/1 resolved"
+   "detail": "2/2 resolved"
   },
   "hitting": {
    "ok": true,
@@ -210,15 +210,15 @@
    "ticker": "KXMLBGAME-26OCT192008CLETB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 57,
-   "yesAsk": 58
+   "yesBid": 58,
+   "yesAsk": 59
   },
   {
    "ticker": "KXMLBGAME-26OCT192008CLETB-CLE",
    "title": "Cleveland wins",
    "subtitle": "Cleveland",
-   "yesBid": 43,
-   "yesAsk": 44
+   "yesBid": 41,
+   "yesAsk": 42
   }
  ]
 }
