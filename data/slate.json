@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T15:45:46.370377+00:00",
+ "generatedAt": "2026-10-22T22:02:14.876063+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -39,7 +39,7 @@
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": null,
-    "woba_vs_hand": null,
+    "woba_vs_hand": 0.334,
     "woba_overall": 0.3272,
     "lineup_woba": 0.3272,
     "staff_fip": 3.722,
@@ -47,7 +47,7 @@
     "travel_runs": 0.0,
     "park_fit_runs": -0.0383,
     "history_runs": 0.0,
-    "oppHand": null
+    "oppHand": "R"
    },
    "away": {
     "id": 139,
@@ -56,12 +56,12 @@
     "nick": "Rays",
     "wins": 98,
     "losses": 64,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
+    "starter": "Nick Martinez",
+    "starterId": 607259,
+    "starterHand": "R",
+    "sp_rate": 3.961,
+    "sp_era": 3.1,
+    "sp_ip": 5.81,
     "bp_rate": 4.2,
     "bp_is_proxy": false,
     "bp_ip3": 3.7,
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT272000MILTB",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 44,
-    "yesAsk": 46,
-    "last": 46,
-    "mid": 0.45,
+    "yesBid": 45,
+    "yesAsk": 47,
+    "last": 47,
+    "mid": 0.46,
     "volume": null,
     "closeTime": "2026-10-31T00:00:00Z"
    },
@@ -95,7 +95,7 @@
  "diagnostics": {
   "schedule": {
    "ok": true,
-   "detail": "1 games, 1 starters still TBD"
+   "detail": "1 games, 0 starters still TBD"
   },
   "optional modules": {
    "ok": true,
@@ -107,11 +107,11 @@
   },
   "pitching": {
    "ok": true,
-   "detail": "bulk: 868 arms, 30 bullpens, 1/2 probables matched, FIP constant 3.10"
+   "detail": "bulk: 868 arms, 30 bullpens, 2/2 probables matched, FIP constant 3.10"
   },
   "handedness": {
    "ok": true,
-   "detail": "1/1 resolved"
+   "detail": "2/2 resolved"
   },
   "hitting": {
    "ok": true,
@@ -136,57 +136,57 @@
    "ticker": "KXMLBGAME-26OCT272000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 44,
-   "yesAsk": 46
+   "yesBid": 45,
+   "yesAsk": 47
   },
   {
    "ticker": "KXMLBGAME-26OCT272000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 56,
-   "yesAsk": 57
+   "yesBid": 55,
+   "yesAsk": 56
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 44,
-   "yesAsk": 45
+   "yesBid": 53,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-MIL",
+   "title": "Milwaukee wins",
+   "subtitle": "Milwaukee",
+   "yesBid": 47,
+   "yesAsk": 48
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT242000TBMIL-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 43,
+   "yesAsk": 44
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT242000TBMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
    "yesBid": 56,
    "yesAsk": 57
   },
   {
-   "ticker": "KXMLBGAME-26OCT242000TBMIL-TB",
-   "title": "Tampa Bay wins",
-   "subtitle": "Tampa Bay",
-   "yesBid": 39,
-   "yesAsk": 41
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT242000TBMIL-MIL",
-   "title": "Milwaukee wins",
-   "subtitle": "Milwaukee",
-   "yesBid": 59,
-   "yesAsk": 60
-  },
-  {
    "ticker": "KXMLBGAME-26OCT232000TBMIL-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 39,
-   "yesAsk": 40
+   "yesBid": 37,
+   "yesAsk": 38
   },
   {
    "ticker": "KXMLBGAME-26OCT232000TBMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 59,
-   "yesAsk": 60
+   "yesBid": 62,
+   "yesAsk": 63
   }
  ]
 }
