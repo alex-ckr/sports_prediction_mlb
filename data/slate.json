@@ -1,15 +1,192 @@
 {
- "generatedAt": "2026-10-21T22:03:12.342032+00:00",
+ "generatedAt": "2026-10-22T01:08:32.159315+00:00",
  "season": 2026,
- "games": [],
+ "modelVersion": "v5",
+ "league": {
+  "era": 4.178,
+  "fipConstant": 3.1,
+  "ip": 43079.7,
+  "source": "bulk"
+ },
+ "wobaWeights": {
+  "bb": 0.69,
+  "hbp": 0.72,
+  "1b": 0.88,
+  "2b": 1.271,
+  "3b": 1.616,
+  "hr": 2.101
+ },
+ "games": [
+  {
+   "gamePk": 849805,
+   "date": "2026-10-23",
+   "startsAt": "2026-10-24T00:00:00Z",
+   "state": "Scheduled",
+   "venue": "American Family Field",
+   "home": {
+    "id": 158,
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL",
+    "nick": "Brewers",
+    "wins": 103,
+    "losses": 59,
+    "starter": "Jacob Misiorowski",
+    "starterId": 694819,
+    "starterHand": "R",
+    "sp_rate": 2.166,
+    "sp_era": 1.8,
+    "sp_ip": 5.82,
+    "bp_rate": 3.764,
+    "bp_is_proxy": false,
+    "bp_ip3": null,
+    "woba_vs_hand": null,
+    "woba_overall": 0.3272,
+    "lineup_woba": 0.3272,
+    "staff_fip": 3.722,
+    "ptype_rv100": null,
+    "travel_runs": 0.0,
+    "park_fit_runs": -0.0383,
+    "history_runs": 0.0,
+    "oppHand": null
+   },
+   "away": {
+    "id": 139,
+    "name": "Tampa Bay Rays",
+    "abbr": "TB",
+    "nick": "Rays",
+    "wins": 98,
+    "losses": 64,
+    "starter": null,
+    "starterId": null,
+    "starterHand": null,
+    "sp_rate": null,
+    "sp_era": null,
+    "sp_ip": null,
+    "bp_rate": 4.2,
+    "bp_is_proxy": false,
+    "bp_ip3": 3.7,
+    "woba_vs_hand": 0.3293,
+    "woba_overall": 0.3195,
+    "lineup_woba": 0.3195,
+    "staff_fip": 3.932,
+    "ptype_rv100": null,
+    "travel_runs": 0.009,
+    "park_fit_runs": -0.0109,
+    "history_runs": 0.0,
+    "oppHand": "R"
+   },
+   "kalshi": {
+    "side": "away",
+    "ticker": "KXMLBGAME-26OCT272000MILTB-TB",
+    "eventTicker": "KXMLBGAME-26OCT272000MILTB",
+    "title": "Tampa Bay wins",
+    "subtitle": "Tampa Bay",
+    "yesBid": 44,
+    "yesAsk": 47,
+    "last": 48,
+    "mid": 0.455,
+    "volume": null,
+    "closeTime": "2026-10-31T00:00:00Z"
+   },
+   "kalshiWhy": null,
+   "lineupConfirmed": false
+  }
+ ],
  "diagnostics": {
   "schedule": {
-   "ok": false,
-   "detail": "0 games, 0 starters still TBD"
+   "ok": true,
+   "detail": "1 games, 1 starters still TBD"
+  },
+  "optional modules": {
+   "ok": true,
+   "detail": "stadium=yes, travel=yes"
+  },
+  "standings": {
+   "ok": true,
+   "detail": "30 teams"
+  },
+  "pitching": {
+   "ok": true,
+   "detail": "bulk: 868 arms, 30 bullpens, 1/2 probables matched, FIP constant 3.10"
+  },
+  "handedness": {
+   "ok": true,
+   "detail": "1/1 resolved"
+  },
+  "hitting": {
+   "ok": true,
+   "detail": "2/2 teams with wOBA, 2 with platoon splits"
+  },
+  "fatigue": {
+   "ok": true,
+   "detail": "2 finished games scanned, 2 bullpens"
+  },
+  "kalshi": {
+   "ok": true,
+   "detail": "8 open KXMLBGAME markets, 8 with usable prices"
+  },
+  "kalshi.match": {
+   "ok": true,
+   "detail": "1/1 games matched to a market"
   }
  },
- "warnings": [
-  "schedule: 0 games, 0 starters still TBD"
- ],
- "kalshiSample": []
+ "warnings": [],
+ "kalshiSample": [
+  {
+   "ticker": "KXMLBGAME-26OCT272000MILTB-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 44,
+   "yesAsk": 47
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT272000MILTB-MIL",
+   "title": "Milwaukee wins",
+   "subtitle": "Milwaukee",
+   "yesBid": 54,
+   "yesAsk": 56
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT262000MILTB-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 50,
+   "yesAsk": 53
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT262000MILTB-MIL",
+   "title": "Milwaukee wins",
+   "subtitle": "Milwaukee",
+   "yesBid": 49,
+   "yesAsk": 51
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT242000TBMIL-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 39,
+   "yesAsk": 41
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT242000TBMIL-MIL",
+   "title": "Milwaukee wins",
+   "subtitle": "Milwaukee",
+   "yesBid": 59,
+   "yesAsk": 60
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT232000TBMIL-TB",
+   "title": "Tampa Bay wins",
+   "subtitle": "Tampa Bay",
+   "yesBid": 39,
+   "yesAsk": 40
+  },
+  {
+   "ticker": "KXMLBGAME-26OCT232000TBMIL-MIL",
+   "title": "Milwaukee wins",
+   "subtitle": "Milwaukee",
+   "yesBid": 59,
+   "yesAsk": 60
+  }
+ ]
 }
