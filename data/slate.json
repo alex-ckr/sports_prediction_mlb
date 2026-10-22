@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22T01:08:32.159315+00:00",
+ "generatedAt": "2026-10-22T15:45:46.370377+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -82,9 +82,9 @@
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
     "yesBid": 44,
-    "yesAsk": 47,
-    "last": 48,
-    "mid": 0.455,
+    "yesAsk": 46,
+    "last": 46,
+    "mid": 0.45,
     "volume": null,
     "closeTime": "2026-10-31T00:00:00Z"
    },
@@ -137,28 +137,28 @@
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
    "yesBid": 44,
-   "yesAsk": 47
+   "yesAsk": 46
   },
   {
    "ticker": "KXMLBGAME-26OCT272000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 54,
-   "yesAsk": 56
+   "yesBid": 56,
+   "yesAsk": 57
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 50,
-   "yesAsk": 53
+   "yesBid": 44,
+   "yesAsk": 45
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 49,
-   "yesAsk": 51
+   "yesBid": 56,
+   "yesAsk": 57
   },
   {
    "ticker": "KXMLBGAME-26OCT242000TBMIL-TB",
