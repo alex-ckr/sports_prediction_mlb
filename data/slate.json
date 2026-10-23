@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23T15:36:01.854417+00:00",
+ "generatedAt": "2026-10-23T21:47:26.493645+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 849805,
    "date": "2026-10-23",
    "startsAt": "2026-10-24T00:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "American Family Field",
    "home": {
     "id": 158,
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT272000MILTB",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 46,
-    "yesAsk": 50,
-    "last": 50,
-    "mid": 0.48,
+    "yesBid": 45,
+    "yesAsk": 49,
+    "last": 49,
+    "mid": 0.47,
     "volume": null,
     "closeTime": "2026-10-31T00:00:00Z"
    },
@@ -155,10 +155,10 @@
     "eventTicker": "KXMLBGAME-26OCT272000MILTB",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 46,
-    "yesAsk": 50,
-    "last": 50,
-    "mid": 0.48,
+    "yesBid": 45,
+    "yesAsk": 49,
+    "last": 49,
+    "mid": 0.47,
     "volume": null,
     "closeTime": "2026-10-31T00:00:00Z"
    },
@@ -210,43 +210,43 @@
    "ticker": "KXMLBGAME-26OCT272000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 46,
-   "yesAsk": 50
+   "yesBid": 45,
+   "yesAsk": 49
   },
   {
    "ticker": "KXMLBGAME-26OCT272000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 51,
-   "yesAsk": 52
+   "yesBid": 52,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 47,
-   "yesAsk": 49
+   "yesBid": 51,
+   "yesAsk": 52
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 50,
-   "yesAsk": 53
+   "yesBid": 48,
+   "yesAsk": 50
   },
   {
    "ticker": "KXMLBGAME-26OCT242000TBMIL-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 41,
+   "yesBid": 42,
    "yesAsk": 43
   },
   {
    "ticker": "KXMLBGAME-26OCT242000TBMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 58,
-   "yesAsk": 59
+   "yesBid": 57,
+   "yesAsk": 58
   },
   {
    "ticker": "KXMLBGAME-26OCT232000TBMIL-TB",
