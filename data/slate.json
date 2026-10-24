@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T01:19:23.322563+00:00",
+ "generatedAt": "2026-10-24T14:11:31.271445+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -38,7 +38,7 @@
     "sp_ip": 5.46,
     "bp_rate": 3.764,
     "bp_is_proxy": false,
-    "bp_ip3": null,
+    "bp_ip3": 4.0,
     "woba_vs_hand": 0.334,
     "woba_overall": 0.3272,
     "lineup_woba": 0.3272,
@@ -64,7 +64,7 @@
     "sp_ip": 5.73,
     "bp_rate": 4.2,
     "bp_is_proxy": false,
-    "bp_ip3": null,
+    "bp_ip3": 3.0,
     "woba_vs_hand": 0.3293,
     "woba_overall": 0.3195,
     "lineup_woba": 0.3195,
@@ -81,10 +81,10 @@
     "eventTicker": "KXMLBGAME-26OCT272000MILTB",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 42,
-    "yesAsk": 45,
-    "last": 42,
-    "mid": 0.435,
+    "yesBid": 52,
+    "yesAsk": 54,
+    "last": 53,
+    "mid": 0.53,
     "volume": null,
     "closeTime": "2026-10-31T00:00:00Z"
    },
@@ -118,77 +118,61 @@
    "detail": "2/2 teams with wOBA, 2 with platoon splits"
   },
   "fatigue": {
-   "ok": false,
-   "detail": "0 finished games scanned, 0 bullpens"
+   "ok": true,
+   "detail": "1 finished games scanned, 2 bullpens"
   },
   "kalshi": {
    "ok": true,
-   "detail": "8 open KXMLBGAME markets, 8 with usable prices"
+   "detail": "6 open KXMLBGAME markets, 6 with usable prices"
   },
   "kalshi.match": {
    "ok": true,
    "detail": "1/1 games matched to a market"
   }
  },
- "warnings": [
-  "fatigue: 0 finished games scanned, 0 bullpens"
- ],
+ "warnings": [],
  "kalshiSample": [
   {
    "ticker": "KXMLBGAME-26OCT272000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 42,
-   "yesAsk": 45
+   "yesBid": 52,
+   "yesAsk": 54
   },
   {
    "ticker": "KXMLBGAME-26OCT272000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 57,
-   "yesAsk": 58
+   "yesBid": 46,
+   "yesAsk": 47
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 48,
-   "yesAsk": 49
+   "yesBid": 51,
+   "yesAsk": 52
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 53,
-   "yesAsk": 54
+   "yesBid": 48,
+   "yesAsk": 50
   },
   {
    "ticker": "KXMLBGAME-26OCT242000TBMIL-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 40,
-   "yesAsk": 41
+   "yesBid": 46,
+   "yesAsk": 47
   },
   {
    "ticker": "KXMLBGAME-26OCT242000TBMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 60,
-   "yesAsk": 61
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT232000TBMIL-TB",
-   "title": "Tampa Bay wins",
-   "subtitle": "Tampa Bay",
-   "yesBid": 28,
-   "yesAsk": 29
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT232000TBMIL-MIL",
-   "title": "Milwaukee wins",
-   "subtitle": "Milwaukee",
-   "yesBid": 72,
-   "yesAsk": 73
+   "yesBid": 53,
+   "yesAsk": 54
   }
  ]
 }
