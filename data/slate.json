@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T17:45:43.085322+00:00",
+ "generatedAt": "2026-10-24T21:22:50.021970+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -21,7 +21,7 @@
    "gamePk": 849802,
    "date": "2026-10-24",
    "startsAt": "2026-10-25T00:00:00Z",
-   "state": "Scheduled",
+   "state": "Pre-Game",
    "venue": "American Family Field",
    "home": {
     "id": 158,
@@ -39,26 +39,15 @@
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": 4.0,
-    "woba_vs_hand": 0.3336,
+    "woba_vs_hand": 0.334,
     "woba_overall": 0.3272,
-    "lineup_woba": 0.3299,
+    "lineup_woba": 0.3272,
     "staff_fip": 3.722,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0383,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Jackson Chourio",
-     "Jake Bauers",
-     "Christian Yelich",
-     "William Contreras",
-     "Brice Turang",
-     "Garrett Mitchell",
-     "Cooper Pratt",
-     "Sal Frelick",
-     "David Hamilton"
-    ]
+    "oppHand": "R"
    },
    "away": {
     "id": 139,
@@ -76,26 +65,15 @@
     "bp_rate": 4.2,
     "bp_is_proxy": false,
     "bp_ip3": 3.0,
-    "woba_vs_hand": 0.3397,
+    "woba_vs_hand": 0.3293,
     "woba_overall": 0.3195,
-    "lineup_woba": 0.3329,
+    "lineup_woba": 0.3195,
     "staff_fip": 3.932,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0109,
     "history_runs": 0.0,
-    "oppHand": "R",
-    "lineup": [
-     "Yandy D\u00edaz",
-     "Jonathan Aranda",
-     "Chandler Simpson",
-     "Junior Caminero",
-     "Liam Hicks",
-     "Richie Palacios",
-     "Jonny DeLuca",
-     "Victor Mesa Jr.",
-     "Taylor Walls"
-    ]
+    "oppHand": "R"
    },
    "kalshi": {
     "side": "away",
@@ -103,15 +81,15 @@
     "eventTicker": "KXMLBGAME-26OCT272000MILTB",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 52,
-    "yesAsk": 54,
-    "last": 54,
-    "mid": 0.53,
+    "yesBid": 45,
+    "yesAsk": 47,
+    "last": 47,
+    "mid": 0.46,
     "volume": null,
     "closeTime": "2026-10-31T00:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": true
+   "lineupConfirmed": false
   }
  ],
  "diagnostics": {
@@ -158,29 +136,29 @@
    "ticker": "KXMLBGAME-26OCT272000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 52,
-   "yesAsk": 54
+   "yesBid": 45,
+   "yesAsk": 47
   },
   {
    "ticker": "KXMLBGAME-26OCT272000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 46,
-   "yesAsk": 48
+   "yesBid": 54,
+   "yesAsk": 55
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 52,
+   "yesBid": 51,
    "yesAsk": 53
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 47,
-   "yesAsk": 48
+   "yesBid": 49,
+   "yesAsk": 50
   },
   {
    "ticker": "KXMLBGAME-26OCT242000TBMIL-TB",
