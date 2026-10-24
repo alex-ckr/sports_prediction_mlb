@@ -39,15 +39,26 @@
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": 4.0,
-    "woba_vs_hand": 0.334,
+    "woba_vs_hand": 0.3336,
     "woba_overall": 0.3272,
-    "lineup_woba": 0.3272,
+    "lineup_woba": 0.3299,
     "staff_fip": 3.722,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0383,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Jackson Chourio",
+     "Jake Bauers",
+     "Christian Yelich",
+     "William Contreras",
+     "Brice Turang",
+     "Garrett Mitchell",
+     "Cooper Pratt",
+     "Sal Frelick",
+     "David Hamilton"
+    ]
    },
    "away": {
     "id": 139,
@@ -65,15 +76,26 @@
     "bp_rate": 4.2,
     "bp_is_proxy": false,
     "bp_ip3": 3.0,
-    "woba_vs_hand": 0.3293,
+    "woba_vs_hand": 0.3397,
     "woba_overall": 0.3195,
-    "lineup_woba": 0.3195,
+    "lineup_woba": 0.3329,
     "staff_fip": 3.932,
     "ptype_rv100": null,
     "travel_runs": 0.0,
     "park_fit_runs": -0.0109,
     "history_runs": 0.0,
-    "oppHand": "R"
+    "oppHand": "R",
+    "lineup": [
+     "Yandy D\u00edaz",
+     "Jonathan Aranda",
+     "Chandler Simpson",
+     "Junior Caminero",
+     "Liam Hicks",
+     "Richie Palacios",
+     "Jonny DeLuca",
+     "Victor Mesa Jr.",
+     "Taylor Walls"
+    ]
    },
    "kalshi": {
     "side": "away",
@@ -89,7 +111,7 @@
     "closeTime": "2026-10-31T00:00:00Z"
    },
    "kalshiWhy": null,
-   "lineupConfirmed": false
+   "lineupConfirmed": true
   }
  ],
  "diagnostics": {
