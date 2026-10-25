@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24T21:22:50.021970+00:00",
+ "generatedAt": "2026-10-25T00:43:45.000947+00:00",
  "season": 2026,
  "modelVersion": "v5",
  "league": {
@@ -18,24 +18,50 @@
  },
  "games": [
   {
-   "gamePk": 849802,
-   "date": "2026-10-24",
-   "startsAt": "2026-10-25T00:00:00Z",
-   "state": "Pre-Game",
-   "venue": "American Family Field",
+   "gamePk": 849804,
+   "date": "2026-10-26",
+   "startsAt": "2026-10-27T00:00:00Z",
+   "state": "Scheduled",
+   "venue": "Tropicana Field",
    "home": {
+    "id": 139,
+    "name": "Tampa Bay Rays",
+    "abbr": "TB",
+    "nick": "Rays",
+    "wins": 98,
+    "losses": 64,
+    "starter": "Freddy Peralta",
+    "starterId": 642547,
+    "starterHand": "R",
+    "sp_rate": 4.283,
+    "sp_era": 4.42,
+    "sp_ip": 5.28,
+    "bp_rate": 4.2,
+    "bp_is_proxy": false,
+    "bp_ip3": 3.0,
+    "woba_vs_hand": 0.2987,
+    "woba_overall": 0.3195,
+    "lineup_woba": 0.3195,
+    "staff_fip": 3.932,
+    "ptype_rv100": null,
+    "travel_runs": 0.0,
+    "park_fit_runs": 0.0049,
+    "history_runs": 0.0,
+    "oppHand": "L"
+   },
+   "away": {
     "id": 158,
     "name": "Milwaukee Brewers",
     "abbr": "MIL",
     "nick": "Brewers",
     "wins": 103,
     "losses": 59,
-    "starter": "Logan Henderson",
-    "starterId": 701656,
-    "starterHand": "R",
-    "sp_rate": 3.323,
-    "sp_era": 2.47,
-    "sp_ip": 5.46,
+    "starter": "Robert Gasser",
+    "starterId": 688107,
+    "starterHand": "L",
+    "sp_rate": 4.234,
+    "sp_era": 3.87,
+    "sp_ip": 5.47,
     "bp_rate": 3.764,
     "bp_is_proxy": false,
     "bp_ip3": 4.0,
@@ -44,47 +70,21 @@
     "lineup_woba": 0.3272,
     "staff_fip": 3.722,
     "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": -0.0383,
-    "history_runs": 0.0,
-    "oppHand": "R"
-   },
-   "away": {
-    "id": 139,
-    "name": "Tampa Bay Rays",
-    "abbr": "TB",
-    "nick": "Rays",
-    "wins": 98,
-    "losses": 64,
-    "starter": "Drew Rasmussen",
-    "starterId": 656876,
-    "starterHand": "R",
-    "sp_rate": 2.815,
-    "sp_era": 2.67,
-    "sp_ip": 5.73,
-    "bp_rate": 4.2,
-    "bp_is_proxy": false,
-    "bp_ip3": 3.0,
-    "woba_vs_hand": 0.3293,
-    "woba_overall": 0.3195,
-    "lineup_woba": 0.3195,
-    "staff_fip": 3.932,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": -0.0109,
+    "travel_runs": 0.033,
+    "park_fit_runs": 0.017,
     "history_runs": 0.0,
     "oppHand": "R"
    },
    "kalshi": {
-    "side": "away",
+    "side": "home",
     "ticker": "KXMLBGAME-26OCT272000MILTB-TB",
     "eventTicker": "KXMLBGAME-26OCT272000MILTB",
     "title": "Tampa Bay wins",
     "subtitle": "Tampa Bay",
-    "yesBid": 45,
-    "yesAsk": 47,
-    "last": 47,
-    "mid": 0.46,
+    "yesBid": 51,
+    "yesAsk": 53,
+    "last": 52,
+    "mid": 0.52,
     "volume": null,
     "closeTime": "2026-10-31T00:00:00Z"
    },
@@ -136,15 +136,15 @@
    "ticker": "KXMLBGAME-26OCT272000MILTB-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 45,
-   "yesAsk": 47
+   "yesBid": 51,
+   "yesAsk": 53
   },
   {
    "ticker": "KXMLBGAME-26OCT272000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 54,
-   "yesAsk": 55
+   "yesBid": 49,
+   "yesAsk": 50
   },
   {
    "ticker": "KXMLBGAME-26OCT262000MILTB-TB",
@@ -157,22 +157,22 @@
    "ticker": "KXMLBGAME-26OCT262000MILTB-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 49,
-   "yesAsk": 50
+   "yesBid": 48,
+   "yesAsk": 49
   },
   {
    "ticker": "KXMLBGAME-26OCT242000TBMIL-TB",
    "title": "Tampa Bay wins",
    "subtitle": "Tampa Bay",
-   "yesBid": 47,
-   "yesAsk": 48
+   "yesBid": 69,
+   "yesAsk": 70
   },
   {
    "ticker": "KXMLBGAME-26OCT242000TBMIL-MIL",
    "title": "Milwaukee wins",
    "subtitle": "Milwaukee",
-   "yesBid": 53,
-   "yesAsk": 54
+   "yesBid": 30,
+   "yesAsk": 31
   }
  ]
 }
