@@ -1,153 +1,15 @@
 {
- "generatedAt": "2026-10-29T02:04:33.515128+00:00",
+ "generatedAt": "2026-10-29T17:15:47.496759+00:00",
  "season": 2026,
- "modelVersion": "v5",
- "league": {
-  "era": 4.178,
-  "fipConstant": 3.1,
-  "ip": 43079.7,
-  "source": "bulk"
- },
- "wobaWeights": {
-  "bb": 0.69,
-  "hbp": 0.72,
-  "1b": 0.88,
-  "2b": 1.271,
-  "3b": 1.616,
-  "hr": 2.101
- },
- "games": [
-  {
-   "gamePk": 849801,
-   "date": "2026-10-30",
-   "startsAt": "2026-10-31T00:00:00Z",
-   "state": "Scheduled",
-   "venue": "American Family Field",
-   "home": {
-    "id": 158,
-    "name": "Milwaukee Brewers",
-    "abbr": "MIL",
-    "nick": "Brewers",
-    "wins": 103,
-    "losses": 59,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
-    "bp_rate": 3.764,
-    "bp_is_proxy": false,
-    "bp_ip3": 11.0,
-    "woba_vs_hand": null,
-    "woba_overall": 0.3272,
-    "lineup_woba": 0.3272,
-    "staff_fip": 3.722,
-    "ptype_rv100": null,
-    "travel_runs": 0.0,
-    "park_fit_runs": -0.0383,
-    "history_runs": 0.0,
-    "oppHand": null
-   },
-   "away": {
-    "id": 139,
-    "name": "Tampa Bay Rays",
-    "abbr": "TB",
-    "nick": "Rays",
-    "wins": 98,
-    "losses": 64,
-    "starter": null,
-    "starterId": null,
-    "starterHand": null,
-    "sp_rate": null,
-    "sp_era": null,
-    "sp_ip": null,
-    "bp_rate": 4.2,
-    "bp_is_proxy": false,
-    "bp_ip3": 12.3,
-    "woba_vs_hand": null,
-    "woba_overall": 0.3195,
-    "lineup_woba": 0.3195,
-    "staff_fip": 3.932,
-    "ptype_rv100": null,
-    "travel_runs": 0.018,
-    "park_fit_runs": -0.0109,
-    "history_runs": 0.0,
-    "oppHand": null
-   },
-   "kalshi": {
-    "side": "away",
-    "ticker": "KXMLBGAME-26OCT282000MILTB-TB",
-    "eventTicker": "KXMLBGAME-26OCT282000MILTB",
-    "title": "Tampa Bay wins",
-    "subtitle": "Tampa Bay",
-    "yesBid": 6,
-    "yesAsk": 7,
-    "last": 7,
-    "mid": 0.065,
-    "volume": null,
-    "closeTime": "2026-11-01T00:00:00Z"
-   },
-   "kalshiWhy": null,
-   "lineupConfirmed": false
-  }
- ],
+ "games": [],
  "diagnostics": {
   "schedule": {
-   "ok": true,
-   "detail": "1 games, 2 starters still TBD"
-  },
-  "optional modules": {
-   "ok": true,
-   "detail": "stadium=yes, travel=yes"
-  },
-  "standings": {
-   "ok": true,
-   "detail": "30 teams"
-  },
-  "pitching": {
    "ok": false,
-   "detail": "bulk: 868 arms, 30 bullpens, 0/2 probables matched, FIP constant 3.10"
-  },
-  "handedness": {
-   "ok": false,
-   "detail": "no probable starters to look up"
-  },
-  "hitting": {
-   "ok": true,
-   "detail": "2/2 teams with wOBA, 2 with platoon splits"
-  },
-  "fatigue": {
-   "ok": true,
-   "detail": "2 finished games scanned, 2 bullpens"
-  },
-  "kalshi": {
-   "ok": true,
-   "detail": "2 open KXMLBGAME markets, 2 with usable prices"
-  },
-  "kalshi.match": {
-   "ok": true,
-   "detail": "1/1 games matched to a market"
+   "detail": "0 games, 0 starters still TBD"
   }
  },
  "warnings": [
-  "pitching: bulk: 868 arms, 30 bullpens, 0/2 probables matched, FIP constant 3.10",
-  "handedness: no probable starters to look up"
+  "schedule: 0 games, 0 starters still TBD"
  ],
- "kalshiSample": [
-  {
-   "ticker": "KXMLBGAME-26OCT282000MILTB-TB",
-   "title": "Tampa Bay wins",
-   "subtitle": "Tampa Bay",
-   "yesBid": 6,
-   "yesAsk": 7
-  },
-  {
-   "ticker": "KXMLBGAME-26OCT282000MILTB-MIL",
-   "title": "Milwaukee wins",
-   "subtitle": "Milwaukee",
-   "yesBid": 93,
-   "yesAsk": 94
-  }
- ]
+ "kalshiSample": []
 }
